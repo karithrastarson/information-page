@@ -40,9 +40,13 @@ TOP NAVIGATION STUFF BEGINS
 */
 
 .theme-gradient {
-    background: rgb(35, 162, 41);
-    background: linear-gradient(90deg, rgba(35, 162, 41, 1) 0%, rgba(90, 204, 95, 1) 69%, rgba(141, 233, 145, 1) 100%);
-    color: var(--white-text-colour);
+    background: #2C3E50;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: var(--white-text-colour)
 }
 
 .accent {
@@ -412,8 +416,7 @@ fade-in-text {
 
 .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    right: 25px;
     font-size: 60px;
 }
 
