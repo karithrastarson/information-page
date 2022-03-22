@@ -1,0 +1,536 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
+* {
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+
+/* COLOUR SCHEME */
+
+:root {
+    --light-background: #ffffff;
+    --light-background-highlight: #6d6d6d;
+    --dark-background: #0033cc;
+    --main-text-colour: #000900;
+    --white-text-colour: #ffffff;
+    --accent-colour: #43A047;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    text-align: center;
+}
+
+
+/* 
+TOP NAVIGATION STUFF BEGINS
+*/
+
+.theme-gradient {
+    background: rgb(35, 162, 41);
+    background: linear-gradient(90deg, rgba(35, 162, 41, 1) 0%, rgba(90, 204, 95, 1) 69%, rgba(141, 233, 145, 1) 100%);
+    color: var(--white-text-colour);
+}
+
+.accent {
+    background-color: var(--accent-colour);
+    color: var(--white-text-colour);
+}
+
+.image-text-overlay {
+    position: relative;
+    text-align: center;
+}
+
+.image-text-overlay h1 {
+    background-color: var(--light-background);
+    padding: 1em 2em 1em 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 80%;
+    transform: translate(-50%, -50%);
+    /*fade in slow*/
+    -webkit-animation: fadeindelayed 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeindelayed 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadeindelayed 2s;
+    /* Internet Explorer */
+    -o-animation: fadeindelayed 2s;
+    /* Opera < 12.1 */
+    animation: fadeindelayed 2s;
+}
+
+.topnav {
+    float: left;
+    overflow: hidden;
+    margin: 20px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a.nav {
+    float: left;
+    display: block;
+    color: var(--main-text-colour);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    text-decoration: underline;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* 
+TOP NAVIGATION STUFF ENDS
+*/
+
+.topnav {
+    float: right;
+    padding: 10px;
+    margin: 5px;
+}
+
+.topnav a.nav {
+    display: none;
+}
+
+.topnav icon {
+    float: left;
+    display: block;
+}
+
+.navlogo {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 17px;
+    margin-left: 15px;
+    height: 70px;
+    width: 70px;
+}
+
+#hamburger {
+    display: block;
+}
+
+.topnav.responsive {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    background: var(--light-background-highlight);
+    opacity: 90%;
+    padding: 10px;
+    margin: 5px;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a.nav {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav.responsive a.navlogo {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 28px;
+    height: 80px;
+    width: 80px;
+}
+
+img {
+    max-height: 100vh;
+}
+
+.button__inner {
+    transform: translate3D(0, -10px, 0);
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* GRID CONFIG */
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.wrapper-item {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper-item-wide {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper-item p {
+    text-align: center;
+}
+
+.dark {
+    background-color: var(--dark-background);
+    color: var(--white-text-colour);
+}
+
+
+/* Fade in effects */
+
+.fade-in-now {
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.fade-in,
+fade-in-text {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+}
+
+.fade-in.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+.fade-in-text.is-visible {
+    opacity: 0.8;
+    transform: none;
+    visibility: visible;
+}
+
+
+/* And the rest */
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.light {
+    background-color: var(--light-background-highlight);
+}
+
+
+/* Keyframes */
+
+@keyframes fadeindelayed {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+@-webkit-keyframes fadeindelayed {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Opera < 12.1 */
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Overlays for fullsreen menu */
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 1s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 2s;
+    text-align: center;
+    font-size: 8vw;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+/* Combo box */
+
+.combobox {
+    text-align: center;
+    margin-bottom: -150px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--main-text-colour);
+    color: var(--white-text-colour);
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+#footer a {
+    color: var(--white-text-colour);
+}
+
+.links {
+    color: var(--main-text-colour);
+}
+
+.links:hover {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+.button {
+    text-transform: uppercase;
+    outline: 0;
+    width: 80%;
+    border: 0;
+    padding: 15px;
+    color: var(--white-text-colour);
+    font-size: 14px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+#mc_embed_signup {
+    text-align: center;
+}
+
+.email {
+    outline: 0;
+    background: var(--light-background);
+    width: 80%;
+    text-align: center;
+    border: 0.1;
+    margin: 0 0 15px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.apt {
+    list-style: none;
+    padding: 25px 0 0;
+    margin: 0;
+}
+
+.apt-name {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.apt li {
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 1px dashed var(--light-background-highlight);
+}
+
+.apt li strong {
+    width: 140px;
+    display: inline-block;
+}
+
+.apt li span {
+    float: right;
+}
+
+
+/*
+MEDIA QUERIES 
+*/
+
+
+/* When screen is bigger than mobile do these adjustments */
+
+@media only screen and (min-width: 769px) {
+    #hamburger {
+        display: none;
+    }
+    .topnav a.nav {
+        display: block;
+    }
+    .topnav {
+        width: 80%;
+    }
+    .navlogo {
+        display: block;
+        height: 80px;
+        width: 80px;
+        left: 0;
+        top: 0;
+        float: left;
+    }
+    .wrapper-item {
+        width: 40%;
+        margin: auto;
+    }
+}
