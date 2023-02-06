@@ -3,9 +3,10 @@
 
 /* FONT */
 
-@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
 * {
-    font-family: 'Miriam Libre', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -19,6 +20,21 @@
     --white-text-colour: #ffffff;
     --accent-colour: #43A047;
     --white: #ffffff;
+
+    /*
+    CBY Colour Scheme
+    ffca5c yellow
+    4b2b19 brown
+    1b1413 black
+
+    --light-background: #ffffff;
+    --light-background-highlight: #6d6d6d;
+    --dark-background: #1b1413;
+    --main-text-colour: #000900;
+    --white-text-colour: #ffffff;
+    --accent-colour: #yellow;
+    --white: #ffffff;
+    */
 }
 
 body {
@@ -40,12 +56,10 @@ TOP NAVIGATION STUFF BEGINS
 */
 
 .theme-gradient {
-    background: #2C3E50;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4CA1AF, #2C3E50);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+  background: #093028; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #093028, #237a57); 
     color: var(--white-text-colour)
 }
 
@@ -234,7 +248,27 @@ img {
 .wrapper-item p {
     text-align: center;
 }
-
+.contacts {
+    display: flex;
+    margin-bottom: 2em; 
+    align-items: center;
+}
+.contacts div {
+    font-size: 5vw;
+    padding: .5em;
+    color: white;
+    flex: 1;
+  }
+  .contacts-contacts {
+    flex: 0 !important;
+  }
+.green {
+    background: yellowgreen;
+  }
+  .blue {
+    flex-grow:3;
+    background: steelblue;
+  }
 .dark {
     background-color: var(--dark-background);
     color: var(--white-text-colour);
@@ -639,7 +673,6 @@ a {
 .slider>a:focus {
     background: #000;
 }
-
 
 /* Don't need button navigation */
 
