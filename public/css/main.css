@@ -236,7 +236,7 @@ img {
 .wrapper-item {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2em;
 }
 
 .wrapper-item-wide {
@@ -244,35 +244,17 @@ img {
     width: 100%;
     margin: auto;
 }
+.dark {
+    background: #093028; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093028, #237a57); 
+    color: var(--white-text-colour)
+}
 
 .wrapper-item p {
     text-align: center;
 }
-.contacts {
-    display: flex;
-    margin-bottom: 2em; 
-    align-items: center;
-}
-.contacts div {
-    font-size: 5vw;
-    padding: .5em;
-    color: white;
-    flex: 1;
-  }
-  .contacts-contacts {
-    flex: 0 !important;
-  }
-.green {
-    background: yellowgreen;
-  }
-  .blue {
-    flex-grow:3;
-    background: steelblue;
-  }
-.dark {
-    background-color: var(--dark-background);
-    color: var(--white-text-colour);
-}
+
 
 
 /* Fade in effects */
@@ -493,6 +475,7 @@ fade-in-text {
     padding: 15px;
     color: var(--white-text-colour);
     font-size: 14px;
+    margin:2em;
 }
 
 .button:hover {
@@ -569,6 +552,7 @@ MEDIA QUERIES
     .wrapper-item {
         width: 40%;
         margin: auto;
+        margin-bottom:2em;
     }
 }
 
@@ -586,6 +570,7 @@ SLIDER
 .slides {
     display: flex;
     overflow-x: auto;
+    height: 350px;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -618,7 +603,6 @@ SLIDER
     height: 300px;
     margin-right: 50px;
     border-radius: 10px;
-    background: #eee;
     transform-origin: center center;
     transform: scale(1);
     transition: transform 0.5s;
@@ -681,3 +665,55 @@ a {
         display: none;
     }
 }
+
+/* The team member page*/
+.team-container{
+    display:flex;
+    margin-bottom:2em;
+    flex-wrap:wrap;
+    
+}
+.team-member {
+    border-style: solid;
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+    width:250px;
+    display:flex;
+    flex-direction: column;
+}
+.team-member a {
+    text-decoration: none;
+    color: var(--main-text-colour);
+}
+
+.team-member h2 {
+margin-bottom: 0;
+margin-top:0;
+}
+.team-member h3 {
+    margin-top:0;
+}
+.team-member i {
+    text-align:left;
+}
+.fa:before {
+    margin-right:10px;
+}
+
+/* ANIMATION SECTION */
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}
+@media (prefers-reduced-motion: no-preference) {
+    .square {
+      animation-name: wipe-enter;
+      animation-duration: 1s;
+    }
+  }
+  
