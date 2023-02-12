@@ -236,7 +236,6 @@ img {
 }
 
 .wrapper-item {
-    width: 100%;
     text-align: center;
     margin-bottom: 2em;
 }
@@ -726,4 +725,118 @@ margin-top:0;
     padding-bottom:2em;
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  .c-button-reset {
+    display: inline-block;
+    font-family: inherit;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .c-animated-button {
+    position: relative;
+    min-width: 40px;
+    min-height: 40px;
+    width: 2.5em;
+    height: 2.5em;
+    background-color: #FFF;
+  }
+  .c-animated-button__text {
+    display: inline-block;
+    text-indent: -3125em;
+  }
+  .c-animated-button:before, .c-animated-button:after, .c-animated-button__text:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0.375em;
+    right: 0.375em;
+    height: 0.25em;
+  }
+  .c-animated-button:before, .c-animated-button:after {
+    transition: transform 300ms cubic-bezier(0.75, -0.6, 0.14, 1.59) 150ms;
+    will-change: transform background-color;
+  }
+  .c-animated-button[data-active=true]:before, .c-animated-button[data-active=true]:after {
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+  }
+  .c-animated-button--plus-to-check:before, .c-animated-button--plus-to-check:after, .c-animated-button--arrow-to-check:before, .c-animated-button--arrow-to-check:after {
+    background-color: #2AB2C0;
+  }
+  .c-animated-button--plus-to-check[data-active=true]:before, .c-animated-button--plus-to-check[data-active=true]:after, .c-animated-button--arrow-to-check[data-active=true]:before, .c-animated-button--arrow-to-check[data-active=true]:after {
+    background-color: #89B937;
+  }
+  .c-animated-button--plus-to-check[data-active=true]:before, .c-animated-button--arrow-to-check[data-active=true]:before {
+    transform: translate(calc(25% - .175em), -0.175em) rotate(-45deg) scale(1, 1);
+  }
+  .c-animated-button--plus-to-check[data-active=true]:after, .c-animated-button--arrow-to-check[data-active=true]:after {
+    transform: translate(-25%, 0.175em) rotate(45deg) scale(0.43, 1);
+  }
+  .c-animated-button--plus-to-check:before {
+    transform: translate(0, 0) rotate(-90deg) scale(1, 1);
+  }
+  .c-animated-button--plus-to-check:after {
+    transform: translate(0, 0) rotate(180deg) scale(1, 1);
+  }
+  .c-animated-button--arrow-to-check:before {
+    transform: translate(0, 25%) rotate(-45deg) scale(0.5, 1);
+  }
+  .c-animated-button--arrow-to-check:after {
+    transform: translate(0, -150%) rotate(45deg) scale(0.5, 1);
+  }
+  .c-animated-button--hamburger:before {
+    background-color: #F8A036;
+    transform: translateY(-250%);
+  }
+  .c-animated-button--hamburger:after {
+    background-color: #2AB2C0;
+    transform: translateY(150%);
+    mix-blend-mode: multiply;
+  }
+  .c-animated-button--hamburger[data-active=true]:before, .c-animated-button--hamburger[data-active=true]:after {
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+  }
+  .c-animated-button--hamburger[data-active=true]:before {
+    transform: rotate(45deg) translate(0, 0);
+  }
+  .c-animated-button--hamburger[data-active=true]:after {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  .c-animated-button--hamburger .c-animated-button__text:before {
+    background-color: #FF3000;
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+    transition: transform 150ms ease-in 300ms;
+    will-change: transform opacity;
+  }
+  .c-animated-button--hamburger[data-active=true] .c-animated-button__text:before {
+    transform: translateY(-50%) scale(0);
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    opacity: 0;
+  }
+
+  .hidden {
+    display: none;
+    visibility: hidden;
+    width: 0;
+    height: 0;
   }

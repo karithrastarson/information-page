@@ -92,30 +92,30 @@ function addAllColumnHeaders(myList, selector) {
 function toggle1() {
   var elements = document.getElementsByClassName("1-svefnh");
   for(var i = 0; i < elements.length; i++) {
-    if (elements[i].style.display === "none") {
-        elements[i].style.display = "block";
+    if (elements[i].classList.contains("hidden")) {
+        elements[i].classList.remove("hidden");
       } else {
-        elements[i].style.display = "none";
+        elements[i].classList.add("hidden");
       }
     }
     }
 function toggle2() {
     var elements = document.getElementsByClassName("2-svefnh");
     for(var i = 0; i < elements.length; i++) {
-      if (elements[i].style.display === "none") {
-          elements[i].style.display = "block";
+      if (elements[i].classList.contains("hidden")) {
+          elements[i].classList.remove("hidden");
         } else {
-          elements[i].style.display = "none";
+          elements[i].classList.add("hidden");
         }
-  }
+      }
 }
   function toggle3() {
     var elements = document.getElementsByClassName("3-svefnh");
     for(var i = 0; i < elements.length; i++) {
-      if (elements[i].style.display === "none") {
-          elements[i].style.display = "block";
+      if (elements[i].classList.contains("hidden")) {
+          elements[i].classList.remove("hidden");
         } else {
-          elements[i].style.display = "none";
+          elements[i].classList.add("hidden");
         }
-  }
+      }
 }

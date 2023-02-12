@@ -24,7 +24,9 @@
             <a href="/">VERKEFNIÐ</a>
             <a href="/">TEYMIÐ</a>
             <a href="/teikningar.html">ÍBÚÐIR</a>
-            <a href="https://us14.list-manage.com/contact-form?u=3412f3b17965f94555bd17560&form_id=1a27fc054f26d25ffe397e4d0525be4f">HAFÐU SAMBAND</a>
+            <a
+                href="https://us14.list-manage.com/contact-form?u=3412f3b17965f94555bd17560&form_id=1a27fc054f26d25ffe397e4d0525be4f">HAFÐU
+                SAMBAND</a>
         </div>
     </div>
 
@@ -32,31 +34,63 @@
     <div class="topnav" id="topnav">
         <button class="hamburger hamburger--collapse" id="hamburger" type="button" onclick="openNav()">
             <span class="hamburger-box">
-               <span class="hamburger-inner"></span>
-              </span>
+                <span class="hamburger-inner"></span>
+            </span>
         </button>
         <a href="/" class="navlogo"><img src="media/images/logo/hamravellir-logo.webp" /></a>
         <a href="/" class="nav">VERKEFNIÐ</a>
         <a href="/" class="nav">TEYMIÐ</a>
         <a href="/teikningar.html" class="nav">ÍBÚÐIR</a>
-        <a href="https://us14.list-manage.com/contact-form?u=3412f3b17965f94555bd17560&form_id=1a27fc054f26d25ffe397e4d0525be4f" class="nav">HAFÐU SAMBAND</a>
+        <a href="https://us14.list-manage.com/contact-form?u=3412f3b17965f94555bd17560&form_id=1a27fc054f26d25ffe397e4d0525be4f"
+            class="nav">HAFÐU SAMBAND</a>
     </div>
     <!-- Main content -->
     <div class="wrapper">
 
         <div class="wrapper-item-wide theme-gradient">
-            <h2> Fyrstu íbúðir fara í sölu í lok 2022</h2>
+            <h2> Fyrstu íbúðir fara í sölu í lok 2023</h2>
+        </div>
+
+        <div class="wrapper-item filter">
+            <h2>Sía</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <button onclick="toggle1()"
+                            class="js-toggle-state || c-button-reset c-animated-button c-animated-button--plus-to-check"
+                            data-active="false">
+                                <span class="c-animated-button__text">
+                                Add
+                                </span>
+                            </button></td>
+                        <td>1 svefnherbergi</td>
+                      </tr>
+                  <tr>
+                    <td> <button onclick="toggle2()"
+                        class="js-toggle-state || c-button-reset c-animated-button c-animated-button--plus-to-check"
+                        data-active="false">
+                            <span class="c-animated-button__text">
+                            Add
+                            </span>
+                        </button></td>
+                    <td>2 svefnherbergi</td>
+                  </tr>
+                  <tr>
+                    <td> <button onclick="toggle3()"
+                        class="js-toggle-state || c-button-reset c-animated-button c-animated-button--plus-to-check"
+                        data-active="false">
+                            <span class="c-animated-button__text">
+                            Add
+                            </span>
+                        </button></td>
+                    <td>3 svefnherbergi</td>
+                  </tr>
+                </tbody>
+                </table>
         </div>
         
-        <div class="wrapper-item-wide filter">
-            <h1>Svefnherbergi</h1>
-            <button onclick="toggle1()">1</button>
-            <button onclick="toggle2()">2</button>
-            <button onclick="toggle3()">3</button>
-        </div>
-    
 
-        <div class="wrapper-item theme-gradient 2-svefnh">
+        <div class="wrapper-item theme-gradient 2-svefnh hidden" >
             <img class="floor-plan" src="media/images/floor-plans/0102.jpg" />
             <ul class="apt">
                 <li class="apt-name">Íbúð 102</li>
@@ -69,7 +103,7 @@
             </ul>
         </div>
 
-        <div class="wrapper-item theme-gradient 2-svefnh" >
+        <div class="wrapper-item 2-svefnh hidden">
             <img class="floor-plan" src="media/images/floor-plans/0103.jpg" />
             <ul class="apt">
                 <li class="apt-name">Íbúð 103</li>
@@ -82,7 +116,7 @@
             </ul>
         </div>
 
-        <div class="wrapper-item theme-gradient 2-svefnh">
+        <div class="wrapper-item theme-gradient 2-svefnh hidden">
             <img class="floor-plan" src="media/images/floor-plans/0104.jpg" />
             <ul class="apt">
                 <li class="apt-name">Íbúð 104</li>
@@ -95,7 +129,7 @@
             </ul>
         </div>
 
-        <div class="wrapper-item theme-gradient 3-svefnh">
+        <div class="wrapper-item 3-svefnh hidden">
             <img class="floor-plan" src="media/images/floor-plans/0105.jpg" />
             <ul class="apt">
                 <li class="apt-name">Íbúð 105</li>
@@ -108,15 +142,6 @@
             </ul>
         </div>
 
-        
-
-
-
-
-
-
-
- 
 
 
         <footer id="footer">
