@@ -888,7 +888,45 @@ margin-top:0;
     white-space: nowrap;
     color: var(--white);
   }
-  .paralax-button {
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 
+@media only screen and (max-width:749px) {
+    #landing{
+        background:url('../media/images/rendering-2-web.jpg');    
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:cover;
+        -webkit-background-size:cover;
+        -o-background-size:cover;
+        -moz-background-size:cover;
+      }
+    
+      #landing2{
+        background:url('../media/images/rendering-1-web.jpg');    
+        background-size:cover;
+        background-position: center center;
+        background-size:cover;
+        -webkit-background-size:cover;
+        -o-background-size:cover;
+        -moz-background-size:cover;
+      }
+    
+      #landing3{
+        background:url('../media/images/aerial3.png');    
+        background-size:cover;
+        background-position: center center;
+        background-size:cover;
+        -webkit-background-size:cover;
+        -o-background-size:cover;
+        -moz-background-size:cover;
+      }
+      #landing4{
+        background:url('../media/images/rendering-interior-web.jpg');    
+        background-size:cover;
+        background-position: center center;
+        background-size:auto;
+        -webkit-background-size:cover;
+        -o-background-size:cover;
+        -moz-background-size:cover;
+      }
   }
- 
