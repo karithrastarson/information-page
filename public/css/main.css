@@ -840,3 +840,55 @@ margin-top:0;
     width: 0;
     height: 0;
   }
+
+  #landing{
+    height:100vh;
+    background:url('../media/images/rendering-2-web.jpg') no-repeat center center fixed;    
+    background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+  }
+
+  #landing2{
+    height:100vh;
+    background:url('../media/images/rendering-1-web.jpg') no-repeat center center fixed;    
+    background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+  }
+
+  #landing3{
+    height:100vh;
+    background:url('../media/images/aerial3.png') no-repeat center center fixed;    
+    background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+  }
+  #landing4{
+    height:100vh;
+    background:url('../media/images/rendering-interior-web.jpg') no-repeat center center fixed;    
+    background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+  }
+
+   .section-title {
+    margin: 0;
+    font-size: 64px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    white-space: nowrap;
+    color: var(--white);
+  }
+  .paralax-button {
+
+  }
+ 
