@@ -9,6 +9,16 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body, html {
+    height: 100%;
+  }
+
+  @media only screen and (max-device-width: 745px) {
+    .parallax {
+      background-attachment: scroll!important;
+      background-size: contain!important;
+    }
+  }
 
 /* COLOUR SCHEME */
 
@@ -213,16 +223,13 @@ TOP NAVIGATION STUFF ENDS
 
 img {
     max-height: 100%;
+    max-width: 100%;
 }
 .floor-plan {
     max-width:80%;
 }
 .button__inner {
     transform: translate3D(0, -10px, 0);
-}
-
-img {
-    max-width: 100%;
 }
 
 
@@ -558,6 +565,10 @@ MEDIA QUERIES
     }
 }
 
+@media only screen and (max-width: 769px) {
+
+}
+
 
 /*
 SLIDER
@@ -726,4 +737,56 @@ margin-top:0;
     padding-bottom:2em;
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+
+/* Paralax sections */
+
+.lax-1 {
+    
+    /* The image used */
+    background-image: url('../media/images/rendering-1-web.jpg');
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+  }
+  .lax-2 {
+    
+    /* The image used */
+    background-image: url('../media/images/rendering-2-web.jpg');
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+  }
+  .lax-3 {
+    
+    /* The image used */
+    background-image: url('../media/images/rendering-interior-web.jpg');
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+  }
+
+  .lax-gradient {  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background: #093028; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093028, #237a57); 
+    color: var(--white-text-colour)
   }
