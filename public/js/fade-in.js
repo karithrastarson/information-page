@@ -8,4 +8,23 @@ $(document).ready(function() {
             event.preventDefault();
         });
     }
+
+    $(".title").fadeIn(3000);
+    $(".arrow").fadeIn(1000);
+  
+        function fnBlink() {
+      $(".arrow").fadeOut(1000);
+      $(".arrow").fadeIn(1000);
+    }
+    setInterval(fnBlink, 2000);
+
 });
+
+$ (function () {
+    $ ('#arrow') .click(function () {
+    $ ('html, body') .animate ({
+    scrollTop: $ ("#post") .offset().top - 0.25*$("#post")[0].scrollHeight
+    }, 2000);
+    return false;
+    })
+    });

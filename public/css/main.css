@@ -17,6 +17,8 @@ body, html {
     .parallax {
       background-attachment: scroll!important;
     }
+
+    
   }
 
 /* COLOUR SCHEME */
@@ -57,6 +59,7 @@ h3,
 h4,
 p {
     text-align: center;
+    position:relative;
 }
 
 
@@ -569,18 +572,7 @@ MEDIA QUERIES
 
 }
 
-@media only screen and (max-width: 769px) {
-.wrapper-item {
-    width:100%;
-    padding: 0 5px 0 5px;
-}
-.wrapper-item-wide {
-    padding: 0 5px 0 5px;
-}
-#mc_embed_signup {
-    max-width: 100%;
-}
-}
+
 
 
 /*
@@ -806,3 +798,37 @@ margin-top:0;
   .sales {
     max-width: 200px;
   }
+  .title {
+    display:none;
+    font-size: 76pt;
+    margin-top:20%;
+    color: var(--white-text-colour);
+  }
+  .arrow {
+    display:none;
+    font-size: 76pt;
+    color: var(--white-text-colour);
+  }
+  .arrow a {
+    text-decoration: none;
+    color: var(--white-text-colour);
+  }
+
+  @media only screen and (max-width: 769px) {
+    .wrapper-item {
+        width:100%;
+        padding: 0 5px 0 5px;
+        max-height:65vh;
+    }
+    .wrapper-item-wide {
+        padding: 0 5px 0 5px;
+        max-height:65vh;
+    }
+    #mc_embed_signup {
+        max-width: 100%;
+    }
+    .title{
+        font-size: 50pt;
+        margin-top:35%;
+      }
+    }
