@@ -245,6 +245,7 @@ img {
 }
 
 .wrapper-item {
+    max-height: 100vh;
     text-align: center;
     margin-bottom: 2em;
     flex-grow: 1;
@@ -256,6 +257,7 @@ img {
 }
 
 .wrapper-item-wide {
+    max-height: 100vh;
     text-align: center;
     width: 100%;
     margin: auto;
@@ -605,6 +607,7 @@ SLIDER
 }
 .slides h2 {
     font-size: 30px;
+    padding: 0 10px 0 10px;
 }
 
 
