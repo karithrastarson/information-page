@@ -1,6 +1,5 @@
 $(document).ready(function() {
-
-    const buttons = document.querySelectorAll(".js-toggle-state"); 
+    const buttons = document.querySelectorAll(".js-toggle-state");
 
     for (const button of buttons) {
         button.addEventListener('click', function(event) {
@@ -17,9 +16,7 @@ $(document).ready(function() {
       $(".arrow").fadeIn(1000);
     }
     setInterval(fnBlink, 2000);
-
 });
-
 $ (function () {
     $ ('#arrow') .click(function () {
     $ ('html, body') .animate ({
@@ -27,4 +24,6 @@ $ (function () {
     }, 2000);
     return false;
     })
-    });
+});
+
+

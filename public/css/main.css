@@ -270,8 +270,18 @@ img {
 }
 
 .wrapper-item p {
-    text-align: center;
+    text-align: justify;
     margin: 0 0 5px 0;
+    padding: 0 10px 0 10px;
+}
+
+.wrapper-item a {
+    text-decoration: none;
+    color: var(--accent-colour);
+}
+.wrapper-item a:hover{
+    text-decoration: underline;
+    transform: scale(1.02);
 }
 
 #mc_embed_signup {
@@ -819,6 +829,9 @@ margin-top:0;
   .sales {
     max-width: 200px;
   }
+  .sales :hover {
+      transform: scale(1.01);
+  }
   .title {
     display:none;
     font-size: 76pt;
@@ -961,4 +974,85 @@ a i {
 td:before{
     content: attr(data-apt);
 }
+.herb2 {
+    display:table-row;
+  }
+.herb3{
+    display:table-row;
+}
+.herb4{
+display:table-row;
+}
+.herb5{
+    display:table-row;
+}
 
+/* SLIDER */
+.rangeslider {
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+    margin-top: 1vh;
+}
+
+
+input[type="range"] {
+    -webkit-appearance: none !important;
+    width: 100%;
+    height: 15px;
+
+    border-radius: 10px;
+    margin: auto;
+    transition: all 0.3s ease;
+    background: #093028; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093028, #237a57);
+    color: var(--white-text-colour)
+}
+input[type="range"]:hover {
+    background-color: #b2d5aa;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 20px;
+    height: 20px;
+    background-color: var(--white-text-colour);
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px #3c6d59;
+    /*transition: all 0.5s ease;*/
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: #457d66;
+}
+input[type="range"]::-webkit-slider-thumb:active {
+    box-shadow: 0px 0px 1px #3c6d59;
+}
+
+.rangeslider output {
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+#ibud:hover {
+    background-color: yellow;
+}
+
+img[usemap] {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+.map {
+    background-size: cover!important;
+    width:100% !important;
+}
+.map canvas {
+    width: 100%!important;
+    height:100%!important;
+}

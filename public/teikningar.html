@@ -51,7 +51,22 @@
             <h2> Fyrstu íbúðir fara í sölu í lok 2023</h2>
         </div>
 
-        <table class="rwd-table">
+        <div class="wrapper-item-wide">
+        <h2>Fjöldi herbergja, lágmark</h2>
+        <div class="rangeslider">
+            <input type = "range" min="1" max="5" oninput="filterRooms(value)"/>
+            <output id="range-rooms">3</output>
+        </div>
+        </div>
+
+        <div class="wrapper-item-wide">
+            <h2>Fermetrafjöldi, lágmark</h2>
+            <div class="rangeslider">
+                <input type = "range" min="50" max="150" oninput="filterSize(value)"/>
+                <output id="range-size">100</output>
+            </div>
+        </div>
+        <table class="rwd-table" id="apt-table">
             <tbody>
             <tr>
                 <th>Íbúð</th>
@@ -62,10 +77,10 @@
                 <th>Verð (m. kr)</th>
                 <th>Nánar</th>
             </tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0104
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     1
                 </td>
                 <td data-th="Herbergi">
@@ -81,12 +96,12 @@
                     Birt síðar
                 </td>
                 <td data-th="Nánar">
-                    <a href="apt/apt-0104.html"><i class="fa fa-eye"></i></a>
+                    <a href="/apt/apt-0104.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="102" class="herb5"><td data-th="Íbúð">
                 0105
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     1
                 </td>
                 <td data-th="Herbergi">
@@ -104,10 +119,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0105.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="80" class="herb3"><td data-th="Íbúð">
                 0201
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     2
                 </td>
                 <td data-th="Herbergi">
@@ -125,10 +140,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0201.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0202
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     2
                 </td>
                 <td data-th="Herbergi">
@@ -146,10 +161,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0202.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="60" class="herb2"><td data-th="Íbúð">
                 0203
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     2
                 </td>
                 <td data-th="Herbergi">
@@ -167,10 +182,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0203.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0204
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     2
                 </td>
                 <td data-th="Herbergi">
@@ -188,10 +203,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0204.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0205
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     2
                 </td>
                 <td data-th="Herbergi">
@@ -209,10 +224,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0205.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="102" class="herb5"><td data-th="Íbúð">
                 0206
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     2
                 </td>
                 <td data-th="Herbergi">
@@ -230,10 +245,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0206.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="80" class="herb3"><td data-th="Íbúð">
                 0301
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     3
                 </td>
                 <td data-th="Herbergi">
@@ -251,10 +266,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0301.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0302
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     3
                 </td>
                 <td data-th="Herbergi">
@@ -272,10 +287,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0302.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="60" class="herb2"><td data-th="Íbúð">
                 0303
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     3
                 </td>
                 <td data-th="Herbergi">
@@ -293,10 +308,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0303.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0304
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     3
                 </td>
                 <td data-th="Herbergi">
@@ -314,10 +329,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0304.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0305
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     3
                 </td>
                 <td data-th="Herbergi">
@@ -335,10 +350,10 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0305.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="102" class="herb5"><td data-th="Íbúð">
                 0306
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     3
                 </td>
                 <td data-th="Herbergi">
@@ -356,14 +371,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0306.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="80" class="herb3"><td data-th="Íbúð">
                 0401
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     4
                 </td>
                 <td data-th="Herbergi">
-
+                    3
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -377,14 +392,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0401.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0402
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     4
                 </td>
                 <td data-th="Herbergi">
-
+                    3
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -398,14 +413,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0402.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="60" class="herb2"><td data-th="Íbúð">
                 0403
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     4
                 </td>
                 <td data-th="Herbergi">
-
+                    2
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -419,14 +434,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0403.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0404
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     4
                 </td>
                 <td data-th="Herbergi">
-
+                    3
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -440,14 +455,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0404.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0405
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     4
                 </td>
                 <td data-th="Herbergi">
-
+                    3
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -461,14 +476,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0405.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="102" class="herb5"><td data-th="Íbúð">
                 0406
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     4
                 </td>
                 <td data-th="Herbergi">
-
+                    5
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -482,14 +497,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0406.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="80" class="herb3"><td data-th="Íbúð">
                 0501
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     5
                 </td>
                 <td data-th="Herbergi">
-
+                    3
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -503,14 +518,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0501.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0502
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     5
                 </td>
                 <td data-th="Herbergi">
-
+                    3
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -524,14 +539,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0502.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="60" class="herb2"><td data-th="Íbúð">
                 0503
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     5
                 </td>
                 <td data-th="Herbergi">
-
+                    2
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -545,14 +560,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0503.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0504
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     5
                 </td>
                 <td data-th="Herbergi">
-
+                    3
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -566,14 +581,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0504.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="77" class="herb3"><td data-th="Íbúð">
                 0505
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     5
                 </td>
                 <td data-th="Herbergi">
-
+                    3
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
@@ -587,14 +602,14 @@
                 <td data-th="Nánar">
                     <a href="/apt/apt-0505.html"><i class="fa fa-eye"></i></a>
                 </td></tr>
-            <tr><td data-th="Íbúð">
+            <tr data-size="102" class="herb5"><td data-th="Íbúð">
                 0506
             </td>
-                <td data-th='Hæð'>
+                <td data-th="Hæð">
                     5
                 </td>
                 <td data-th="Herbergi">
-
+                    5
                 </td>
                 <td data-th="Bílastæði í kjallara">
                     Birt síðar
