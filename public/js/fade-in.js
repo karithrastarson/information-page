@@ -21,7 +21,7 @@ $ (function () {
     $ ('#arrow') .click(function () {
     $ ('html, body') .animate ({
     scrollTop: $ ("#post") .offset().top - 0.25*$("#post")[0].scrollHeight
-    }, 2000);
+    }, 750);
     return false;
     })
 });
