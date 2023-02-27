@@ -864,6 +864,9 @@ margin-top:0;
         font-size: 50pt;
         margin-top:35%;
       }
+      #floor-plan{
+          max-width:90%;
+      }
     }
 
 /* Styling for table */
