@@ -24,7 +24,7 @@ $(document).ready(function() {
                 <td data-th="Verð">
                     ${value.verd}
                 </td>
-                <td data-th="Nánar">
+                <td id="he" data-th="Nánar" data-img="media/images/floor-plans/${value.husnr}/${value.ibudnr}.jpg">
                     <a href="/upplysingar.html?hus=${value.husnr}&ibud=${value.ibudnr}"><i class="fa fa-eye"></i></a>
                 </td>
             </tr>`
@@ -32,10 +32,24 @@ $(document).ready(function() {
             $('#apt-table tr:last').after(row);
 
         }
+        $(".fa-eye").hover(function(){
+            console.log("hover:" + $(this).parent().parent().attr('data-img'));
+            var img = $(this).parent().parent().attr('data-img');
+            $("#sneakPeek img").attr('src', img);
+            $("#sneakPeek").attr('style', 'display:block');
+            $(this).parent().parent().attr('data-img')
+        }, function(){
+            console.log("hover out:" + this.id);
+            $("#sneakPeek").attr('style', 'display:none');
+        });
     }).fail(function(){
         console.log("An error has occurred.");
     });
+
 });
+
+
+
 
 function filterRooms(minRooms) {
     var element = document.getElementById("range-rooms");
