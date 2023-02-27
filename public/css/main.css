@@ -1063,7 +1063,7 @@ img[usemap] {
 }
 #sneakPeek {
     position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
+    display:none;
     width: 45%; /* Full width (cover the whole page) */
     height: 70%; /* Full height (cover the whole page) */
     top: 10%;

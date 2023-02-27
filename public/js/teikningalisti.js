@@ -35,8 +35,7 @@ $(document).ready(function() {
         $(".fa-eye").hover(function(){
             var img = $(this).parent().parent().attr('data-img');
             $("#sneakPeek img").attr('src', img);
-            $("#sneakPeek").attr('style', 'display:block');
-            $(this).parent().parent().attr('data-img')
+            $("#sneakPeek").fadeIn(500);
         }, function(){
             $("#sneakPeek").attr('style', 'display:none');
         });
