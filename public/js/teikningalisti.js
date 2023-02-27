@@ -33,13 +33,11 @@ $(document).ready(function() {
 
         }
         $(".fa-eye").hover(function(){
-            console.log("hover:" + $(this).parent().parent().attr('data-img'));
             var img = $(this).parent().parent().attr('data-img');
             $("#sneakPeek img").attr('src', img);
             $("#sneakPeek").attr('style', 'display:block');
             $(this).parent().parent().attr('data-img')
         }, function(){
-            console.log("hover out:" + this.id);
             $("#sneakPeek").attr('style', 'display:none');
         });
     }).fail(function(){
