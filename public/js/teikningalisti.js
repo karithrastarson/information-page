@@ -36,3 +36,70 @@ $(document).ready(function() {
         console.log("An error has occurred.");
     });
 });
+
+function filterRooms(minRooms) {
+    var element = document.getElementById("range-rooms");
+    element.innerHTML = minRooms;
+    switch (minRooms) {
+        case '1':
+            showherb("herb1", true);
+            showherb("herb2", true);
+            showherb("herb3", true);
+            showherb("herb4", true);
+            showherb("herb5", true);
+            break;
+        case '2':
+            showherb("herb1", false);
+            showherb("herb2", true);
+            showherb("herb3", true);
+            showherb("herb4", true);
+            showherb("herb5", true);
+            break;
+        case '3':
+            showherb("herb1", false);
+            showherb("herb2", false);
+            showherb("herb3", true);
+            showherb("herb4", true);
+            showherb("herb5", true);
+            break;
+        case '4':
+            showherb("herb1", false);
+            showherb("herb2", false);
+            showherb("herb3", false);
+            showherb("herb4", true);
+            showherb("herb5", true);
+            break;
+        case '5':
+            showherb("herb1", false);
+            showherb("herb2", false);
+            showherb("herb3", false);
+            showherb("herb4", false);
+            showherb("herb5", true);
+            break;
+        default:
+            break;
+    }
+}
+function showherb(className, show) {
+    var elements = document.getElementsByClassName(className);
+    for(var i = 0; i < elements.length; i++) {
+        elements[i].style.display = show ? 'table-row' : 'none';
+    }
+}
+
+function filterSize(minSize) {
+    var element = document.getElementById("range-size");
+    element.innerHTML = minSize;
+
+    $("table tr").each(function() {
+        var attr = $(this).attr('data-size');
+        if (typeof attr !== 'undefined' && attr !== false) {
+
+            var size = $(this).attr("data-size");
+            console.log("size" + size + " min size" + minSize);
+            var display = (parseInt(size) > parseInt(minSize)) ? 'table-row' : 'none';
+            $(this).css('display', display);
+        }
+    });
+
+}

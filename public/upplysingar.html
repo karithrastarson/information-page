@@ -12,21 +12,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <!-- Scripts -->
-    <script src="js/main.js"></script>
 </head>
 
 <body>
 <!--Overlay -->
 <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-        <a href="/">VERKEFNIÐ</a>
-        <a href="/">TEYMIÐ</a>
-        <a href="teikningar.html">ÍBÚÐIR</a>
-        <a href="https://us14.list-manage.com/contact-form?u=3412f3b17965f94555bd17560&form_id=1a27fc054f26d25ffe397e4d0525be4f">HAFÐU SAMBAND</a>
-
-    </div>
+    <div id="overlay" class="overlay-content"></div>
 </div>
 
 <!-- Top Navigation -->
@@ -37,45 +29,42 @@
               </span>
     </button>
     <a href="/" class="navlogo"><img src="media/images/logo/hamravellir-logo.webp" /></a>
-    <a href="/" class="nav">VERKEFNIÐ</a>
-    <a href="/" class="nav">TEYMIÐ</a>
-    <a href="teikningar.html" class="nav">ÍBÚÐIR</a>
-    <a href="https://us14.list-manage.com/contact-form?u=3412f3b17965f94555bd17560&form_id=1a27fc054f26d25ffe397e4d0525be4f" class="nav">HAFÐU SAMBAND</a>
 
 </div>
-    <!-- Main content -->
-    <div class="wrapper">
+<!-- Main content -->
+<div class="wrapper">
 
-        <div class="wrapper-item-wide theme-gradient">
-            <h2> Fyrstu íbúðir fara í sölu í lok 2023</h2>
-        </div>
+    <div class="wrapper-item-wide theme-gradient">
+        <h2> Fyrstu íbúðir fara í sölu í lok 2023</h2>
+    </div>
 
-        <div id="notfound" class="wrapper-item" style="display: none">
-            <h1> Íbúð fannst ekki </h1>
-            <h2><a href="/teikningar.html">Listi yfir íbúðir > </a></h2>
-        </div>
-        <div class="wrapper-item">
-            <img id="floor-plan" src="media/images/floor-plans/42/0102.jpg" />
-        </div>
-        <div class="wrapper-item">
-            <ul class="apt">
-                <li class="apt-name">Íbúð 0104</li>
-                <li id="haed"><strong>Hæð:</strong><span>1</span></li>
-                <li id="hrb"><strong>Herbergi:</strong><span>77 m<sup>2</sup></sup></span></li>
-                <li id="geymsla"><strong>Bílastæði í kjallara:</strong><span>7 m<sup>2</sup></span></li>
-                <li id="staerd"><strong>Birtir fermetrar:</strong><span>77 m<sup>2</sup></span></li>
-                <li id="verd"><strong>Verð:</strong><span>Birt síðar</span></li>
-            </ul>
-        </div>
+    <div id="notfound" class="wrapper-item" style="display: none">
+        <h1> Íbúð fannst ekki </h1>
+        <h2><a href="/teikningar.html">Listi yfir íbúðir > </a></h2>
+    </div>
+    <div class="wrapper-item">
+        <img id="floor-plan" src="media/images/floor-plans/42/0102.jpg" />
+    </div>
+    <div class="wrapper-item">
+        <ul class="apt">
+            <li class="apt-name">Íbúð 0104</li>
+            <li id="haed"><strong>Hæð:</strong><span>1</span></li>
+            <li id="hrb"><strong>Herbergi:</strong><span>77 m<sup>2</sup></sup></span></li>
+            <li id="geymsla"><strong>Bílastæði í kjallara:</strong><span>7 m<sup>2</sup></span></li>
+            <li id="staerd"><strong>Birtir fermetrar:</strong><span>77 m<sup>2</sup></span></li>
+            <li id="verd"><strong>Verð:</strong><span>Birt síðar</span></li>
+        </ul>
+    </div>
 
-        <footer id="footer">
-            <a href="mailto:hamravellir@hamravellir.is">
-                hamravellir@hamravellir.is
-            </a>
-        </footer>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/upplysingasida.js"></script>
+    <footer id="footer">
+        <a href="mailto:hamravellir@hamravellir.is">
+            hamravellir@hamravellir.is
+        </a>
+    </footer>
+</div>
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/upplysingasida.js"></script>
 </body>
-
-
 </html>

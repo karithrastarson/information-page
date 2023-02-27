@@ -572,7 +572,7 @@ MEDIA QUERIES
         display: block;
     }
     .topnav {
-        width: 80%;
+        width: 90%;
     }
     .navlogo {
         display: block;
@@ -609,9 +609,6 @@ SLIDER
     scroll-snap-type: mandatory;
 
     text-align: center;
-    align-items: center;
-    justify-content: center;
-
 }
 .slides div :hover {
     transform: scale(1.01);
@@ -630,6 +627,7 @@ SLIDER
     justify-content: center;
     color: var(--white-text-colour);
     text-decoration: none;
+    padding: 0 10px 0 10px;
 }
 
 .slides::-webkit-scrollbar {

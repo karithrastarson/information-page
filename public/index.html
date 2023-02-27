@@ -12,190 +12,180 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <!-- Scripts -->
-    <script src="js/main.js"></script>
 </head>
 
 <body>
-    <!--Overlay -->
-    <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-            <a href="/">VERKEFNIÐ</a>
-            <a href="/">TEYMIÐ</a>
-            <a href="/teikningar.html">ÍBÚÐIR</a>
-            <a href="https://us14.list-manage.com/contact-form?u=3412f3b17965f94555bd17560&form_id=1a27fc054f26d25ffe397e4d0525be4f">HAFÐU SAMBAND</a>
+<!--Overlay -->
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div id="overlay" class="overlay-content"></div>
+</div>
 
-        </div>
-    </div>
-
-    <!-- Top Navigation -->
-    <div class="topnav" id="topnav">
-        <button class="hamburger hamburger--collapse" id="hamburger" type="button" onclick="openNav()">
+<!-- Top Navigation -->
+<div class="topnav" id="topnav">
+    <button class="hamburger hamburger--collapse" id="hamburger" type="button" onclick="openNav()">
             <span class="hamburger-box">
                <span class="hamburger-inner"></span>
               </span>
-        </button>
-        <a href="/" class="navlogo"><img src="media/images/logo/hamravellir-logo.webp" /></a>
-        <a href="/" class="nav">VERKEFNIÐ</a>
-        <a href="/" class="nav">TEYMIÐ</a>
-        <a href="/teikningar.html" class="nav">ÍBÚÐIR</a>
-        <a href="https://us14.list-manage.com/contact-form?u=3412f3b17965f94555bd17560&form_id=1a27fc054f26d25ffe397e4d0525be4f" class="nav">HAFÐU SAMBAND</a>
-
-    </div>
-    <!-- Main content -->
-    <div class="wrapper">
-
-        <div class="wrapper-item-wide theme-gradient">
-            <h2>Fyrstu íbúðir fara í sölu í lok 2023</h2>
-        </div>
-        <div class="wrapper-item-wide lax-1 parallax">
-            <h1 class="title">Áshamar</h1>
-            <h1 class="arrow"><a id="arrow" href="">⌄</a></h1>
-            <img src="media/images/rendering-1-web.jpg" style="visibility:hidden" />
-        </div>
-        <div class="wrapper-item"><img style="max-height:350px" src="media/images/logo/svanurinn.png"/></div>
-<div class="wrapper-item">
-    <h1>Svansvottuð bygging</h1>
-    <p>Áshamar 42-48 verður byggð eftir ströngum eftirlitsstaðli
-        Svansins. Það þýðir að rík áhersla er lögð á efnisval
-        við byggingu hússins til þess að lágmarka umhverfisáhrif
-        byggingarinnar. Við hönnun hússins eru staðlarnir einnig
-        hafðir að leiðarljósi. Hönnunin miðar meðal annars að
-        því að lágmarka orkunotkun með bættri loftræstingu,
-        hljóðvist og sem hagkvæmastri nýtingu dagsbirtu.
-        Frekari upplýsingar um Svansvottun nýbygginga
-        má nálgast hér að neðan</p>
-    <h2><a href="https://ust.is/library/Skrar/Atvinnulif/Svanurinn/Svansvottadar_nybyggingar.pdf" target="_blank">Lesa meira > </a></h2>
+    </button>
+    <a href="/" class="navlogo"><img src="media/images/logo/hamravellir-logo.webp" /></a>
 </div>
+<!-- Main content -->
+<div class="wrapper">
 
-        <div class="wrapper-item-wide lax-3 parallax">
-            <img src="media/images/rendering-interior-web.jpg" style="visibility:hidden;" />
+    <div class="wrapper-item-wide theme-gradient">
+        <h2>Fyrstu íbúðir fara í sölu í lok 2023</h2>
+    </div>
+    <div class="wrapper-item-wide lax-1 parallax">
+        <h1 class="title">Áshamar</h1>
+        <h1 class="arrow"><a id="arrow" href="">⌄</a></h1>
+        <img src="media/images/rendering-1-web.jpg" style="visibility:hidden" />
+    </div>
+    <div class="wrapper-item"><img style="max-height:350px" src="media/images/logo/svanurinn.png"/></div>
+    <div class="wrapper-item">
+        <h1>Svansvottuð bygging</h1>
+        <p>Áshamar 42-48 verður byggð eftir ströngum eftirlitsstaðli
+            Svansins. Það þýðir að rík áhersla er lögð á efnisval
+            við byggingu hússins til þess að lágmarka umhverfisáhrif
+            byggingarinnar. Við hönnun hússins eru staðlarnir einnig
+            hafðir að leiðarljósi. Hönnunin miðar meðal annars að
+            því að lágmarka orkunotkun með bættri loftræstingu,
+            hljóðvist og sem hagkvæmastri nýtingu dagsbirtu.
+            Frekari upplýsingar um Svansvottun nýbygginga
+            má nálgast hér að neðan</p>
+        <h2><a href="https://ust.is/library/Skrar/Atvinnulif/Svanurinn/Svansvottadar_nybyggingar.pdf" target="_blank">Lesa meira > </a></h2>
+    </div>
+
+    <div class="wrapper-item-wide lax-3 parallax">
+        <img src="media/images/rendering-interior-web.jpg" style="visibility:hidden;" />
+    </div>
+
+    <div class="wrapper-item-wide dark parallax lax-gradient">
+        <h2>Dæmi um íbúðir</h2>
+        <div class="slider">
+            <div class="slides">
+                <div id="slide-1">
+                    <a href="teikningar.html">
+                        <img src="media/images/floor-plans/42/0102.jpg" />
+                    </a>
+                </div>
+                <div id="slide-2">
+                    <a href="teikningar.html">
+                        <img src="media/images/floor-plans/42/0103.jpg" />
+                    </a>
+                </div>
+                <div id="slide-3">
+                    <a href="teikningar.html">
+                        <img src="media/images/floor-plans/42/0104.jpg" />
+                    </a>
+                </div>
+                <div id="slide-4">
+                    <a href="teikningar.html">
+                        <img src="media/images/floor-plans/42/0105.jpg" />
+                    </a>
+                </div>
+                <div id="slide-5">
+                    <a href="teikningar.html">
+                        <img src="media/images/floor-plans/42/0201.jpg" />
+                    </a>
+                </div>
+                <div id="slide-6">
+
+                    <h2><a href="teikningar.html">Skoða allar íbúðir > </a></h2>
+
+                </div>
+
+            </div>
         </div>
+    </div>
+    <!--NEWSLETTER SECTION-->
+    <div id="post" class="wrapper-item-wide">
+        <h1>Skráðu þig á póstlistann</h1>
+        <p>Fáðu póst um leið og næsta íbúð fer í sölu
+            <br> og allar upplýsingar um framvindu verkefnisins og
+            <br>mikilvæga áfanga.
+        </p>
 
-        <div class="wrapper-item-wide dark parallax lax-gradient">
-            <h2>Dæmi um íbúðir</h2>
-            <div class="slider">
-                <div class="slides">
-                    <div id="slide-1">
-                        <a href="teikningar.html">
-                            <img src="media/images/floor-plans/42/0102.jpg" />
-                        </a>
+        <div id="mc_embed_signup">
+            <form action="https://gmail.us14.list-manage.com/subscribe/post?u=3412f3b17965f94555bd17560&amp;id=44bbe699c6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <div class="mc-field-group">
+                        <input type="email" placeholder="sláðu inn netfang" name="EMAIL" class="required email" id="mce-EMAIL">
                     </div>
-                    <div id="slide-2">
-                        <a href="teikningar.html">
-                            <img src="media/images/floor-plans/42/0103.jpg" />
-                        </a>
+                    <div id="mce-responses" class="clear foot">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
                     </div>
-                    <div id="slide-3">
-                        <a href="teikningar.html">
-                            <img src="media/images/floor-plans/42/0104.jpg" />
-                        </a>
-                    </div>
-                    <div id="slide-4">
-                        <a href="teikningar.html">
-                            <img src="media/images/floor-plans/42/0105.jpg" />
-                        </a>
-                    </div>
-                    <div id="slide-5">
-                        <a href="teikningar.html">
-                            <img src="media/images/floor-plans/42/0201.jpg" />
-                        </a>
-                    </div>
-                    <div id="slide-6">
-
-                            <h2><a href="teikningar.html">Skoða allar íbúðir > </a></h2>
-
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3412f3b17965f94555bd17560_44bbe699c6" tabindex="-1" value=""></div>
+                    <div class="form">
+                        <input type="submit" value="Skrá á póstlista" name="subscribe" id="mc-embedded-subscribe" class="button theme-gradient">
                     </div>
 
                 </div>
-            </div>
+            </form>
         </div>
-        <!--NEWSLETTER SECTION-->
-        <div id="post" class="wrapper-item-wide">
-            <h1>Skráðu þig á póstlistann</h1>
-            <p>Fáðu póst um leið og næsta íbúð fer í sölu
-                <br> og allar upplýsingar um framvindu verkefnisins og
-                <br>mikilvæga áfanga.
-            </p>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>
+            (function($) {
+                window.fnames = new Array();
+                window.ftypes = new Array();
+                fnames[0] = 'EMAIL';
+                ftypes[0] = 'email';
+                fnames[1] = 'FNAME';
+                ftypes[1] = 'text';
+                fnames[2] = 'LNAME';
+                ftypes[2] = 'text';
+                fnames[3] = 'ADDRESS';
+                ftypes[3] = 'address';
+                fnames[4] = 'PHONE';
+                ftypes[4] = 'phone';
+                fnames[5] = 'BIRTHDAY';
+                ftypes[5] = 'birthday';
+            }(jQuery));
+            var $mcj = jQuery.noConflict(true);
+        </script>
+        <!--End mc_embed_signup-->
+    </div>
+    <!--NEWSLETTER SECTION ENDED-->
+    <div class="wrapper-item-wide lax-2 parallax">
+        <img src="media/images/rendering-2-web.jpg" style="visibility:hidden;" />
+    </div>
 
-            <div id="mc_embed_signup">
-                <form action="https://gmail.us14.list-manage.com/subscribe/post?u=3412f3b17965f94555bd17560&amp;id=44bbe699c6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <div class="mc-field-group">
-                            <input type="email" placeholder="sláðu inn netfang" name="EMAIL" class="required email" id="mce-EMAIL">
-                        </div>
-                        <div id="mce-responses" class="clear foot">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3412f3b17965f94555bd17560_44bbe699c6" tabindex="-1" value=""></div>
-                        <div class="form">
-                            <input type="submit" value="Skrá á póstlista" name="subscribe" id="mc-embedded-subscribe" class="button theme-gradient">
-                        </div>
+    <div class="wrapper-item-wide ">
+        <h1>Söluaðilar</h1>
+    </div>
+    <div class="wrapper-item">
+        <a href="https://www.as.is/"><img class="sales" src="media/images/logo/as-logo.png"></a>
+        <p> Fjarðargötu 17, 220 Hafnarfirði</p>
+        <p> Sími: <a href="tel:+354 5202600">520 26 00</a> </p>
+        <p> <a href="mailto:as@as.is">as@as.is</a></p>
+    </div>
+    <div class="wrapper-item">
+        <a href="https://www.fastborg.is/"><img class="sales" src="media/images/logo/borg-logo.svg"></a>
+        <p> Síðumúla 23 , 108 Reykjavík </p>
+        <p> Sími: <a href="tel:+354 519 55 99">519 55 00</a> </p>
+        <p> <a href="mailto:fastborg@fastborg.is">fastborg@fastborg.is</a></p>
+    </div>
+    <div class="wrapper-item"><a href="https://www.hraunhamar.is/"><img class="sales" src="media/images/logo/hraunhamar-logo.png"></a>
+        <p> Bæjarhraun 10, 220 Hafnarfirði</p>
+        <p> Sími: <a href="tel:+354 5207500">520 75 00</a> </p>
+        <p> <a href="mailto:as@as.is">hraunhamar@hraunhamar.is</a></p>
+    </div>
 
-                    </div>
-                </form>
-            </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-            <script type='text/javascript'>
-                (function($) {
-                    window.fnames = new Array();
-                    window.ftypes = new Array();
-                    fnames[0] = 'EMAIL';
-                    ftypes[0] = 'email';
-                    fnames[1] = 'FNAME';
-                    ftypes[1] = 'text';
-                    fnames[2] = 'LNAME';
-                    ftypes[2] = 'text';
-                    fnames[3] = 'ADDRESS';
-                    ftypes[3] = 'address';
-                    fnames[4] = 'PHONE';
-                    ftypes[4] = 'phone';
-                    fnames[5] = 'BIRTHDAY';
-                    ftypes[5] = 'birthday';
-                }(jQuery));
-                var $mcj = jQuery.noConflict(true);
-            </script>
-            <!--End mc_embed_signup-->
-        </div>
-        <!--NEWSLETTER SECTION ENDED-->
-        <div class="wrapper-item-wide lax-2 parallax">
-            <img src="media/images/rendering-2-web.jpg" style="visibility:hidden;" />
-        </div>      
-        
-        <div class="wrapper-item-wide ">
-            <h1>Söluaðilar</h1>
-        </div>
-            <div class="wrapper-item">
-                <a href="https://www.as.is/"><img class="sales" src="media/images/logo/as-logo.png"></a>
-                <p> Fjarðargötu 17, 220 Hafnarfirði</p>
-                <p> Sími: <a href="tel:+354 5202600">520 26 00</a> </p>
-                <p> <a href="mailto:as@as.is">as@as.is</a></p>
-            </div>
-            <div class="wrapper-item">
-                <a href="https://www.fastborg.is/"><img class="sales" src="media/images/logo/borg-logo.svg"></a>
-                <p> Síðumúla 23 , 108 Reykjavík </p>
-                <p> Sími: <a href="tel:+354 519 55 99">519 55 00</a> </p>
-                <p> <a href="mailto:fastborg@fastborg.is">fastborg@fastborg.is</a></p>
-            </div>
-            <div class="wrapper-item"><a href="https://www.hraunhamar.is/"><img class="sales" src="media/images/logo/hraunhamar-logo.png"></a>
-                <p> Bæjarhraun 10, 220 Hafnarfirði</p>
-                <p> Sími: <a href="tel:+354 5207500">520 75 00</a> </p>
-                <p> <a href="mailto:as@as.is">hraunhamar@hraunhamar.is</a></p>
-            </div>
+    <p></p>
+</div>
 
-            <p></p>
-        </div>
+<footer id="footer">
+    <a href="mailto:hamravellir@hamravellir.is">
+        hamravellir@hamravellir.is
+    </a>
+</footer>
 
-        <footer id="footer">
-            <a href="mailto:hamravellir@hamravellir.is">
-                hamravellir@hamravellir.is
-            </a>
-        </footer>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/fade-in.js"></script>
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/index.js"></script>
 </body>
 
 
