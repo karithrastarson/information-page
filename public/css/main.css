@@ -227,8 +227,8 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
-.floor-plan {
-    max-width:80%;
+#floor-plan{
+    max-width:480px;
 }
 .button__inner {
     transform: translate3D(0, -10px, 0);

@@ -1,25 +1,34 @@
 $(document).ready(function() {
     var ibudNr = getUrlParameter('ibud');
-    console.log(ibudNr);
-
-    $.getJSON("ibudir.json", function(data){
-        if (!data.hasOwnProperty(ibudNr)) {
-            console.log("íbúð ekki til");
+    var husNr = getUrlParameter('hus');
+    $.getJSON("data.json", function(data){
+        var found = false;
+        for (var i = 0, len = data.length; i < len; i++) {
+            var value = data[i];
+            if(value.ibudnr === ibudNr && value.husnr.toString() === husNr) {
+                /* Data point found */
+                found = true;
+                $("#floor-plan").attr('src', 'media/images/floor-plans/' +husNr + '/' + ibudNr+'.jpg');
+                $(".apt-name").text("Íbúð " + value.ibudnr);
+                $("#head span").text(value.haed);
+                $("#hrb span").text(value.herbergi);
+                $("#geymsla span").text(value.geymsla);
+                $("#staerd span").text(value.staerd);
+                $("#verd span").text(value.verd);
+                break;
+            }
+        }
+        if(found === false) {
             $(".wrapper-item").hide();
             $("#notfound").show();
         }
-        else {
-        $("#floor-plan").attr('src', 'media/images/floor-plans/' + ibudNr+'.jpg');
-        $(".apt-name").text("Íbúð " + data[ibudNr].ibudnr);
-        $("#head span").text(data[ibudNr].haed);
-        $("#hrb span").text(data[ibudNr].herbergi);
-        $("#geymsla span").text(data[ibudNr].geymsla);
-        $("#staerd span").text(data[ibudNr].staerd);
-        $("#verd span").text(data[ibudNr].verd);
-        }
+
     }).fail(function(){
         console.log("An error has occurred.");
+        $(".wrapper-item").hide();
+        $("#notfound").show();
     });
+
 });
 
 
