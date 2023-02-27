@@ -13,6 +13,7 @@ $(document).ready(function() {
                 $("#haed span").text(value.haed);
                 $("#hrb span").text(value.herbergi);
                 $("#geymsla span").text(value.geymsla);
+                $("#bilastaedi span").text(value.bilastaedi);
                 $("#staerd span").text(value.staerd);
                 $("#verd span").text(value.verd);
                 break;
