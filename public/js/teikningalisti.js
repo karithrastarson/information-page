@@ -108,7 +108,6 @@ function filterSize(minSize) {
         if (typeof attr !== 'undefined' && attr !== false) {
 
             var size = $(this).attr("data-size");
-            console.log("size" + size + " min size" + minSize);
             var display = (parseInt(size) > parseInt(minSize)) ? 'table-row' : 'none';
             $(this).css('display', display);
         }
