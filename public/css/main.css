@@ -867,6 +867,9 @@ margin-top:0;
       #floor-plan{
           max-width:90%;
       }
+      #sneakPeek {
+          display:none!important;
+      }
     }
 
 /* Styling for table */
