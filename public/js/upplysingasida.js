@@ -9,7 +9,7 @@ $(document).ready(function() {
                 /* Data point found */
                 found = true;
                 $("#floor-plan").attr('src', 'media/images/floor-plans/' +husNr + '/' + ibudNr+'.jpg');
-                $(".apt-name").text("Íbúð " + value.ibudnr);
+                $(".apt-name").text("Áshamar " + value.husnr +" - Íbúð " + value.ibudnr);
                 $("#haed span").text(value.haed);
                 $("#hrb span").text(value.herbergi);
                 $("#geymsla span").text(value.geymsla);
