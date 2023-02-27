@@ -10,7 +10,7 @@ $(document).ready(function() {
                 found = true;
                 $("#floor-plan").attr('src', 'media/images/floor-plans/' +husNr + '/' + ibudNr+'.jpg');
                 $(".apt-name").text("Íbúð " + value.ibudnr);
-                $("#head span").text(value.haed);
+                $("#haed span").text(value.haed);
                 $("#hrb span").text(value.herbergi);
                 $("#geymsla span").text(value.geymsla);
                 $("#staerd span").text(value.staerd);
