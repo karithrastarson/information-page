@@ -13,14 +13,6 @@ body, html {
     height: 100%;
 }
 
-@media only screen and (max-device-width: 1281px) {
-    .parallax {
-        background-attachment: scroll!important;
-    }
-
-
-}
-
 /* COLOUR SCHEME */
 
 :root {
@@ -837,6 +829,12 @@ a {
     background: linear-gradient(to right, #093028, #237a57);
     color: var(--white-text-colour)
 }
+@media only screen and (max-width: 1281px) {
+    .parallax {
+        background-attachment: scroll!important;
+    }
+}
+
 .sales {
     max-width: 200px;
 }
