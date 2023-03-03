@@ -11,15 +11,15 @@
 
 body, html {
     height: 100%;
-  }
+}
 
-  @media only screen and (max-device-width: 745px) {
+@media only screen and (max-device-width: 745px) {
     .parallax {
-      background-attachment: scroll!important;
+        background-attachment: scroll!important;
     }
 
-    
-  }
+
+}
 
 /* COLOUR SCHEME */
 
@@ -63,15 +63,15 @@ p {
 }
 
 
-/* 
+/*
 TOP NAVIGATION STUFF BEGINS
 */
 
 .theme-gradient {
-   
-  background: #093028; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #093028, #237a57);
+
+    background: #093028; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093028, #237a57);
     color: var(--white-text-colour)
 }
 
@@ -148,7 +148,7 @@ TOP NAVIGATION STUFF BEGINS
 }
 
 
-/* 
+/*
 TOP NAVIGATION STUFF ENDS
 */
 
@@ -253,7 +253,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
 .wrapper-item-wide {
@@ -265,7 +265,7 @@ img {
 .dark {
     background: #093028; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #093028, #237a57); 
+    background: linear-gradient(to right, #093028, #237a57);
     color: var(--white-text-colour)
 }
 
@@ -478,7 +478,7 @@ fade-in-text {
 }
 
 #footer {
-    
+
     bottom: 0;
     background-color: var(--main-text-colour);
     color: var(--white-text-colour);
@@ -558,7 +558,7 @@ fade-in-text {
 
 
 /*
-MEDIA QUERIES 
+MEDIA QUERIES
 */
 
 
@@ -581,6 +581,19 @@ MEDIA QUERIES
         left: 0;
         top: 0;
         float: left;
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}
+@media all and (max-width:991px){
+    body{
+        overflow-x: hidden;
+    }
+    .wrapper{
+        overflow-x: hidden;
+    }
+    .team-member {
+        margin: 10px auto !important;
     }
 }
 
@@ -718,7 +731,7 @@ a {
     display:flex;
     margin-bottom:2em;
     flex-wrap:wrap;
-    
+
 }
 .team-member {
     border-style: solid;
@@ -735,8 +748,8 @@ a {
 }
 
 .team-member h2 {
-margin-bottom: 0;
-margin-top:0;
+    margin-bottom: 0;
+    margin-top:0;
 }
 .team-member h3 {
     margin-top:0;
@@ -750,69 +763,69 @@ margin-top:0;
 
 /* ANIMATION SECTION */
 @keyframes wipe-enter {
-	0% {
-		transform: scale(0, .025);
-	}
-	50% {
-		transform: scale(1, .025);
-	}
+    0% {
+        transform: scale(0, .025);
+    }
+    50% {
+        transform: scale(1, .025);
+    }
 }
 @media (prefers-reduced-motion: no-preference) {
     .square {
-      animation-name: wipe-enter;
-      animation-duration: 1s;
+        animation-name: wipe-enter;
+        animation-duration: 1s;
     }
-  }
+}
 
 
-  /*TOGGLE BUTTONS*/
- 
-  .filter {
+/*TOGGLE BUTTONS*/
+
+.filter {
     padding-bottom:2em;
     margin-top: 2em;
     margin-bottom: 2em;
-  }
+}
 
 /* Paralax sections */
 
 .lax-1 {
-    
+
     /* The image used */
     background-image: url('../media/images/rendering-1-web.jpg');
-  
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height:100%;
-  }
-  .lax-2 {
-    
+}
+.lax-2 {
+
     /* The image used */
     background-image: url('../media/images/rendering-2-web.jpg');
-  
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height:100%;
-  }
-  .lax-3 {
-    
+}
+.lax-3 {
+
     /* The image used */
     background-image: url('../media/images/rendering-interior-web.jpg');
-  
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height:100%;
-  }
+}
 
-  .lax-gradient {  
+.lax-gradient {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -821,36 +834,36 @@ margin-top:0;
 
     background: #093028; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #093028, #237a57); 
+    background: linear-gradient(to right, #093028, #237a57);
     color: var(--white-text-colour)
-  }
-  .sales {
+}
+.sales {
     max-width: 200px;
-  }
-  .sales :hover {
-      transform: scale(1.01);
-  }
-  .title {
+}
+.sales :hover {
+    transform: scale(1.01);
+}
+.title {
     display:none;
     font-size: 76pt;
     margin-top:20%;
     color: var(--white-text-colour);
-  }
-  .arrow {
+}
+.arrow {
     display:none;
     font-size: 76pt;
     color: var(--white-text-colour);
-  }
-  .arrow a {
+}
+.arrow a {
     text-decoration: none;
     color: var(--white-text-colour);
-  }
+}
 
-  @media only screen and (max-width: 769px) {
-      .more-info-desktop {
-          display:none;
-      }
 
+@media only screen and (max-width: 769px) {
+    .more-info-desktop {
+        display:none;
+    }
     .wrapper-item {
         width:100%;
         padding: 0 5px 0 5px;
@@ -866,14 +879,14 @@ margin-top:0;
     .title{
         font-size: 50pt;
         margin-top:35%;
-      }
-      #floor-plan{
-          max-width:90%;
-      }
-      #sneakPeek {
-          display:none!important;
-      }
     }
+    #floor-plan{
+        max-width:90%;
+    }
+    #sneakPeek {
+        display:none!important;
+    }
+}
 
 /* Styling for table */
 
@@ -998,12 +1011,12 @@ td:before{
 }
 .herb2 {
     display:table-row;
-  }
+}
 .herb3{
     display:table-row;
 }
 .herb4{
-display:table-row;
+    display:table-row;
 }
 .herb5{
     display:table-row;
@@ -1072,12 +1085,12 @@ img[usemap] {
 }
 .map {
     background-size: cover!important;
-    width:100% !important;
+    /* width:100% !important; */
 }
-.map canvas {
+/* .map canvas {
     width: 100%!important;
     height:100%!important;
-}
+} */
 #sneakPeek {
     position: fixed; /* Sit on top of the page content */
     display:none;
