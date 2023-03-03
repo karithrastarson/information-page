@@ -584,7 +584,6 @@ MEDIA QUERIES
         margin-left: 0;
         margin-top: 8px;
     }
-
 }
 @media all and (max-width:991px){
     body{
@@ -860,7 +859,11 @@ a {
     color: var(--white-text-colour);
 }
 
+
 @media only screen and (max-width: 769px) {
+      .more-info-desktop {
+          display:none;
+      }
     .wrapper-item {
         width:100%;
         padding: 0 5px 0 5px;
@@ -955,6 +958,14 @@ a {
 .rwd-table td {
     padding: .5em 1em;
 }
+.more-info-mobile {
+    display:inline-block;
+    cursor: pointer;
+}
+.more-info-desktop {
+    display:none;
+}
+
 @media screen and (max-width: 601px) {
     .rwd-table tr:nth-child(2) {
         border-top: none;
@@ -967,7 +978,7 @@ a {
     .rwd-table td:before {
         display: none;
     }
-    .rwd-table th,
+    .rwd-taable th,
     .rwd-table td {
         display: table-cell;
         padding: .25em .5em;
@@ -983,6 +994,12 @@ a {
     .rwd-table th,
     .rwd-table td {
         padding: 1em !important;
+    }
+    .more-info-mobile {
+        display:none;
+    }
+    .more-info-desktop {
+        display:block;
     }
 }
 
@@ -1089,4 +1106,40 @@ img[usemap] {
 }
 #sneakPeek img {
     border: 45px solid rgba(0,0,0,0.5);
+}
+
+#mobile-sneak {
+    position: fixed; /* Sit on top of the page content */
+    display:none;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 60%; /* Full height (cover the whole page) */
+    top: 5%;
+    float:right;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    background: rgba(0,0,0,0.5);
+}
+#mobile-sneak img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#mobile-sneak h1 {
+    position: absolute;
+    background: #093028; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093028, #237a57);
+    color: var(--white-text-colour);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom:0;
 }
