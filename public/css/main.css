@@ -834,6 +834,39 @@ a {
         background-attachment: scroll!important;
     }
 }
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+    .parallax {
+        background-attachment: scroll!important;
+    }
+}
+
+/* Portrait */
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+    .parallax {
+        background-attachment: scroll!important;
+    }
+}
+
+/* Landscape */
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+    .parallax {
+        background-attachment: scroll!important;
+    }
+
+}
 
 .sales {
     max-width: 200px;
@@ -992,6 +1025,7 @@ a i {
 td:before{
     content: attr(data-apt);
 }
+
 
 /* SLIDER */
 .rangeslider {
