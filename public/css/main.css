@@ -992,18 +992,6 @@ a i {
 td:before{
     content: attr(data-apt);
 }
-.herb2 {
-    display:table-row;
-}
-.herb3{
-    display:table-row;
-}
-.herb4{
-    display:table-row;
-}
-.herb5{
-    display:table-row;
-}
 
 /* SLIDER */
 .rangeslider {

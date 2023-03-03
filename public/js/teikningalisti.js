@@ -1,11 +1,20 @@
 $(document).ready(function() {
 
-    $.getJSON("data.json", function(data){
-        for (var i = 0, len = data.length; i < len; i++) {
-        var value = data[i];
+    var minSize = $('.size-slider').val();
+    var minRoom = $('.room-slider').val();
 
-            var row =`
-            <tr data-size="${Math.ceil(parseFloat(value.staerd))}" class="herb${value.herbergi}">
+    updateTable(minRoom, minSize);
+
+});
+function updateTable(minRooms, minSize) {
+    $(".apt-row").remove();
+
+    $.getJSON("data.json", function(data){
+            for (var i = 0, len = data.length; i < len; i++) {
+                var value = data[i];
+                if (Math.ceil(parseFloat(value.staerd)) > minSize && value.herbergi >= minRooms){
+                    var row =`
+            <tr class="apt-row" data-size="${Math.ceil(parseFloat(value.staerd))}">
                 <td data-th="Íbúð">
                     ${value.husnr} - ${value.ibudnr}
                 </td>
@@ -29,25 +38,26 @@ $(document).ready(function() {
                 </td>
             </tr>`
 
-            $('#apt-table tr:last').after(row);
+                    $('#apt-table tr:last').after(row);
 
+                }
+
+                $(".more-info").click(function(){
+                    var img = $(this).parent().attr('data-img');
+                    var src = $(this).attr('data-href');
+                    $("#apt-view img").attr('src', img);
+                    $("#apt-view a").attr('href', src);
+                    $("#apt-view").fadeIn(500);
+                })
+            }
         }
-
-        $(".more-info").click(function(){
-            var img = $(this).parent().attr('data-img');
-            var src = $(this).attr('data-href');
-            $("#apt-view img").attr('src', img);
-            $("#apt-view a").attr('href', src);
-            $("#apt-view").fadeIn(500);
-        })
-    }).fail(function(){
+    ).fail(function(){
         console.log("An error has occurred.");
     });
 
 
 
-});
-
+}
 $(document).mouseup(function(e)
 {
     var container = $("#apt-view");
@@ -59,70 +69,26 @@ $(document).mouseup(function(e)
     }
 });
 
-
-
-function filterRooms(minRooms) {
+$('.room-slider').on('input', function() {
+    console.log("works!");
+    let val = $(this).val();
     var element = document.getElementById("range-rooms");
-    element.innerHTML = minRooms;
-    switch (minRooms) {
-        case '1':
-            showherb("herb1", true);
-            showherb("herb2", true);
-            showherb("herb3", true);
-            showherb("herb4", true);
-            showherb("herb5", true);
-            break;
-        case '2':
-            showherb("herb1", false);
-            showherb("herb2", true);
-            showherb("herb3", true);
-            showherb("herb4", true);
-            showherb("herb5", true);
-            break;
-        case '3':
-            showherb("herb1", false);
-            showherb("herb2", false);
-            showherb("herb3", true);
-            showherb("herb4", true);
-            showherb("herb5", true);
-            break;
-        case '4':
-            showherb("herb1", false);
-            showherb("herb2", false);
-            showherb("herb3", false);
-            showherb("herb4", true);
-            showherb("herb5", true);
-            break;
-        case '5':
-            showherb("herb1", false);
-            showherb("herb2", false);
-            showherb("herb3", false);
-            showherb("herb4", false);
-            showherb("herb5", true);
-            break;
-        default:
-            break;
-    }
-}
-function showherb(className, show) {
-    var elements = document.getElementsByClassName(className);
-    for(var i = 0; i < elements.length; i++) {
-        elements[i].style.display = show ? 'table-row' : 'none';
-    }
-}
+    element.innerHTML = val;
 
-function filterSize(minSize) {
+    var minSize = $('.size-slider').val();
+    var minRoom = $(this).val();
+
+    updateTable(minRoom, minSize);
+});
+
+$('.size-slider').on('input', function() {
+    console.log("this too!");
+    let val = $(this).val();
     var element = document.getElementById("range-size");
-    element.innerHTML = minSize;
+    element.innerHTML = val;
 
-    $("table tr").each(function() {
-        var attr = $(this).attr('data-size');
-        if (typeof attr !== 'undefined' && attr !== false) {
+    var minRoom = $('.room-slider').val();
+    var minSize = $(this).val();
 
-            var size = $(this).attr("data-size");
-            var display = (parseInt(size) > parseInt(minSize)) ? 'table-row' : 'none';
-            $(this).css('display', display);
-        }
-    });
-
-}
+    updateTable(minRoom, minSize);
+});
