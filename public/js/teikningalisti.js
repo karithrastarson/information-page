@@ -25,28 +25,20 @@ $(document).ready(function() {
                     ${value.verd}
                 </td>
                 <td data-th="Nánar" data-img="media/images/floor-plans/${value.husnr}/${value.ibudnr}.jpg">
-                    <a class="more-info-mobile" data-href="/upplysingar.html?hus=${value.husnr}&ibud=${value.ibudnr}"><i class="fa fa-eye"></i></a>
-                    <a class="more-info-desktop" href="/upplysingar.html?hus=${value.husnr}&ibud=${value.ibudnr}"><i class="fa fa-eye"></i></a>    
+                    <a class="more-info" data-href="/upplysingar.html?hus=${value.husnr}&ibud=${value.ibudnr}"><i class="fa fa-eye"></i></a>
                 </td>
             </tr>`
 
             $('#apt-table tr:last').after(row);
 
         }
-        $(".more-info-desktop").hover(function(){
-            var img = $(this).parent().attr('data-img');
-            $("#sneakPeek img").attr('src', img);
-            $("#sneakPeek").fadeIn(500);
-        }, function(){
-            $("#sneakPeek").attr('style', 'display:none');
-        });
 
-        $(".more-info-mobile").click(function(){
+        $(".more-info").click(function(){
             var img = $(this).parent().attr('data-img');
             var src = $(this).attr('data-href');
-            $("#mobile-sneak img").attr('src', img);
-            $("#mobile-sneak a").attr('href', src);
-            $("#mobile-sneak").fadeIn(500);
+            $("#apt-view img").attr('src', img);
+            $("#apt-view a").attr('href', src);
+            $("#apt-view").fadeIn(500);
         })
     }).fail(function(){
         console.log("An error has occurred.");
@@ -58,12 +50,12 @@ $(document).ready(function() {
 
 $(document).mouseup(function(e)
 {
-    var container = $("#mobile-sneak");
+    var container = $("#apt-view");
 
     // if the target of the click isn't the container nor a descendant of the container
     if (!container.is(e.target) && container.has(e.target).length === 0)
     {
-        $("#mobile-sneak").attr('style', 'display:none');
+        $("#apt-view").attr('style', 'display:none');
     }
 });
 

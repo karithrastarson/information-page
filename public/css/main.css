@@ -859,9 +859,6 @@ a {
 
 
 @media only screen and (max-width: 769px) {
-    .more-info-desktop {
-        display:none;
-    }
     .wrapper-item {
         width:100%;
         padding: 0 5px 0 5px;
@@ -956,13 +953,7 @@ a {
 .rwd-table td {
     padding: .5em 1em;
 }
-.more-info-mobile {
-    display:inline-block;
-    cursor: pointer;
-}
-.more-info-desktop {
-    display:none;
-}
+
 
 @media screen and (max-width: 601px) {
     .rwd-table tr:nth-child(2) {
@@ -992,12 +983,6 @@ a {
     .rwd-table th,
     .rwd-table td {
         padding: 1em !important;
-    }
-    .more-info-mobile {
-        display:none;
-    }
-    .more-info-desktop {
-        display:block;
     }
 }
 
@@ -1089,28 +1074,13 @@ img[usemap] {
     width: 100%!important;
     height:100%!important;
 } */
-#sneakPeek {
-    position: fixed; /* Sit on top of the page content */
-    display:none;
-    width: 45%; /* Full width (cover the whole page) */
-    height: 70%; /* Full height (cover the whole page) */
-    top: 10%;
-    float:right;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-}
-#sneakPeek img {
-    border: 45px solid rgba(0,0,0,0.5);
-}
 
-#mobile-sneak {
+
+#apt-view {
     position: fixed; /* Sit on top of the page content */
     display:none;
     width: 100%; /* Full width (cover the whole page) */
-    height: 60%; /* Full height (cover the whole page) */
+    height: 80%; /* Full height (cover the whole page) */
     top: 5%;
     float:right;
     left: 0;
@@ -1120,7 +1090,7 @@ img[usemap] {
     cursor: pointer; /* Add a pointer on hover */
     background: rgba(0,0,0,0.5);
 }
-#mobile-sneak img {
+#apt-view img {
     max-width: 90%;
     max-height: 90%;
     width: auto;
@@ -1130,7 +1100,7 @@ img[usemap] {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-#mobile-sneak h1 {
+#apt-view h1 {
     position: absolute;
     background: #093028; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #093028, #237a57); /* Chrome 10-25, Safari 5.1-6 */
@@ -1140,4 +1110,9 @@ img[usemap] {
     right: 0;
     bottom: 0;
     margin-bottom:0;
+}
+
+.more-info {
+    display:inline-block;
+    cursor: pointer;
 }
