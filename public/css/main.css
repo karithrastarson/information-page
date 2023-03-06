@@ -72,6 +72,31 @@ TOP NAVIGATION STUFF BEGINS
     color: var(--white-text-colour);
 }
 
+.image-text-overlay {
+    position: relative;
+    text-align: center;
+}
+
+.image-text-overlay h1 {
+    background-color: var(--light-background);
+    padding: 1em 2em 1em 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 80%;
+    transform: translate(-50%, -50%);
+    /*fade in slow*/
+    -webkit-animation: fadeindelayed 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeindelayed 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadeindelayed 2s;
+    /* Internet Explorer */
+    -o-animation: fadeindelayed 2s;
+    /* Opera < 12.1 */
+    animation: fadeindelayed 2s;
+}
+
 .topnav {
     float: left;
     overflow: hidden;
@@ -224,7 +249,6 @@ img {
 }
 
 .wrapper-item-wide {
-    position: relative;
     max-height: 100vh;
     text-align: center;
     width: 100%;
@@ -477,7 +501,6 @@ fade-in-text {
     color: var(--white-text-colour);
     font-size: 14px;
     margin:2em;
-    cursor: pointer;
 }
 
 .button:hover {
@@ -851,26 +874,17 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
 .sales :hover {
     transform: scale(1.01);
 }
-#title {
+.title {
     display:none;
-    font-size: 12vw;
+    font-size: 76pt;
+    margin-top:20%;
     color: var(--white-text-colour);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
-#arrow {
+.arrow {
     display:none;
-    font-size: 3vw;
+    font-size: 76pt;
     color: var(--white-text-colour);
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
 }
-
 .arrow a {
     text-decoration: none;
     color: var(--white-text-colour);
@@ -884,14 +898,16 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
         max-height:65vh;
     }
     .wrapper-item-wide {
-        position:relative;
         padding: 0 5px 0 5px;
         max-height:65vh;
     }
     #mc_embed_signup {
         max-width: 100%;
     }
-
+    .title{
+        font-size: 50pt;
+        margin-top:35%;
+    }
     #floor-plan{
         max-width:90%;
     }
