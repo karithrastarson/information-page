@@ -895,11 +895,15 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
     .wrapper-item {
         width:100%;
         padding: 0 5px 0 5px;
-        max-height:65vh;
+        max-height:inherit;
+        margin-bottom: 0;
     }
     .wrapper-item-wide {
         padding: 0 5px 0 5px;
-        max-height:65vh;
+        max-height:inherit;
+    }
+    .wrapper-item-wide.lax-1.parallax{
+        height: 460px;
     }
     #mc_embed_signup {
         max-width: 100%;
