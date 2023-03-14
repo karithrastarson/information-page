@@ -12,11 +12,6 @@ $(document).ready(function() {
             $("#hraunhamar").hide();
             $("#borg").hide();
             break;
-        case "hraunhamar":
-            $("#hraunhamar").show();
-            $("#as").hide();
-            $("#borg").hide();
-            break;
         case "borg":
             $("#borg").show();
             $("#as").hide();
