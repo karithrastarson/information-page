@@ -947,9 +947,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
     background-color: #ebf3f9;
 }
 
-.rwd-table th {
-    display: none;
-}
+
 
 .rwd-table td {
     display: block;
@@ -995,6 +993,9 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
 @media screen and (max-width: 601px) {
     .rwd-table tr:nth-child(2) {
         border-top: none;
+    }
+    .rwd-table th {
+        display: none;
     }
 }
 @media screen and (min-width: 600px) {
