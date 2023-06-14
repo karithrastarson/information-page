@@ -974,7 +974,7 @@ cursor:pointer;
 
 
 /*Button styles*/
-button {
+.button {
     padding: 0px 20px 0px 20px;
     font-size: 20px;
     font-weight: bold;
