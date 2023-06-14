@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     /* Fetch query parameter to select real estate agent */
     var sala = getUrlParameter('sala');
     if (sala !== false){
@@ -9,22 +8,26 @@ $(document).ready(function() {
     switch(soluRedirect) {
         case "as":
             $("#as").show();
-            $("#hraunhamar").hide();
             $("#borg").hide();
+            $("#hraunhamar").hide();
             break;
         case "borg":
             $("#borg").show();
             $("#as").hide();
             $("#hraunhamar").hide();
             break;
+            case "hraunhamar":
+                $("#hraunhamar").show();
+                $("#borg").hide();
+                $("#as").hide();
+                break;
         default:
             $("#borg").show();
             $("#as").show();
-            $("#hraunhamar").show();
             break;
     }
 
-    /*Remove query parameter from page*/
+        /*Remove query parameter from page*/
     var uri = window.location.href.toString();
     if (uri.indexOf("?") > 0) {
         var clean_uri = uri.substring(0, uri.indexOf("?"));
@@ -41,20 +44,20 @@ $(document).ready(function() {
     }
 
     $(".title").fadeIn(3000);
-    $(".arrow").fadeIn(1000);
-
-    function fnBlink() {
-        $(".arrow").fadeOut(1000);
-        $(".arrow").fadeIn(1000);
+    $("#arrow").fadeIn(1000);
+  
+        function fnBlink() {
+      $("#arrow").fadeOut(1000);
+      $("#arrow").fadeIn(1000);
     }
     setInterval(fnBlink, 2000);
 });
 $ (function () {
     $ ('#arrow') .click(function () {
-        $ ('html, body') .animate ({
-            scrollTop: $ ("#post") .offset().top - 0.25*$("#post")[0].scrollHeight
-        }, 750);
-        return false;
+    $ ('html, body') .animate ({
+    scrollTop: $ ("#apt") .offset().top - 0.25*$("#apt")[0].scrollHeight
+    }, 1250);
+    return false;
     })
 });
 
