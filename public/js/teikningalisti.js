@@ -49,9 +49,10 @@ function updateTable(sort, desc) {
 
         for (var i = 0, len = data.length; i < len; i++) {
             var value = data[i];
+            var seld = (String(value.seld).toLowerCase() === "já");
             if ($('#herb' + value.herbergi).is(':checked') && $('#ashamar' + value.husnr).is(':checked')) {
                 var row = `
-            <tr class="apt-row" data-size="${Math.ceil(parseFloat(value.staerd))}">
+            <tr class="apt-row ${seld ? "seld" : ""}" data-size="${Math.ceil(parseFloat(value.staerd))}">
                 <td data-th="Íbúð">
                     ${value.husnr} - ${value.ibudnr}
                 </td>
@@ -68,10 +69,10 @@ function updateTable(sort, desc) {
                     ${value.staerd}
                 </td>
                 <td data-th="Verð">
-                    ${value.seld === "Já" ? "Seld" : value.verd}
+                    ${seld ? "Seld" : value.verd}
                 </td>
                 <td data-th="Nánar" data-img="media/images/floor-plans/${value.husnr}/${value.ibudnr}.jpg">
-                    <a class="more-info" data-href="upplysingar.html?hus=${value.husnr}&ibud=${value.ibudnr}"><i class="fa fa-eye"></i></a>
+                    <a class="more-info" data-href="upplysingar.html?hus=${value.husnr}&ibud=${value.ibudnr}"><i class="fa fa-eye ${seld ? "seld" : ""}"></i></a>
                 </td>
             </tr>`
 
@@ -85,6 +86,7 @@ function updateTable(sort, desc) {
                 $(this).parent().parent().toggleClass('highlight');
                 var src = $(this).attr('data-href');
                 $("#apt-view img").attr('src', img);
+                $("#apt-view img").attr('onclick', "location.href='"+img+"'");
                 $("#apt-view-details-button").attr('onClick', "location.href='" + src + "'");
                 $("#apt-view").css("display", "flex")
                     .hide()
@@ -173,6 +175,12 @@ var getUrlParameter = function getUrlParameter(sParam) {
     return false;
 };
 $(document).keydown(function (e) {
+    if (e.keyCode === 37) {
+        prevApt();
+    }
+    if (e.keyCode === 39) {
+        nextApt();
+    }
     //Arrow down
     if (e.keyCode === 40) {
         nextApt();

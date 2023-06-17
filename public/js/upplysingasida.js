@@ -8,14 +8,15 @@ $(document).ready(function() {
             if(value.ibudnr === ibudNr && value.husnr.toString() === husNr) {
                 /* Data point found */
                 found = true;
+                var seld = (String(value.seld).toLowerCase() === "já");
                 $("#floor-plan").attr('src', 'media/images/floor-plans/' +husNr + '/' + ibudNr+'.jpg');
-                $(".apt-name").text("Áshamar " + value.husnr +" - Íbúð " + value.ibudnr);
+                $(".apt-name").text("Áshamar " + value.husnr +" - Íbúð " + value.ibudnr + (seld ? " (SELD)":""));
                 $("#haed span").text(value.haed);
                 $("#hrb span").text(value.herbergi);
                 $("#geymsla span").text(value.geymsla);
                 $("#bilastaedi span").text(value.bilastaedi);
                 $("#staerd span").text(value.staerd);
-                $("#verd span").text(value.verd);
+                $("#verd span").text(seld ? "Seld" : value.verd);
                 break;
             }
         }

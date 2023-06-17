@@ -621,6 +621,13 @@ a {
     border-bottom: 1px solid #ddd;
     background-color: #f5f9fc;
 }
+.rwd-table .seld > *  {
+    background-color: red;
+    color: var(--white-text-colour);
+}
+.seld {
+    color: var(--white-text-colour);
+}
 
 .rwd-table td {
     display: block;
@@ -655,6 +662,7 @@ a {
 .rwd-table td {
     padding: .5em 1em;
 }
+
 
 a i {
     color: var(--main-text-colour);
@@ -699,12 +707,18 @@ img[usemap] {
     justify-content: space-between;
     align-items:center;
 }
-#apt-view img {
-    align-self:center;
+#apt-view-img {
     max-width: 80%;
     max-height: 80%;
     margin:10px 0px 10px 0;
-
+    display:flex;
+    align-self:center;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+#apt-view img {
 }
 #apt-view h1 {
     position: absolute;
@@ -1111,6 +1125,9 @@ MEDIA QUERIES
     .footer-info-box {
         max-width:100%;
     }
+}
+#skilalysing:hover{
+    cursor: pointer;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
