@@ -622,11 +622,17 @@ a {
     background-color: #f5f9fc;
 }
 .rwd-table .seld > *  {
-    background-color: red;
-    color: var(--white-text-colour);
+    background-color: red!important;
+    opacity: 60%;
+    color: var(--white-text-colour)!important;
 }
 .seld {
     color: var(--white-text-colour);
+}
+.rwd-table .ferli > *  {
+    background-color: yellow;
+    opacity: 60%;
+    color: var(--main-text-colour);
 }
 
 .rwd-table td {

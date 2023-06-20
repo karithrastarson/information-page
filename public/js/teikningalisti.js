@@ -50,9 +50,10 @@ function updateTable(sort, desc) {
         for (var i = 0, len = data.length; i < len; i++) {
             var value = data[i];
             var seld = (String(value.seld).toLowerCase() === "já");
+            var ferli = (value.ferli != null) ? "ferli" : ""; 
             if ($('#herb' + value.herbergi).is(':checked') && $('#ashamar' + value.husnr).is(':checked')) {
                 var row = `
-            <tr class="apt-row ${seld ? "seld" : ""}" data-size="${Math.ceil(parseFloat(value.staerd))}">
+            <tr class="apt-row ${seld ? "seld" : ""} ${ferli ? "ferli" : ""}" data-size="${Math.ceil(parseFloat(value.staerd))}">
                 <td data-th="Íbúð">
                     ${value.husnr} - ${value.ibudnr}
                 </td>
@@ -69,7 +70,7 @@ function updateTable(sort, desc) {
                     ${value.staerd}
                 </td>
                 <td data-th="Verð">
-                    ${seld ? "Seld" : value.verd}
+                    ${seld ? "Seld" : (value.ferli != null ? "Í ferli" : value.verd)}
                 </td>
                 <td data-th="Nánar" data-img="media/images/floor-plans/${value.husnr}/${value.ibudnr}.jpg">
                     <a class="more-info" data-href="upplysingar.html?hus=${value.husnr}&ibud=${value.ibudnr}"><i class="fa fa-eye ${seld ? "seld" : ""}"></i></a>

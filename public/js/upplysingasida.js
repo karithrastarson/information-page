@@ -10,13 +10,13 @@ $(document).ready(function() {
                 found = true;
                 var seld = (String(value.seld).toLowerCase() === "já");
                 $("#floor-plan").attr('src', 'media/images/floor-plans/' +husNr + '/' + ibudNr+'.jpg');
-                $(".apt-name").text("Áshamar " + value.husnr +" - Íbúð " + value.ibudnr + (seld ? " (SELD)":""));
+                $(".apt-name").text("Áshamar " + value.husnr +" - Íbúð " + value.ibudnr + (seld ? " (SELD)":(value.ferli != null ? " (Í söluferli)" : value.verd)));
                 $("#haed span").text(value.haed);
                 $("#hrb span").text(value.herbergi);
                 $("#geymsla span").text(value.geymsla);
                 $("#bilastaedi span").text(value.bilastaedi);
                 $("#staerd span").text(value.staerd);
-                $("#verd span").text(seld ? "Seld" : value.verd);
+                $("#verd span").text(seld ? "Seld" : (value.ferli != null ? "Í söluferli" : value.verd));
                 break;
             }
         }

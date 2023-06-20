@@ -316,7 +316,8 @@
     "geymsla": "9.8",
     "bilastaedi": "1",
     "verd": "78.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð undirritað"
   },
   {
     "husnr": 44,
@@ -338,7 +339,8 @@
     "geymsla": "4.5",
     "bilastaedi": "0",
     "verd": "49.9",
-    "seld": "Já"
+    "seld": "Nei",
+    "ferli": "Tilboð í ferli"
   },
   {
     "husnr": 44,
@@ -371,7 +373,8 @@
     "geymsla": "7.6",
     "bilastaedi": "1",
     "verd": "67.9",
-    "seld": "Já"
+    "seld": "Nei",
+    "ferli": "Tilboð í ferli"
   },
   {
     "husnr": 44,
@@ -382,7 +385,8 @@
     "geymsla": "4.5",
     "bilastaedi": "0",
     "verd": "49.9",
-    "seld": "Já"
+    "seld": "Nei",
+    "ferli": "Tilboð í ferli"
   },
   {
     "husnr": 44,
@@ -393,7 +397,8 @@
     "geymsla": "8.1",
     "bilastaedi": "0",
     "verd": "63.9",
-    "seld": "Já"
+    "seld": "Nei",
+    "ferli": "Tilboð í ferli"
   },
   {
     "husnr": 44,
@@ -459,7 +464,8 @@
     "geymsla": 7.6,
     "bilastaedi": "1",
     "verd": "69.9",
-    "seld": "Já"
+    "seld": "Nei",
+    "ferli": "Kauptilboð samþykkt"
   },
   {
     "husnr": 44,
@@ -503,7 +509,8 @@
     "geymsla": 23.5,
     "bilastaedi": "2 ",
     "verd": "96.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð  hefur borist"
   },
   {
     "husnr": 44,
