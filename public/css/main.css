@@ -351,9 +351,8 @@ fade-in-text {
 .sales {
     display: flex;
     flex-direction: row;
-    gap: 25%;
     cursor:pointer;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
 }
 
@@ -1047,6 +1046,13 @@ cursor:pointer;
 }
 /* End of button styles*/
 
+.frontpage-map {
+    width: 80%;
+    height: 600px;
+    margin:20px;
+    border:0;
+}
+
 /*
 MEDIA QUERIES
 */
@@ -1055,6 +1061,14 @@ MEDIA QUERIES
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 601px) {
+    .sales {
+        flex-direction: column;
+    }
+    .sales-item {
+        width: 100%;
+        margin-top: 20px;
+        padding:0;
+    }
     table {
         display: block;
         overflow-x: auto;
