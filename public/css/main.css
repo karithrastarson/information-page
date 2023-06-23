@@ -162,7 +162,7 @@ img {
     max-width: 100%;
 }
 #floor-plan{
-    max-width:480px;
+    max-width:500px;
 }
 
 
@@ -172,13 +172,30 @@ img {
 .wrapper {
     width: 100%;
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+.copy {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+    flex-direction: row;
+    margin:20px;
+    justify-content: space-evenly;
+}
+.copy img {
+    max-width:50%;
+    max-height:600px;
 }
 
 .wrapper-item {
     background-color: var(--light-background);
-    max-height: 100vh;
+    
     text-align: center;
     margin-bottom: 2em;
     flex-grow: 1;
@@ -324,8 +341,8 @@ fade-in-text {
 
 .apt {
     list-style: none;
-    padding: 25px 0 0;
-    margin: 0;
+    margin: 20px;
+    padding:0;
 }
 
 .apt-name {
@@ -338,6 +355,7 @@ fade-in-text {
     padding: 10px 20px;
     border-bottom: 1px dashed var(--light-background-highlight);
 }
+
 
 .apt li strong {
     width: 140px;
@@ -941,7 +959,13 @@ input:disabled{
   color: #666666;
 }
 .column {
+    display:flex;
     flex-direction: column;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
 }
 
 
@@ -1061,6 +1085,15 @@ MEDIA QUERIES
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 601px) {
+    .copy {
+        flex-direction: column;
+    }
+    .copy img {
+        max-width:80%;
+    }
+    .rev {
+        flex-direction: column-reverse;
+    }
     .sales {
         flex-direction: column;
     }
@@ -1115,9 +1148,7 @@ MEDIA QUERIES
         display:block;
     }
     .wrapper-item {
-        width:100%;
-        padding: 0 5px 0 5px;
-        max-height:inherit;
+        width:100%;        
         margin-bottom: 0;
     }
     .wrapper-item-wide {
