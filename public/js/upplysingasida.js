@@ -10,7 +10,7 @@ $(document).ready(function() {
                 found = true;
                 var seld = (String(value.seld).toLowerCase() === "já");
                 $("#floor-plan").attr('src', 'media/images/floor-plans/' +husNr + '/' + ibudNr+'.jpg');
-                $(".apt-name").text("Áshamar " + value.husnr +" - Íbúð " + value.ibudnr + (seld ? " (SELD)":(value.ferli != null ? " (í söluferli)" : value.verd)));
+                $(".apt-name").text("Áshamar " + value.husnr +" - Íbúð " + value.ibudnr + (seld ? " (SELD)":(value.ferli != null ? " (í söluferli)" : "")));
                 $("#haed span").text(value.haed);
                 $("#hrb span").text(value.herbergi);
                 $("#geymsla span").text(value.geymsla);
