@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     /* Fetch query parameter to select real estate agent */
     var sala = getUrlParameter('sala');
     if (sala !== false){
@@ -51,6 +52,7 @@ $(document).ready(function() {
       $("#arrow").fadeIn(1000);
     }
     setInterval(fnBlink, 2000);
+    updateImageMap();
 });
 $ (function () {
     $ ('#arrow') .click(function () {
@@ -77,3 +79,12 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
     return false;
 };
+
+function updateImageMap() {
+    $.getJSON("image-map.json", function (mapdata) {
+            ImageMapPro.init('#image-map-pro', mapdata);        
+    }
+    ).fail(function () {
+        console.log("An error has occurred loading image map");
+    });
+}

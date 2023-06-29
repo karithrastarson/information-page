@@ -592,7 +592,6 @@ a {
     color: var(--white-text-colour)
 }
 
-
 .sales :hover {
     transform: scale(1.01);
 }
@@ -647,8 +646,8 @@ a {
     color: var(--white-text-colour);
 }
 .rwd-table .ferli > *  {
-    background-color: yellow;
-    opacity: 60%;
+    background-color: rgb(255, 254, 0);
+    opacity: 100%;
     color: var(--main-text-colour);
 }
 
@@ -1096,6 +1095,10 @@ MEDIA QUERIES
     }
     .sales {
         flex-direction: column;
+        margin:20px;
+    }
+    .sales img {
+        max-width:80%;
     }
     .sales-item {
         width: 100%;
@@ -1194,6 +1197,6 @@ MEDIA QUERIES
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1600px) {
     .parallax {
-    background-attachment: fixed!important;
-    }
+        background-attachment: fixed!important;
+        }
 }
