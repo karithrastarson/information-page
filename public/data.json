@@ -352,7 +352,8 @@
     "geymsla": "4.3",
     "bilastaedi": "0",
     "verd": "43.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð móttekið"
   },
   {
     "husnr": 44,
@@ -421,7 +422,8 @@
     "geymsla": 7.6,
     "bilastaedi": "1",
     "verd": "68.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð móttekið"
   },
   {
     "husnr": 44,
@@ -444,7 +446,8 @@
     "geymsla": 7.5,
     "bilastaedi": "1",
     "verd": "65.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð móttekið"
   },
   {
     "husnr": 44,
@@ -500,8 +503,8 @@
     "herbergi": 4,
     "staerd": 115,
     "geymsla": 18.6,
-    "bilastaedi": "1",
-    "verd": "86.9",
+    "bilastaedi": "2",
+    "verd": "91.9",
     "seld": "Nei"
   },
   {
