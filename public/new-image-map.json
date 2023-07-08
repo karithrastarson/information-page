@@ -1,0 +1,5629 @@
+{
+  "id": "e7387b2f-a952-4c8a-aa51-3f8a9803db6f",
+  "fullscreen": {
+    "enable_fullscreen_mode": true
+  },
+  "zooming": {
+    "enable_zooming": true,
+    "enable_navigator": false
+  },
+  "artboards": [
+    {
+      "id": "c2a8a141-2628-4c8c-aaa5-cc168500ecf7",
+      "title": "Suðurhlið",
+      "background_type": "image",
+      "image_url": "media/images/render-aerial-web3.jpg",
+      "width": 802.8571428571428,
+      "height": 600,
+      "children": [
+        {
+          "id": "1ef73a6f-3b8b-4765-a44c-9e8c3c95d7fb",
+          "title": "48",
+          "type": "poly",
+          "x": 59.72169757882335,
+          "y": 27.53447623127052,
+          "width": 16.756962633959333,
+          "height": 17.999998484644525,
+          "default_style": {
+            "opacity": 0
+          },
+          "mouseover_style": {
+            "background_opacity": 0.4103666162764141
+          },
+          "tooltip_content": [
+            {
+              "type": "Heading",
+              "text": "Áshamar 48",
+              "heading": "h3",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 20.8,
+                "lineHeight": "normal",
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "41a811d6-c17a-437f-b2c1-1f2161b80b62"
+            },
+            {
+              "type": "Paragraph",
+              "text": "Fer í sölu síðar",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 14,
+                "lineHeight": 22,
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "463e2bca-cec5-460e-b86d-d33cfbfe6ee4"
+            }
+          ],
+          "x_image_background": 59.72169757882335,
+          "y_image_background": 27.53447623127052,
+          "points": [
+            {
+              "x": 30.91118800461361,
+              "y": 0
+            },
+            {
+              "x": 9.457900807381776,
+              "y": 16.666666666666664
+            },
+            {
+              "x": 8.535178777393309,
+              "y": 27.298850574712645
+            },
+            {
+              "x": 1.0380622837370241,
+              "y": 34.339080459770116
+            },
+            {
+              "x": 0,
+              "y": 68.82183908045977
+            },
+            {
+              "x": 54.325259515570934,
+              "y": 93.67816091954023
+            },
+            {
+              "x": 54.67128027681662,
+              "y": 95.54597701149426
+            },
+            {
+              "x": 70.81891580161476,
+              "y": 100
+            },
+            {
+              "x": 83.39100346020761,
+              "y": 88.50574712643679
+            },
+            {
+              "x": 87.42791234140715,
+              "y": 90.22988505747126
+            },
+            {
+              "x": 95.27104959630911,
+              "y": 80.31609195402298
+            },
+            {
+              "x": 99.07727797001154,
+              "y": 41.09195402298851
+            },
+            {
+              "x": 97.57785467128028,
+              "y": 40.660919540229884
+            },
+            {
+              "x": 100,
+              "y": 19.82758620689655
+            },
+            {
+              "x": 48.904267589388695,
+              "y": 0.8620689655172413
+            },
+            {
+              "x": 43.82929642445214,
+              "y": 5.172413793103448
+            }
+          ]
+        },
+        {
+          "id": "07d53bca-c391-400f-b07e-be61e3f370f6",
+          "title": "46",
+          "type": "poly",
+          "x": 48.70500698264748,
+          "y": 38.55171668307881,
+          "width": 20.177934244352407,
+          "height": 20.715515497414174,
+          "default_style": {
+            "opacity": 0
+          },
+          "mouseover_style": {
+            "opacity": 0.5334767593497977,
+            "background_color": "#28ff00"
+          },
+          "tooltip_content": [
+            {
+              "type": "Heading",
+              "text": "Áshamar 46",
+              "heading": "h3",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 20.8,
+                "lineHeight": "normal",
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "9568b59d-4b33-4aee-a526-a3f3c285e92b"
+            },
+            {
+              "type": "Paragraph",
+              "text": "Komin í sölu",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 14,
+                "lineHeight": 22,
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "3e12923d-1c86-4a76-9e46-51118a95de33"
+            }
+          ],
+          "actions": {
+            "click": "change-artboard",
+            "link": "/teikningar.html?hus=46",
+            "artboard": "6dbecefd-d1cc-4f9a-bdf7-cffef8fa24dd"
+          },
+          "x_image_background": 48.70500698264748,
+          "y_image_background": 38.55171668307881,
+          "points": [
+            {
+              "x": 0,
+              "y": 24.21972534332085
+            },
+            {
+              "x": 1.532567049808429,
+              "y": 65.66791510611736
+            },
+            {
+              "x": 24.42528735632184,
+              "y": 79.40074906367042
+            },
+            {
+              "x": 27.011494252873565,
+              "y": 76.2796504369538
+            },
+            {
+              "x": 66.0919540229885,
+              "y": 100
+            },
+            {
+              "x": 78.44827586206897,
+              "y": 84.01997503121099
+            },
+            {
+              "x": 88.69731800766284,
+              "y": 90.76154806491886
+            },
+            {
+              "x": 98.18007662835248,
+              "y": 77.27840199750312
+            },
+            {
+              "x": 100,
+              "y": 28.58926342072409
+            },
+            {
+              "x": 44.827586206896555,
+              "y": 1.6229712858926344
+            },
+            {
+              "x": 39.6551724137931,
+              "y": 6.242197253433209
+            },
+            {
+              "x": 27.969348659003828,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "id": "9de4f798-38e4-4573-9353-c18001979024",
+          "title": "42",
+          "type": "poly",
+          "x": 29.337093436136463,
+          "y": 26.713789690414885,
+          "width": 25.550985700224018,
+          "height": 29.327583767304866,
+          "default_style": {
+            "opacity": 0,
+            "background_color": "#28ff00"
+          },
+          "mouseover_style": {
+            "opacity": 0.4168460974908027
+          },
+          "tooltip_content": [
+            {
+              "type": "Heading",
+              "text": "Áshamar 42",
+              "heading": "h3",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 20.8,
+                "lineHeight": "normal",
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "748bd3bf-bf7d-4a7f-9e93-141bf47aa165"
+            },
+            {
+              "type": "Paragraph",
+              "text": "Fer í sölu síðar",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 14,
+                "lineHeight": 22,
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "d9eb5053-f769-4bda-a3a6-2a0e79ed149f"
+            }
+          ],
+          "x_image_background": 29.337093436136463,
+          "y_image_background": 26.817237964099718,
+          "points": [
+            {
+              "x": 5.295007564296517,
+              "y": 89.24162250778777
+            },
+            {
+              "x": 0,
+              "y": 48.85361549359169
+            },
+            {
+              "x": 79.1225368347455,
+              "y": 0
+            },
+            {
+              "x": 100,
+              "y": 8.465608479395605
+            },
+            {
+              "x": 99.84871406959151,
+              "y": 39.32980597932711
+            },
+            {
+              "x": 22.390312633513158,
+              "y": 100
+            }
+          ]
+        },
+        {
+          "id": "b78f344b-9417-4c05-9a77-6c98bb38d730",
+          "title": "44",
+          "type": "poly",
+          "x": 33.85772373478626,
+          "y": 50.40495033801267,
+          "width": 25.724933406742963,
+          "height": 31.241376699840202,
+          "default_style": {
+            "opacity": 0
+          },
+          "mouseover_style": {
+            "background_color": "#28ff00",
+            "background_opacity": 0.40388713506202556
+          },
+          "tooltip_content": [
+            {
+              "type": "Heading",
+              "text": "Áshamar 44",
+              "heading": "h3",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 20.8,
+                "lineHeight": "normal",
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "4177f689-8429-438a-b155-5b2eb50ba63f"
+            },
+            {
+              "type": "Paragraph",
+              "text": "Komin í sölu",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 14,
+                "lineHeight": 22,
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "c869ada4-43ba-482e-b4c3-1d295f22a504"
+            }
+          ],
+          "actions": {
+            "click": "change-artboard",
+            "artboard": "default-id"
+          },
+          "x_image_background": 34.07032648775032,
+          "y_image_background": 50.40495033801267,
+          "points": [
+            {
+              "x": 34.48534935505609,
+              "y": 0
+            },
+            {
+              "x": 3.681442515116847,
+              "y": 22.35099336346453
+            },
+            {
+              "x": 4.132231395701322,
+              "y": 27.317880777567755
+            },
+            {
+              "x": 2.7798647539478956,
+              "y": 29.470198657012492
+            },
+            {
+              "x": 6.836964679208178,
+              "y": 59.76821188304219
+            },
+            {
+              "x": 0,
+              "y": 64.65231788728492
+            },
+            {
+              "x": 13.749060851681552,
+              "y": 74.99999997386595
+            },
+            {
+              "x": 19.45905333557353,
+              "y": 69.53642379744522
+            },
+            {
+              "x": 26.97220134531481,
+              "y": 74.83443703915532
+            },
+            {
+              "x": 23.816679181223453,
+              "y": 78.47682114283101
+            },
+            {
+              "x": 30.578512389990614,
+              "y": 83.27814564313081
+            },
+            {
+              "x": 38.2419536172387,
+              "y": 76.076008438111
+            },
+            {
+              "x": 51.840721261947685,
+              "y": 85.26490064013295
+            },
+            {
+              "x": 47.107438011421415,
+              "y": 90.72847676428565
+            },
+            {
+              "x": 60.631106797275194,
+              "y": 100
+            },
+            {
+              "x": 79.56423800558358,
+              "y": 79.13907279804475
+            },
+            {
+              "x": 88.88054094558291,
+              "y": 84.76821186736177
+            },
+            {
+              "x": 98.49737099013161,
+              "y": 73.6754966947993
+            },
+            {
+              "x": 94.89105935337591,
+              "y": 71.85430459069337
+            },
+            {
+              "x": 99.84973703980519,
+              "y": 66.72185426278674
+            },
+            {
+              "x": 97.44552967668795,
+              "y": 65.72847677996607
+            },
+            {
+              "x": 98.64763335824658,
+              "y": 62.913907245307584
+            },
+            {
+              "x": 100,
+              "y": 26.324503294747114
+            },
+            {
+              "x": 50.86401201629206,
+              "y": 1.3245033104275354
+            },
+            {
+              "x": 43.80165288713525,
+              "y": 5.298013241710119
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3ef21fff-39f6-41f6-9811-2f629d4bc70e",
+      "title": "Vesturhlið",
+      "background_type": "image",
+      "image_url": "media/images/render-aerial-web2.jpg",
+      "width": 802.8571428571428,
+      "height": 600,
+      "children": [
+        {
+          "id": "56a66c65-a187-4a6f-97db-0375f3a24fac",
+          "title": "48",
+          "type": "poly",
+          "x": 31.98644539993407,
+          "y": 17.120688213842925,
+          "width": 15.848569042499015,
+          "height": 18.98275702259925,
+          "default_style": {
+            "opacity": 0
+          },
+          "mouseover_style": {
+            "background_opacity": 0.4103666162764141
+          },
+          "tooltip_content": [
+            {
+              "type": "Heading",
+              "text": "Áshamar 48",
+              "heading": "h3",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 20.8,
+                "lineHeight": "normal",
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "849ce8d5-7700-4dda-a033-85cb6f92de0b"
+            },
+            {
+              "type": "Paragraph",
+              "text": "Fer í sölu síðar",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 14,
+                "lineHeight": 22,
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "d0fe0e66-4f38-4788-bd12-2c49b2314813"
+            }
+          ],
+          "x_image_background": 31.98644539993407,
+          "y_image_background": 17.120688213842925,
+          "points": [
+            {
+              "x": 0,
+              "y": 21.798365122615802
+            },
+            {
+              "x": 4.390243902439024,
+              "y": 71.93460490463215
+            },
+            {
+              "x": 33.90243902439025,
+              "y": 100
+            },
+            {
+              "x": 61.21951219512195,
+              "y": 92.09809264305177
+            },
+            {
+              "x": 60.97560975609756,
+              "y": 80.10899182561307
+            },
+            {
+              "x": 76.58536585365854,
+              "y": 74.93188010899182
+            },
+            {
+              "x": 74.8780487804878,
+              "y": 68.93732970027247
+            },
+            {
+              "x": 100,
+              "y": 60.76294277929155
+            },
+            {
+              "x": 99.26829268292683,
+              "y": 27.520435967302454
+            },
+            {
+              "x": 81.95121951219512,
+              "y": 16.076294277929154
+            },
+            {
+              "x": 81.21951219512195,
+              "y": 8.991825613079019
+            },
+            {
+              "x": 67.07317073170732,
+              "y": 0
+            },
+            {
+              "x": 11.951219512195122,
+              "y": 14.441416893732969
+            },
+            {
+              "x": 15.853658536585366,
+              "y": 18.52861035422343
+            }
+          ]
+        },
+        {
+          "id": "b747637e-0f74-4bbe-b411-7a3b44c3d173",
+          "title": "46",
+          "type": "poly",
+          "x": 42.036757844308404,
+          "y": 25.913790921858926,
+          "width": 18.709042479437855,
+          "height": 21.51723956785093,
+          "default_style": {
+            "opacity": 0
+          },
+          "mouseover_style": {
+            "background_color": "#28ff00",
+            "background_opacity": 0.4103666162764141
+          },
+          "tooltip_content": [
+            {
+              "type": "Heading",
+              "text": "Áshamar 46",
+              "heading": "h3",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 20.8,
+                "lineHeight": "normal",
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "531872d0-7f01-4b34-bf5d-6005d64aa6c1"
+            },
+            {
+              "type": "Paragraph",
+              "text": "Komin í sölu",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 14,
+                "lineHeight": 22,
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "9e8160c8-3376-4fab-8136-fcce5d268a48"
+            }
+          ],
+          "actions": {
+            "click": "change-artboard",
+            "link": "/teikningar.html?hus=46",
+            "artboard": "6dbecefd-d1cc-4f9a-bdf7-cffef8fa24dd"
+          },
+          "x_image_background": 42.036757844308404,
+          "y_image_background": 25.913790921858926,
+          "points": [
+            {
+              "x": 0,
+              "y": 29.086538461538463
+            },
+            {
+              "x": 1.2396694214876034,
+              "y": 72.59615384615384
+            },
+            {
+              "x": 32.231404958677686,
+              "y": 100
+            },
+            {
+              "x": 90.08264462809917,
+              "y": 68.02884615384616
+            },
+            {
+              "x": 89.87603305785123,
+              "y": 63.70192307692307
+            },
+            {
+              "x": 98.34710743801654,
+              "y": 59.13461538461539
+            },
+            {
+              "x": 100,
+              "y": 21.875
+            },
+            {
+              "x": 78.71900826446281,
+              "y": 11.778846153846153
+            },
+            {
+              "x": 82.85123966942149,
+              "y": 9.375
+            },
+            {
+              "x": 68.38842975206612,
+              "y": 0
+            },
+            {
+              "x": 9.917355371900827,
+              "y": 20.673076923076923
+            },
+            {
+              "x": 15.082644628099173,
+              "y": 25
+            }
+          ]
+        },
+        {
+          "id": "1947b393-07f9-4858-9c22-8fe37bcda094",
+          "title": "44",
+          "type": "poly",
+          "x": 58.19456843802677,
+          "y": 31.55172148170448,
+          "width": 21.724136102157196,
+          "height": 31.034480145938833,
+          "default_style": {
+            "opacity": 0
+          },
+          "mouseover_style": {
+            "background_color": "#28ff00",
+            "background_opacity": 0.4751614284203002
+          },
+          "tooltip_content": [
+            {
+              "type": "Heading",
+              "text": "Áshamar 44",
+              "heading": "h3",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 20.8,
+                "lineHeight": "normal",
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "e8dfb6a3-acc8-4669-9a9c-b8b6e79f4c9c"
+            },
+            {
+              "type": "Paragraph",
+              "text": "Íbúðir komnar í sölu",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 14,
+                "lineHeight": 22,
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "c0a3889f-9569-438a-8dc4-11c7b4a0d788"
+            }
+          ],
+          "actions": {
+            "click": "change-artboard",
+            "artboard": "default-id"
+          },
+          "x_image_background": 58.19456843802677,
+          "y_image_background": 31.55172148170448,
+          "points": [
+            {
+              "x": 2.3131672597864767,
+              "y": 25.833333333333336
+            },
+            {
+              "x": 0,
+              "y": 71.33333333333334
+            },
+            {
+              "x": 41.10320284697509,
+              "y": 100
+            },
+            {
+              "x": 98.75444839857651,
+              "y": 66.5
+            },
+            {
+              "x": 100,
+              "y": 27.333333333333332
+            },
+            {
+              "x": 79.8932384341637,
+              "y": 17.666666666666668
+            },
+            {
+              "x": 80.2491103202847,
+              "y": 7.833333333333334
+            },
+            {
+              "x": 61.032028469750884,
+              "y": 0
+            },
+            {
+              "x": 8.718861209964412,
+              "y": 18.5
+            },
+            {
+              "x": 12.811387900355871,
+              "y": 22.666666666666664
+            }
+          ]
+        },
+        {
+          "id": "ba151975-5b0b-4caa-908e-12fc9f13ae39",
+          "title": "42",
+          "type": "poly",
+          "x": 20.66231377990021,
+          "y": 27.623074014760068,
+          "width": 26.324086629126406,
+          "height": 38.53447951454072,
+          "default_style": {
+            "opacity": 0
+          },
+          "mouseover_style": {
+            "opacity": 0.43628454113396853,
+            "background_opacity": 0.5593946842073522
+          },
+          "tooltip_content": [
+            {
+              "type": "Heading",
+              "text": "Áshamar 42",
+              "heading": "h3",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 20.8,
+                "lineHeight": "normal",
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "d97170f3-d01a-4abf-8c37-40a22940c29b"
+            },
+            {
+              "type": "Paragraph",
+              "text": "Fer í sölu síðar",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 14,
+                "lineHeight": 22,
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "f753b3ad-fe88-4b90-b5de-15aa1f0de754"
+            }
+          ],
+          "x_image_background": 20.66231377990021,
+          "y_image_background": 27.623074014760068,
+          "points": [
+            {
+              "x": 2.3494860499265786,
+              "y": 6.0402684563758395
+            },
+            {
+              "x": 2.7900146842878124,
+              "y": 10.335570469798657
+            },
+            {
+              "x": 0,
+              "y": 10.738255033557047
+            },
+            {
+              "x": 3.2305433186490458,
+              "y": 37.718120805369125
+            },
+            {
+              "x": 50.80763582966226,
+              "y": 87.6510067114094
+            },
+            {
+              "x": 55.21292217327459,
+              "y": 86.57718120805369
+            },
+            {
+              "x": 69.01615271659325,
+              "y": 100
+            },
+            {
+              "x": 100,
+              "y": 87.51677852348993
+            },
+            {
+              "x": 97.94419970631424,
+              "y": 46.577181208053695
+            },
+            {
+              "x": 29.368575624082233,
+              "y": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Áshamar 44",
+      "background_type": "image",
+      "image_url": "media/images/44_1_haed-combi_south.jpg",
+      "width": 800,
+      "height": 770.6844895137128,
+      "children": [
+        {
+          "id": "c9f81cb1-818e-4bab-8e3b-93d00ea094bf",
+          "title": "0501",
+          "type": "group",
+          "children": [
+            {
+              "id": "4540df06-5ed2-4b75-8dde-6f7bf6e69b07",
+              "title": "501-s",
+              "type": "poly",
+              "x": 92.60201533064108,
+              "y": 81.32462020771987,
+              "width": 6.941025098089128,
+              "height": 14.586205668591262,
+              "parent_id": "c9f81cb1-818e-4bab-8e3b-93d00ea094bf",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 92.60201533064108,
+              "y_image_background": 81.32462020771987,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 18.79432624113475
+                },
+                {
+                  "x": 0,
+                  "y": 99.822695035461
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 0.3546099290780142
+                },
+                {
+                  "x": 26.82926829268293,
+                  "y": 0
+                },
+                {
+                  "x": 27.177700348432055,
+                  "y": 18.79432624113475
+                }
+              ]
+            },
+            {
+              "id": "1924ec25-54e0-42ba-b821-eb98f6048e41",
+              "title": "501-i",
+              "type": "poly",
+              "x": 66.03446402939477,
+              "y": 23.999997907677283,
+              "width": 9.383685498461972,
+              "height": 11.896550794458634,
+              "parent_id": "c9f81cb1-818e-4bab-8e3b-93d00ea094bf",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 66.03446402939477,
+              "y_image_background": 25.137928918210456,
+              "points": [
+                {
+                  "x": 0.25773195876293575,
+                  "y": 43.91304381699581
+                },
+                {
+                  "x": 0,
+                  "y": 83.4782609693476
+                },
+                {
+                  "x": 25.000000000000078,
+                  "y": 93.04347839896552
+                },
+                {
+                  "x": 29.381443298969074,
+                  "y": 90.86956527253423
+                },
+                {
+                  "x": 54.896907216494874,
+                  "y": 100
+                },
+                {
+                  "x": 92.0103092783505,
+                  "y": 72.82608712063748
+                },
+                {
+                  "x": 91.49484536082478,
+                  "y": 59.56521763550864
+                },
+                {
+                  "x": 77.57731958762898,
+                  "y": 55.4347828778455
+                },
+                {
+                  "x": 98.9690714048995,
+                  "y": 37.826087304566535
+                },
+                {
+                  "x": 100,
+                  "y": 0
+                },
+                {
+                  "x": 64.9484536082474,
+                  "y": 26.521739574203835
+                },
+                {
+                  "x": 25.773195876288728,
+                  "y": 55.00000027177572
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0501",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "bb1e7e18-f9fd-49f5-800f-d08530164d0c",
+          "title": "0401",
+          "type": "group",
+          "children": [
+            {
+              "id": "48779aa5-9838-436a-b01b-414d727a69ab",
+              "title": "401-s",
+              "type": "poly",
+              "x": 71.70638576705564,
+              "y": 80.9884133394722,
+              "width": 6.9168403416498165,
+              "height": 14.715516002532667,
+              "parent_id": "bb1e7e18-f9fd-49f5-800f-d08530164d0c",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 71.70638576705564,
+              "y_image_background": 80.9884133394722,
+              "points": [
+                {
+                  "x": 0.34965034965034963,
+                  "y": 19.85940246045694
+                },
+                {
+                  "x": 0,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 0.35149384885764495
+                },
+                {
+                  "x": 24.475524475524477,
+                  "y": 0
+                },
+                {
+                  "x": 25.174825174825177,
+                  "y": 20.738137082601053
+                }
+              ]
+            },
+            {
+              "id": "e2c65e3a-1726-4cc2-9fdd-25ee95e5e31b",
+              "title": "401-i",
+              "type": "poly",
+              "x": 65.81680117864839,
+              "y": 32.50861795287093,
+              "width": 9.407870297693691,
+              "height": 7.060344233201086,
+              "parent_id": "bb1e7e18-f9fd-49f5-800f-d08530164d0c",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 65.88935549075876,
+              "y_image_background": 32.50861795287093,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 19.047618631312588
+                },
+                {
+                  "x": 0.7712086775702705,
+                  "y": 71.06227106227104
+                },
+                {
+                  "x": 26.992288401437637,
+                  "y": 86.44688653939896
+                },
+                {
+                  "x": 31.876606993668688,
+                  "y": 83.51648351648355
+                },
+                {
+                  "x": 57.06940893563278,
+                  "y": 100
+                },
+                {
+                  "x": 92.28791777286821,
+                  "y": 53.84615384615387
+                },
+                {
+                  "x": 98.71465296214475,
+                  "y": 45.78754578754583
+                },
+                {
+                  "x": 100,
+                  "y": 0
+                },
+                {
+                  "x": 93.31619540315235,
+                  "y": 3.6630036630036584
+                },
+                {
+                  "x": 57.326478343203746,
+                  "y": 49.816849816849796
+                },
+                {
+                  "x": 32.64781521638187,
+                  "y": 33.33333333333333
+                },
+                {
+                  "x": 27.249357657389616,
+                  "y": 35.53113553113557
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0401",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "24d24f71-4afe-44ed-8ea8-299d6a5ed0b0",
+          "title": "0301",
+          "type": "group",
+          "children": [
+            {
+              "id": "29b00e56-a08f-44ac-a4b0-cd95c449e9e7",
+              "title": "301-s",
+              "type": "poly",
+              "x": 52.11673600343507,
+              "y": 80.9884133394722,
+              "width": 6.844286072331805,
+              "height": 14.66379186895611,
+              "parent_id": "24d24f71-4afe-44ed-8ea8-299d6a5ed0b0",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 52.11673600343507,
+              "y_image_background": 80.9884133394722,
+              "points": [
+                {
+                  "x": 1.0600706713780919,
+                  "y": 19.929453262786595
+                },
+                {
+                  "x": 0,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 99.82363315696648
+                },
+                {
+                  "x": 99.29328621908127,
+                  "y": 0
+                },
+                {
+                  "x": 25.4416961130742,
+                  "y": 0.5291005291005291
+                },
+                {
+                  "x": 26.148409893992934,
+                  "y": 20.98765432098765
+                }
+              ]
+            },
+            {
+              "id": "532cbe69-fa66-4c83-a56c-29627bf51cb1",
+              "title": "301-i",
+              "type": "poly",
+              "x": 65.86517073431943,
+              "y": 36.05172110286561,
+              "width": 9.311131229143967,
+              "height": 7.0344821729445,
+              "parent_id": "24d24f71-4afe-44ed-8ea8-299d6a5ed0b0",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 65.86517073431943,
+              "y_image_background": 36.05172110286561,
+              "points": [
+                {
+                  "x": 0.7792207792207753,
+                  "y": 21.6911760326104
+                },
+                {
+                  "x": 0,
+                  "y": 72.05882346250326
+                },
+                {
+                  "x": 26.233766233766204,
+                  "y": 87.50000010445923
+                },
+                {
+                  "x": 29.610389610389614,
+                  "y": 81.98529404152154
+                },
+                {
+                  "x": 55.32467486509247,
+                  "y": 100
+                },
+                {
+                  "x": 91.68831168831163,
+                  "y": 54.04411759687739
+                },
+                {
+                  "x": 98.70129870129875,
+                  "y": 31.617647029465733
+                },
+                {
+                  "x": 100,
+                  "y": 0
+                },
+                {
+                  "x": 91.16882994327676,
+                  "y": 5.8823529357145885
+                },
+                {
+                  "x": 57.92207792207799,
+                  "y": 50.735294070537996
+                },
+                {
+                  "x": 31.948051948051937,
+                  "y": 33.82352938035863
+                },
+                {
+                  "x": 27.272727272727288,
+                  "y": 36.397058789733826
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0301",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "f89297e4-dc7a-4f0e-9442-22b6e8d4c916",
+          "title": "0201",
+          "type": "group",
+          "children": [
+            {
+              "id": "a5637ee2-e274-4a37-a5e7-729a7d7242b6",
+              "title": "201-s",
+              "type": "poly",
+              "x": 30.664856303684733,
+              "y": 80.93668920589565,
+              "width": 6.965209854528478,
+              "height": 14.844826622236141,
+              "parent_id": "f89297e4-dc7a-4f0e-9442-22b6e8d4c916",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 30.664856303684733,
+              "y_image_background": 80.93668920589565,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 19.512194746342594
+                },
+                {
+                  "x": 0.3472222222222373,
+                  "y": 99.6515660259638
+                },
+                {
+                  "x": 98.61110865361935,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 0
+                },
+                {
+                  "x": 25.00000000000001,
+                  "y": 0.17421602452088697
+                },
+                {
+                  "x": 25.00000000000001,
+                  "y": 20.209058844426238
+                }
+              ]
+            },
+            {
+              "id": "fda760d9-22be-40b4-9df5-50e378cff153",
+              "title": "201-i",
+              "type": "poly",
+              "x": 65.91354016161337,
+              "y": 41.04309997340899,
+              "width": 8.319556300715973,
+              "height": 5.482758178710981,
+              "parent_id": "f89297e4-dc7a-4f0e-9442-22b6e8d4c916",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 65.96190976007676,
+              "y_image_background": 41.120686193368954,
+              "points": [
+                {
+                  "x": 0.581396371573719,
+                  "y": 52.8301888478279
+                },
+                {
+                  "x": 60.75581435720008,
+                  "y": 100
+                },
+                {
+                  "x": 99.70930232857181,
+                  "y": 38.6792455021763
+                },
+                {
+                  "x": 100,
+                  "y": 10.377358810873112
+                },
+                {
+                  "x": 87.79069780001791,
+                  "y": 1.4150946919603584
+                },
+                {
+                  "x": 61.91860504291272,
+                  "y": 37.26415116761112
+                },
+                {
+                  "x": 33.72093091438242,
+                  "y": 15.094339926090312
+                },
+                {
+                  "x": 29.36046584296025,
+                  "y": 19.339622929785737
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0201",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "7ed0d4ac-e0f0-4c2c-8819-8cf9fccc94d4",
+          "title": "0101",
+          "type": "group",
+          "children": [
+            {
+              "id": "0dfcfc93-0655-4e92-96fc-5aeae79d3528",
+              "title": "101-s",
+              "type": "poly",
+              "x": 10.791709500859168,
+              "y": 81.27150698522702,
+              "width": 6.989394610967812,
+              "height": 14.327584995809644,
+              "parent_id": "7ed0d4ac-e0f0-4c2c-8819-8cf9fccc94d4",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 10.791709500859168,
+              "y_image_background": 81.45254146580841,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 19.675090350611416
+                },
+                {
+                  "x": 27.33563932207886,
+                  "y": 18.050541476828947
+                },
+                {
+                  "x": 28.02768166089965,
+                  "y": 0.3610108646396307
+                },
+                {
+                  "x": 97.57785324270375,
+                  "y": 0
+                },
+                {
+                  "x": 100,
+                  "y": 98.73646203644539
+                },
+                {
+                  "x": 0.34602055716331753,
+                  "y": 100
+                }
+              ]
+            },
+            {
+              "id": "23509115-a61f-4d37-adf9-7f9c308fb346",
+              "title": "101-i",
+              "type": "poly",
+              "x": 65.89507087199632,
+              "y": 44.02608666435102,
+              "width": 8.89999052658061,
+              "height": 6.362068483804023,
+              "parent_id": "7ed0d4ac-e0f0-4c2c-8819-8cf9fccc94d4",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 66.13691859329501,
+              "y_image_background": 44.69850045473292,
+              "points": [
+                {
+                  "x": 0.5434787321016828,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 61.38211414823079
+                },
+                {
+                  "x": 50.27174000713559,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 23.983740481254205
+                },
+                {
+                  "x": 78.80434707786434,
+                  "y": 8.536586012213498
+                },
+                {
+                  "x": 57.880434563542295,
+                  "y": 40.24390289382383
+                },
+                {
+                  "x": 32.065217627355906,
+                  "y": 20.73170783447413
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0101",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "3285a547-9f6c-4ae6-bfc8-7844ac8217a9",
+          "title": "0402",
+          "type": "group",
+          "children": [
+            {
+              "id": "15378be8-5d3e-4644-8eb9-ab6cc2fc9d67",
+              "title": "402-s",
+              "type": "poly",
+              "x": 64.71997882375344,
+              "y": 82.00562095857852,
+              "width": 7.013579367407132,
+              "height": 11.456895587209075,
+              "parent_id": "3285a547-9f6c-4ae6-bfc8-7844ac8217a9",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 64.71997882375344,
+              "y_image_background": 82.00562095857852,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 100,
+                  "y": 0.4514672686230248
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 0,
+                  "y": 100
+                }
+              ]
+            },
+            {
+              "id": "d993a159-11bd-4286-bde3-4ca70cf02aa0",
+              "title": "402-i",
+              "type": "poly",
+              "x": 46.10622472338274,
+              "y": 32.92241102148345,
+              "width": 19.80731552381536,
+              "height": 13.034481661294308,
+              "parent_id": "3285a547-9f6c-4ae6-bfc8-7844ac8217a9",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 46.10622472338274,
+              "y_image_background": 32.92241102148345,
+              "points": [
+                {
+                  "x": 1.221001221001221,
+                  "y": 31.150793650793652
+                },
+                {
+                  "x": 34.55433455433455,
+                  "y": 61.111111111111114
+                },
+                {
+                  "x": 30.64713064713065,
+                  "y": 66.66666666666666
+                },
+                {
+                  "x": 31.013431013431013,
+                  "y": 79.16666666666666
+                },
+                {
+                  "x": 53.35775335775336,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 38.69047619047619
+                },
+                {
+                  "x": 99.38949938949939,
+                  "y": 9.126984126984127
+                },
+                {
+                  "x": 52.62515262515263,
+                  "y": 74.20634920634922
+                },
+                {
+                  "x": 22.832722832722833,
+                  "y": 48.01587301587302
+                },
+                {
+                  "x": 22.46642246642247,
+                  "y": 38.095238095238095
+                },
+                {
+                  "x": 30.4029304029304,
+                  "y": 25.992063492063494
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0402",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "dd0bdb0b-8537-4e11-b823-6bd72c48661f",
+          "title": "0302",
+          "type": "group",
+          "children": [
+            {
+              "id": "148434c7-ea26-4825-9206-85f242a93169",
+              "title": "302-s",
+              "type": "poly",
+              "x": 45.10614135145275,
+              "y": 82.00562095857852,
+              "width": 7.134503149603816,
+              "height": 11.431033520420797,
+              "parent_id": "dd0bdb0b-8537-4e11-b823-6bd72c48661f",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 45.10614135145275,
+              "y_image_background": 82.00562095857852,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 100,
+                  "y": 0.22624434389140274
+                },
+                {
+                  "x": 99.66101694915255,
+                  "y": 100
+                },
+                {
+                  "x": 0.3389830508474576,
+                  "y": 100
+                }
+              ]
+            },
+            {
+              "id": "652bbbdc-3a5e-4c29-b16c-2b0ec9692fef",
+              "title": "302-i",
+              "type": "poly",
+              "x": 46.27551801845809,
+              "y": 36.98275550724377,
+              "width": 19.734761254497357,
+              "height": 12.43965412516382,
+              "parent_id": "dd0bdb0b-8537-4e11-b823-6bd72c48661f",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 46.27551801845809,
+              "y_image_background": 36.98275550724377,
+              "points": [
+                {
+                  "x": 100,
+                  "y": 34.92723492723495
+                },
+                {
+                  "x": 99.26470588235294,
+                  "y": 8.523908523908535
+                },
+                {
+                  "x": 62.7450980392157,
+                  "y": 58.41995841995842
+                },
+                {
+                  "x": 53.30882352941174,
+                  "y": 72.76507276507277
+                },
+                {
+                  "x": 30.269607843137248,
+                  "y": 51.975051975051954
+                },
+                {
+                  "x": 29.534313725490197,
+                  "y": 37.42203742203743
+                },
+                {
+                  "x": 33.70098039215686,
+                  "y": 31.392931392931374
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.6127449534808591,
+                  "y": 23.49272349272347
+                },
+                {
+                  "x": 29.90196078431372,
+                  "y": 50.10395010395011
+                },
+                {
+                  "x": 36.519607843137244,
+                  "y": 58.41995841995842
+                },
+                {
+                  "x": 31.004901960784302,
+                  "y": 65.28066528066529
+                },
+                {
+                  "x": 31.37254901960783,
+                  "y": 79.83367983367987
+                },
+                {
+                  "x": 53.30882352941174,
+                  "y": 100
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0302",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "8039cda4-587f-48d2-8c13-28e55ff3824f",
+          "title": "0202",
+          "type": "group",
+          "children": [
+            {
+              "id": "ec4346e2-cfda-4580-ad01-69bad1c55690",
+              "title": "202-s",
+              "type": "poly",
+              "x": 23.65426238976261,
+              "y": 81.8763106246371,
+              "width": 7.037764123846479,
+              "height": 11.663792121515357,
+              "parent_id": "8039cda4-587f-48d2-8c13-28e55ff3824f",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 23.65426238976261,
+              "y_image_background": 81.8763106246371,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 100,
+                  "y": 0
+                },
+                {
+                  "x": 100,
+                  "y": 99.77827050997783
+                },
+                {
+                  "x": 0.6872852233676976,
+                  "y": 100
+                }
+              ]
+            },
+            {
+              "id": "65ee0651-a748-4754-a870-2b43c42df3ab",
+              "title": "202-i",
+              "type": "poly",
+              "x": 46.39644011057254,
+              "y": 39.93103110804456,
+              "width": 19.565468173383834,
+              "height": 13.112067874722563,
+              "parent_id": "8039cda4-587f-48d2-8c13-28e55ff3824f",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 46.493179350291705,
+              "y_image_background": 40.137927655414224,
+              "points": [
+                {
+                  "x": 0.4944386654174916,
+                  "y": 22.485207177818847
+                },
+                {
+                  "x": 30.902349334122214,
+                  "y": 51.08481267200779
+                },
+                {
+                  "x": 30.65513054819778,
+                  "y": 53.846153892136414
+                },
+                {
+                  "x": 37.08281898223291,
+                  "y": 58.974359015232395
+                },
+                {
+                  "x": 31.7676150848577,
+                  "y": 66.27218938271507
+                },
+                {
+                  "x": 32.88009962151762,
+                  "y": 79.28994084903559
+                },
+                {
+                  "x": 53.770087032131855,
+                  "y": 100
+                },
+                {
+                  "x": 99.87639060703776,
+                  "y": 34.51676535123629
+                },
+                {
+                  "x": 100,
+                  "y": 10.05917168724019
+                },
+                {
+                  "x": 63.41161968318458,
+                  "y": 60.749506942457884
+                },
+                {
+                  "x": 53.52286824620741,
+                  "y": 73.57001975019777
+                },
+                {
+                  "x": 31.149568120046617,
+                  "y": 52.662721940652716
+                },
+                {
+                  "x": 30.902349334122214,
+                  "y": 39.64497047433221
+                },
+                {
+                  "x": 36.464772017421865,
+                  "y": 32.149901448268885
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0202",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "a237f00e-8979-4dc0-8c46-575366a9bf3b",
+          "title": "0102",
+          "type": "group",
+          "children": [
+            {
+              "id": "0cfad447-c994-4cf6-b54d-0ed3e92da7eb",
+              "title": "102-s",
+              "type": "poly",
+              "x": 3.701838327311238,
+              "y": 81.92803475821367,
+              "width": 7.061948880285819,
+              "height": 11.68965418830362,
+              "parent_id": "a237f00e-8979-4dc0-8c46-575366a9bf3b",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 3.701838327311238,
+              "y_image_background": 81.92803475821367,
+              "points": [
+                {
+                  "x": 0.3424657534246575,
+                  "y": 0
+                },
+                {
+                  "x": 100,
+                  "y": 0.6637168141592921
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 0,
+                  "y": 100
+                }
+              ]
+            },
+            {
+              "id": "234b5f4f-01ea-49d3-b3b2-caef8d1f4c0d",
+              "title": "102-i",
+              "type": "poly",
+              "x": 46.4448097518283,
+              "y": 43.11206530340817,
+              "width": 19.49291377568875,
+              "height": 13.88792989796616,
+              "parent_id": "a237f00e-8979-4dc0-8c46-575366a9bf3b",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 46.493179350291705,
+              "y_image_background": 43.629306671832346,
+              "points": [
+                {
+                  "x": 0.24813939578252425,
+                  "y": 24.581005763945704
+                },
+                {
+                  "x": 32.25806481355379,
+                  "y": 52.886406069822876
+                },
+                {
+                  "x": 19.354839063754543,
+                  "y": 72.2532589106862
+                },
+                {
+                  "x": 50.248139176254725,
+                  "y": 100
+                },
+                {
+                  "x": 99.87593052163652,
+                  "y": 33.14711375125064
+                },
+                {
+                  "x": 100,
+                  "y": 11.918063521842766
+                },
+                {
+                  "x": 63.77171231787124,
+                  "y": 57.54189954118425
+                },
+                {
+                  "x": 54.21836248388525,
+                  "y": 71.13594047755946
+                },
+                {
+                  "x": 32.63027324864415,
+                  "y": 52.14152711440503
+                },
+                {
+                  "x": 31.26550898664618,
+                  "y": 40.595903305428834
+                },
+                {
+                  "x": 36.724566254165964,
+                  "y": 32.58845444062425
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0102",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "e6365ac5-7771-4352-aa51-8ff7663bde1a",
+          "title": "0502",
+          "type": "group",
+          "children": [
+            {
+              "id": "2a77ff42-b665-4de7-a97b-4f991f3eae33",
+              "title": "502-s",
+              "type": "poly",
+              "x": 83.41704368271053,
+              "y": 74.86650982686689,
+              "width": 9.093468421189954,
+              "height": 14.741378069320945,
+              "parent_id": "e6365ac5-7771-4352-aa51-8ff7663bde1a",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 83.41704368271053,
+              "y_image_background": 74.6078891426548,
+              "points": [
+                {
+                  "x": 0.5319148936169664,
+                  "y": 0
+                },
+                {
+                  "x": 98.9361702127659,
+                  "y": 0.7017543859648924
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 22.87234230786604,
+                  "y": 99.29824550326346
+                },
+                {
+                  "x": 21.276595744680847,
+                  "y": 27.368421052631568
+                },
+                {
+                  "x": 0,
+                  "y": 27.368421052631568
+                }
+              ]
+            },
+            {
+              "id": "80354cca-d495-40be-99ed-630bc23c28ee",
+              "title": "0502-i",
+              "type": "poly",
+              "x": 35.70750116378895,
+              "y": 25.667832270192363,
+              "width": 30.327586924028154,
+              "height": 15.851249517052374,
+              "parent_id": "e6365ac5-7771-4352-aa51-8ff7663bde1a",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 36.04599007451347,
+              "y_image_background": 25.58804868811888,
+              "points": [
+                {
+                  "x": 1.51483417154052,
+                  "y": 28.538219030457725
+                },
+                {
+                  "x": 23.763709684588974,
+                  "y": 53.011431782986094
+                },
+                {
+                  "x": 30.1433153648464,
+                  "y": 40.611670531419655
+                },
+                {
+                  "x": 54.38581597152813,
+                  "y": 66.39012150344745
+                },
+                {
+                  "x": 49.4416233048643,
+                  "y": 76.83202552878042
+                },
+                {
+                  "x": 68.66018603042683,
+                  "y": 100
+                },
+                {
+                  "x": 99.84050966515625,
+                  "y": 45.506313205544096
+                },
+                {
+                  "x": 100,
+                  "y": 22.50149333148457
+                },
+                {
+                  "x": 81.89786773700409,
+                  "y": 4.2281610811206916
+                },
+                {
+                  "x": 57.57562031672846,
+                  "y": 44.69053964285612
+                },
+                {
+                  "x": 18.66002470767493,
+                  "y": 1.4545303746117044
+                },
+                {
+                  "x": 10.92475263928387,
+                  "y": 12.385898747709302
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0502",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "a855d8dd-f462-4263-a8f6-156af431638e",
+          "title": "0403",
+          "type": "group",
+          "children": [
+            {
+              "id": "1ef4890e-8647-4873-b8ce-79c9d7d7f5d5",
+              "title": "403-s",
+              "type": "poly",
+              "x": 62.686067611217446,
+              "y": 74.73433919578065,
+              "width": 9.214392203386637,
+              "height": 7.4482752350253065,
+              "parent_id": "a855d8dd-f462-4263-a8f6-156af431638e",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 63.29068687880387,
+              "y_image_background": 75.4843391799957,
+              "points": [
+                {
+                  "x": 0.26246719160104987,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 53.125
+                },
+                {
+                  "x": 22.83464566929134,
+                  "y": 53.47222222222222
+                },
+                {
+                  "x": 23.097112860892388,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 0
+                }
+              ]
+            },
+            {
+              "id": "f24e7309-eabb-47a6-a618-4784ddfe7fc7",
+              "title": "0403-i",
+              "type": "poly",
+              "x": 35.94216550442212,
+              "y": 30.096468915595416,
+              "width": 9.450105546947874,
+              "height": 7.613508841511788,
+              "parent_id": "a855d8dd-f462-4263-a8f6-156af431638e",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 36.202063604422705,
+              "y_image_background": 31.50308172791944,
+              "points": [
+                {
+                  "x": 2.7502137273432203,
+                  "y": 47.34858216323048
+                },
+                {
+                  "x": 75.94347392202701,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 77.24100003184803
+                },
+                {
+                  "x": 96.67303362751441,
+                  "y": 30.3642538287887
+                },
+                {
+                  "x": 73.38426902011501,
+                  "y": 52.443880663563014
+                },
+                {
+                  "x": 40.882366765832316,
+                  "y": 30.70394039547748
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0403",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "cd4a67f6-a619-4ef3-bbbc-a49a1bf856dc",
+          "title": "0303",
+          "type": "group",
+          "children": [
+            {
+              "id": "6f4bbac1-2976-4de5-9718-d8bd77673cc9",
+              "title": "303-s",
+              "type": "poly",
+              "x": 43.08287332351833,
+              "y": 74.68964888455946,
+              "width": 9.141837877012144,
+              "height": 7.396551107980457,
+              "parent_id": "cd4a67f6-a619-4ef3-bbbc-a49a1bf856dc",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 43.08287332351833,
+              "y_image_background": 74.68964888455946,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.5291005324028,
+                  "y": 53.14685309992056
+                },
+                {
+                  "x": 24.86772502293051,
+                  "y": 53.14685309992056
+                },
+                {
+                  "x": 23.80952395812499,
+                  "y": 99.99999991169254
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 97.88359849451382,
+                  "y": 0
+                }
+              ]
+            },
+            {
+              "id": "8b2ed9a7-f67d-4696-9ca2-8be28e493781",
+              "title": "0303-i",
+              "type": "poly",
+              "x": 36.177878762398635,
+              "y": 33.67549532670467,
+              "width": 9.38368558404671,
+              "height": 7.551723513608934,
+              "parent_id": "cd4a67f6-a619-4ef3-bbbc-a49a1bf856dc",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 36.322987386619374,
+              "y_image_background": 33.85652980565313,
+              "points": [
+                {
+                  "x": 3.0927839329760185,
+                  "y": 44.52054807242706
+                },
+                {
+                  "x": 77.57731979213688,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 74.65753428493433
+                },
+                {
+                  "x": 98.1958763051145,
+                  "y": 30.13698640711635
+                },
+                {
+                  "x": 74.48453631519025,
+                  "y": 53.76712335765056
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0303",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "28e7cc23-698f-417d-afa1-28bb1bab899f",
+          "title": "0203",
+          "type": "group",
+          "children": [
+            {
+              "id": "59a4ae70-ec80-4417-a9e1-86705c3050a8",
+              "title": "203-i",
+              "type": "poly",
+              "x": 21.558440092510185,
+              "y": 74.37930408310007,
+              "width": 9.093468421189954,
+              "height": 7.499999368601891,
+              "parent_id": "28e7cc23-698f-417d-afa1-28bb1bab899f",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 21.558440092510185,
+              "y_image_background": 74.37930408310007,
+              "points": [
+                {
+                  "x": 0.5319148936170055,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 55.17241379310354
+                },
+                {
+                  "x": 23.93617021276595,
+                  "y": 55.17241379310354
+                },
+                {
+                  "x": 22.34042270841364,
+                  "y": 99.31034482758612
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 99.46808604755006,
+                  "y": 1.3793103883724505
+                }
+              ]
+            },
+            {
+              "id": "9da8d84c-56ad-4821-98bf-092c820d0a7f",
+              "title": "0203-i",
+              "type": "poly",
+              "x": 36.54065015178103,
+              "y": 37.11515022424256,
+              "width": 9.335316028375665,
+              "height": 7.525861432124316,
+              "parent_id": "28e7cc23-698f-417d-afa1-28bb1bab899f",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 36.6132044638914,
+              "y_image_background": 37.063426087400146,
+              "points": [
+                {
+                  "x": 2.8497413779717573,
+                  "y": 43.642611659392486
+                },
+                {
+                  "x": 78.75647678131654,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 73.88316150069406
+                },
+                {
+                  "x": 98.96372262923262,
+                  "y": 70.44673479653099
+                },
+                {
+                  "x": 97.92745396791815,
+                  "y": 44.32989718682385
+                },
+                {
+                  "x": 97.66839379307133,
+                  "y": 30.927835021572527
+                },
+                {
+                  "x": 75.90673586173703,
+                  "y": 54.29553262621466
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0203",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "3c293a8a-61e7-4c0d-9311-5c5864a170c7",
+          "title": "0103",
+          "type": "group",
+          "children": [
+            {
+              "id": "54d46819-c8c6-4be8-935d-cadf0925e035",
+              "title": "0103-s",
+              "type": "poly",
+              "x": 1.7019446657230626,
+              "y": 74.65956905876821,
+              "width": 9.141837905540385,
+              "height": 7.499999375133584,
+              "parent_id": "3c293a8a-61e7-4c0d-9311-5c5864a170c7",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 1.7019446657230626,
+              "y_image_background": 74.86646561266959,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0.6896553024472081
+                },
+                {
+                  "x": 98.94179706612194,
+                  "y": 0
+                },
+                {
+                  "x": 100,
+                  "y": 96.55172387966601
+                },
+                {
+                  "x": 23.280422728947816,
+                  "y": 100
+                },
+                {
+                  "x": 23.28042335307273,
+                  "y": 52.413793057801485
+                },
+                {
+                  "x": 1.0582016856282128,
+                  "y": 51.03448249645158
+                }
+              ]
+            },
+            {
+              "id": "c1e732e2-db73-42cb-b810-75091d94ead3",
+              "title": "0103-i",
+              "type": "poly",
+              "x": 34.45407706797536,
+              "y": 40.4186724985485,
+              "width": 11.487758866496357,
+              "height": 9.8534473908161,
+              "parent_id": "3c293a8a-61e7-4c0d-9311-5c5864a170c7",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 34.792663857823754,
+              "y_image_background": 40.65143111433938,
+              "points": [
+                {
+                  "x": 22.526317525734612,
+                  "y": 29.133858481588344
+                },
+                {
+                  "x": 0,
+                  "y": 52.755905891926126
+                },
+                {
+                  "x": 60.21052490837771,
+                  "y": 100
+                },
+                {
+                  "x": 99.78947355193893,
+                  "y": 58.530183841386204
+                },
+                {
+                  "x": 100,
+                  "y": 38.84514523871444
+                },
+                {
+                  "x": 99.78947913949942,
+                  "y": 23.62204746005412
+                },
+                {
+                  "x": 83.15789930361083,
+                  "y": 43.04461971482449
+                },
+                {
+                  "x": 57.05263538920619,
+                  "y": 25.196850618533713
+                },
+                {
+                  "x": 20.631580610696933,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0103",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "96189646-2804-43fc-87bd-0c348e708ba5",
+          "title": "0503",
+          "type": "group",
+          "children": [
+            {
+              "id": "06e87ad1-bc5e-48d1-9690-648ae011cbb3",
+              "title": "0503",
+              "type": "poly",
+              "x": 83.70077302544307,
+              "y": 69.7813872324752,
+              "width": 13.083953233680234,
+              "height": 7.396551093284131,
+              "parent_id": "96189646-2804-43fc-87bd-0c348e708ba5",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 83.82169699307333,
+              "y_image_background": 69.83311137584933,
+              "points": [
+                {
+                  "x": 0.9242158350045424,
+                  "y": 0.6993008325338896
+                },
+                {
+                  "x": 100,
+                  "y": 0
+                },
+                {
+                  "x": 99.44547069523324,
+                  "y": 85.6643358030495
+                },
+                {
+                  "x": 85.95194085027731,
+                  "y": 85.66433578097262
+                },
+                {
+                  "x": 85.76709774868831,
+                  "y": 100
+                },
+                {
+                  "x": 68.5767096876529,
+                  "y": 97.90209781147465
+                },
+                {
+                  "x": 67.0979664012211,
+                  "y": 70.97902116775508
+                },
+                {
+                  "x": 0,
+                  "y": 67.13286696412608
+                }
+              ]
+            },
+            {
+              "id": "42d05d88-f3b0-4f01-984e-3a9e281b3294",
+              "title": "0504",
+              "type": "poly",
+              "x": 28.849325717706204,
+              "y": 23.541607448418066,
+              "width": 6.9882202897072965,
+              "height": 7.603447870896375,
+              "parent_id": "96189646-2804-43fc-87bd-0c348e708ba5",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 29.23510749947505,
+              "y_image_background": 25.403676492315757,
+              "points": [
+                {
+                  "x": 100,
+                  "y": 84.01360593656607
+                },
+                {
+                  "x": 95.84705188409416,
+                  "y": 36.39455998345227
+                },
+                {
+                  "x": 84.77252806557838,
+                  "y": 30.95238308772158
+                },
+                {
+                  "x": 29.74596624423388,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 19.06964048390373
+                },
+                {
+                  "x": 8.63516839346995,
+                  "y": 70.06802813654926
+                },
+                {
+                  "x": 59.50876781074239,
+                  "y": 100
+                },
+                {
+                  "x": 88.5793960491837,
+                  "y": 78.91156527802333
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0503",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "c83b3303-9dca-4a6b-b6c7-22f0d3c73594",
+          "title": "0404",
+          "type": "group",
+          "children": [
+            {
+              "id": "56ed11f5-4eda-4e25-b48e-a5d7e5e6981e",
+              "title": "0404-s",
+              "type": "poly",
+              "x": 62.67954343012018,
+              "y": 69.54281660846672,
+              "width": 13.349985554512912,
+              "height": 7.422413164971161,
+              "parent_id": "c83b3303-9dca-4a6b-b6c7-22f0d3c73594",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 62.824652054340916,
+              "y_image_background": 69.67212695547154,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 1.742160455511647
+                },
+                {
+                  "x": 98.18840494232163,
+                  "y": 0
+                },
+                {
+                  "x": 100,
+                  "y": 86.7595820957068
+                },
+                {
+                  "x": 84.0579710144927,
+                  "y": 87.1080141516092
+                },
+                {
+                  "x": 83.87681159420292,
+                  "y": 99.30313584419534
+                },
+                {
+                  "x": 68.47826086956518,
+                  "y": 100
+                },
+                {
+                  "x": 68.47826086956518,
+                  "y": 70.38327527029269
+                },
+                {
+                  "x": 0.5434782608695623,
+                  "y": 72.82229985960925
+                }
+              ]
+            },
+            {
+              "id": "add8898a-5c16-4c89-ab5c-ad4944454b01",
+              "title": "0404-i",
+              "type": "poly",
+              "x": 29.379346688787177,
+              "y": 28.752656290236658,
+              "width": 6.795916473868406,
+              "height": 5.974137429726156,
+              "parent_id": "c83b3303-9dca-4a6b-b6c7-22f0d3c73594",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 29.234238064566437,
+              "y_image_background": 28.778518358657866,
+              "points": [
+                {
+                  "x": 7.117436552698503,
+                  "y": 61.47186148239246
+                },
+                {
+                  "x": 61.92170770551241,
+                  "y": 100
+                },
+                {
+                  "x": 90.03558706312474,
+                  "y": 72.29437230194512
+                },
+                {
+                  "x": 100,
+                  "y": 75.757575764202
+                },
+                {
+                  "x": 94.30604996024954,
+                  "y": 20.34632058675828
+                },
+                {
+                  "x": 84.69750870408446,
+                  "y": 14.285714309142797
+                },
+                {
+                  "x": 54.09252611225326,
+                  "y": 39.39393941050499
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0404",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "b7c9e0ff-1417-4654-99b7-10b27a28e231",
+          "title": "0304",
+          "type": "group",
+          "children": [
+            {
+              "id": "d26db5c0-9c6d-41c7-ac32-9050d7d43a80",
+              "title": "0304-s",
+              "type": "poly",
+              "x": 43.0994293328864,
+              "y": 69.65237996309726,
+              "width": 13.398355067391591,
+              "height": 7.474137295281892,
+              "parent_id": "b7c9e0ff-1417-4654-99b7-10b27a28e231",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 43.365461810624424,
+              "y_image_background": 69.91100064730935,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 99.45848375451264,
+                  "y": 0.34602076154800776
+                },
+                {
+                  "x": 98.72059388053263,
+                  "y": 82.6268950650434
+                },
+                {
+                  "x": 100,
+                  "y": 85.46712810237199
+                },
+                {
+                  "x": 83.75451263537906,
+                  "y": 85.81314886392018
+                },
+                {
+                  "x": 83.75451263537906,
+                  "y": 99.65397932584277
+                },
+                {
+                  "x": 68.95306859205775,
+                  "y": 100
+                },
+                {
+                  "x": 68.23104693140796,
+                  "y": 70.93425611735339
+                },
+                {
+                  "x": 0.5415162454873614,
+                  "y": 70.58823535580517
+                }
+              ]
+            },
+            {
+              "id": "f95a2ca1-d215-4494-9ae9-a261a9f93734",
+              "title": "304-i",
+              "type": "poly",
+              "x": 29.895941503200074,
+              "y": 32.487137789000386,
+              "width": 6.650808006553003,
+              "height": 5.741378826998691,
+              "parent_id": "b7c9e0ff-1417-4654-99b7-10b27a28e231",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 29.895941503200074,
+              "y_image_background": 32.487137789000386,
+              "points": [
+                {
+                  "x": 6.545454559492729,
+                  "y": 61.71171171171167
+                },
+                {
+                  "x": 61.09090922193201,
+                  "y": 100
+                },
+                {
+                  "x": 91.63636383289793,
+                  "y": 72.97297297297291
+                },
+                {
+                  "x": 100,
+                  "y": 82.43243274528744
+                },
+                {
+                  "x": 94.90909239947645,
+                  "y": 14.414414471297093
+                },
+                {
+                  "x": 84.72727269451698,
+                  "y": 9.909909767703024
+                },
+                {
+                  "x": 56.00000012010433,
+                  "y": 40.09009009009007
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0304",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "0668c100-03a0-42d4-84a8-1eda016ec6f4",
+          "title": "0204",
+          "type": "group",
+          "children": [
+            {
+              "id": "ee9e8625-fb4d-49c9-962a-980f2736e7a1",
+              "title": "0204",
+              "type": "poly",
+              "x": 21.655015154791467,
+              "y": 69.5981649623243,
+              "width": 13.25324664286855,
+              "height": 7.3448269858343735,
+              "parent_id": "0668c100-03a0-42d4-84a8-1eda016ec6f4",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 21.84849332041912,
+              "y_image_background": 69.83092358138103,
+              "points": [
+                {
+                  "x": 0.9124090741501917,
+                  "y": 0
+                },
+                {
+                  "x": 97.26277288517674,
+                  "y": 4.4464673869352305e-8
+                },
+                {
+                  "x": 100,
+                  "y": 85.56338031699578
+                },
+                {
+                  "x": 85.03649647920358,
+                  "y": 84.85915496660525
+                },
+                {
+                  "x": 84.85401472894998,
+                  "y": 100
+                },
+                {
+                  "x": 67.88321077146261,
+                  "y": 98.23943651286228
+                },
+                {
+                  "x": 69.16058377662958,
+                  "y": 68.30985923242962
+                },
+                {
+                  "x": 0,
+                  "y": 66.1971830478642
+                }
+              ]
+            },
+            {
+              "id": "7a409260-8d94-4190-ba64-f4a6e22ddc2c",
+              "title": "0204",
+              "type": "poly",
+              "x": 30.431844057874617,
+              "y": 36.042515318349665,
+              "width": 6.360590857960371,
+              "height": 5.612068493057272,
+              "parent_id": "0668c100-03a0-42d4-84a8-1eda016ec6f4",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#FFFF00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 30.431844057874617,
+              "y_image_background": 36.042515318349665,
+              "points": [
+                {
+                  "x": 100,
+                  "y": 75.11520731507856
+                },
+                {
+                  "x": 96.57794806756237,
+                  "y": 18.433179723502285
+                },
+                {
+                  "x": 85.93155807329033,
+                  "y": 12.44239596420388
+                },
+                {
+                  "x": 57.414449441739876,
+                  "y": 39.170506912442356
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 5.323193987975887,
+                  "y": 58.06451612903225
+                },
+                {
+                  "x": 64.25855599770883,
+                  "y": 100
+                },
+                {
+                  "x": 93.53612293157614,
+                  "y": 72.35023041474658
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0204",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "f307fc3c-3586-4d86-b825-cdef6effb6ff",
+          "title": "0104",
+          "type": "group",
+          "children": [
+            {
+              "id": "151fd0a0-c556-48df-b9f4-2875a5fabfbc",
+              "title": "Poly",
+              "type": "poly",
+              "x": 28.813240763706652,
+              "y": 39.725951127409395,
+              "width": 8.187068519850989,
+              "height": 5.949006441410511,
+              "parent_id": "f307fc3c-3586-4d86-b825-cdef6effb6ff",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 28.90997984652048,
+              "y_image_background": 39.883249779086775,
+              "points": [
+                {
+                  "x": 98.80220128011479,
+                  "y": 8.813721544602156
+                },
+                {
+                  "x": 97.37633421565613,
+                  "y": 11.506408395334544
+                },
+                {
+                  "x": 100,
+                  "y": 61.69605182763498
+                },
+                {
+                  "x": 67.66348304195682,
+                  "y": 100
+                },
+                {
+                  "x": 0,
+                  "y": 36.10051757466855
+                },
+                {
+                  "x": 32.024924487721535,
+                  "y": 0
+                },
+                {
+                  "x": 67.35998579727746,
+                  "y": 30.848025970229614
+                },
+                {
+                  "x": 91.01650984729397,
+                  "y": 4.847546773374643
+                }
+              ]
+            },
+            {
+              "id": "f78cc83e-c6b3-48de-a114-c7efc9dce272",
+              "title": "Poly",
+              "type": "poly",
+              "x": 1.4669424061376548,
+              "y": 69.633868124839,
+              "width": 9.27347723802102,
+              "height": 4.914254961704401,
+              "parent_id": "f307fc3c-3586-4d86-b825-cdef6effb6ff",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.44044885936616296
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "tooltip_style": {
+                "auto_width": false
+              },
+              "tooltip_content": [
+                {
+                  "type": "Image",
+                  "url": "media/images/floor-plans/44/0104.jpg",
+                  "linkUrl": "",
+                  "other": {
+                    "id": "",
+                    "classes": "",
+                    "css": ""
+                  },
+                  "boxModel": {
+                    "width": "auto",
+                    "height": "auto",
+                    "margin": {
+                      "top": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "right": 0
+                    },
+                    "padding": {
+                      "top": 10,
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10
+                    }
+                  },
+                  "id": "63a77ceb-2d73-499e-a009-c547a51d4ab3"
+                },
+                {
+                  "type": "Heading",
+                  "text": "Íbúð 104",
+                  "heading": "h3",
+                  "other": {
+                    "id": "",
+                    "classes": "",
+                    "css": ""
+                  },
+                  "style": {
+                    "fontFamily": "sans-serif",
+                    "fontSize": 20.8,
+                    "lineHeight": "normal",
+                    "color": "#ffffff",
+                    "textAlign": "left"
+                  },
+                  "boxModel": {
+                    "width": "auto",
+                    "height": "auto",
+                    "margin": {
+                      "top": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "right": 0
+                    },
+                    "padding": {
+                      "top": 10,
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10
+                    }
+                  },
+                  "id": "d8f80c92-c0ad-450b-8827-a029096d7fb4"
+                },
+                {
+                  "type": "Paragraph",
+                  "text": "",
+                  "other": {
+                    "id": "",
+                    "classes": "",
+                    "css": ""
+                  },
+                  "style": {
+                    "fontFamily": "sans-serif",
+                    "fontSize": 14,
+                    "lineHeight": 22,
+                    "color": "#ffffff",
+                    "textAlign": "left"
+                  },
+                  "boxModel": {
+                    "width": "auto",
+                    "height": "auto",
+                    "margin": {
+                      "top": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "right": 0
+                    },
+                    "padding": {
+                      "top": 10,
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10
+                    }
+                  },
+                  "id": "48cdb09c-2679-4f34-a21b-2c3aea4956cc"
+                }
+              ],
+              "x_image_background": 1.4669424061376548,
+              "y_image_background": 69.14556962025317,
+              "points": [
+                {
+                  "x": 4.739583530342328,
+                  "y": 0
+                },
+                {
+                  "x": 93.03446584533411,
+                  "y": 1.2395736054044835
+                },
+                {
+                  "x": 92.77367078343113,
+                  "y": 40.52746436056404
+                },
+                {
+                  "x": 98.92600932818999,
+                  "y": 35.1404512441689
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 0,
+                  "y": 99.53590867741039
+                },
+                {
+                  "x": 4.420026044669196,
+                  "y": 96.85796564499893
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "tooltip_style": {
+            "width": 226,
+            "auto_width": false
+          },
+          "tooltip_content": [
+            {
+              "type": "Image",
+              "url": "media/images/floor-plans/44/0104.jpg",
+              "linkUrl": "",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "89891825-b135-48c7-9e6d-346fce549ede"
+            },
+            {
+              "type": "Heading",
+              "text": "Íbúð 0104",
+              "heading": "h3",
+              "other": {
+                "id": "",
+                "classes": "",
+                "css": ""
+              },
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 20.8,
+                "lineHeight": "normal",
+                "color": "#ffffff",
+                "textAlign": "left"
+              },
+              "boxModel": {
+                "width": "auto",
+                "height": "auto",
+                "margin": {
+                  "top": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0
+                },
+                "padding": {
+                  "top": 10,
+                  "bottom": 10,
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "id": "7f0c44fa-ad70-4a63-8967-9d39c30f0fc1"
+            }
+          ],
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=44&ibud=0104",
+            "open_link_in_new_window": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "6dbecefd-d1cc-4f9a-bdf7-cffef8fa24dd",
+      "title": "Áshamar 46",
+      "background_type": "image",
+      "image_url": "media/images/46_1_south.jpg",
+      "width": 632.9411247619955,
+      "height": 770.6844895137128,
+      "children": [
+        {
+          "id": "066e44cf-0bfa-4b1b-aad4-7b3dd609f315",
+          "title": "401",
+          "type": "group",
+          "children": [
+            {
+              "id": "68db8d8a-7b50-4470-940b-fa3250f7be0b",
+              "title": "401-s",
+              "type": "poly",
+              "x": 90.70795508865696,
+              "y": 80.60278835066829,
+              "width": 8.756259034351146,
+              "height": 14.94728915662651,
+              "parent_id": "066e44cf-0bfa-4b1b-aad4-7b3dd609f315",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 90.70795508865696,
+              "y_image_background": 80.60278835066829,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 19.899244332493705
+                },
+                {
+                  "x": 0,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 98.95287958115183,
+                  "y": 0.2518891687657431
+                },
+                {
+                  "x": 23.56020942408377,
+                  "y": 0
+                },
+                {
+                  "x": 24.083769633507853,
+                  "y": 20.40302267002519
+                }
+              ]
+            },
+            {
+              "id": "b9a167a7-e583-47b1-a4e7-b7d44fcd261c",
+              "title": "401-i",
+              "type": "poly",
+              "x": 69.17729634377196,
+              "y": 29.892855839632055,
+              "width": 11.056462963729885,
+              "height": 7.607142525497764,
+              "parent_id": "066e44cf-0bfa-4b1b-aad4-7b3dd609f315",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 69.17729634377196,
+              "y_image_background": 29.892855839632055,
+              "points": [
+                {
+                  "x": 2.6548672566371123,
+                  "y": 19.366197183098592
+                },
+                {
+                  "x": 0,
+                  "y": 77.46478873239437
+                },
+                {
+                  "x": 30.678466076696136,
+                  "y": 90.49295774647887
+                },
+                {
+                  "x": 34.218289085545706,
+                  "y": 88.38028169014082
+                },
+                {
+                  "x": 64.01179941002951,
+                  "y": 100
+                },
+                {
+                  "x": 98.23008849557522,
+                  "y": 64.43661971830988
+                },
+                {
+                  "x": 100,
+                  "y": 12.323943661971837
+                },
+                {
+                  "x": 73.45132743362836,
+                  "y": 0
+                },
+                {
+                  "x": 39.23303834808266,
+                  "y": 31.338028169014105
+                },
+                {
+                  "x": 34.808259587020636,
+                  "y": 32.74647887323941
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0401",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "ea903bb3-f310-47e9-9ec2-c8419a15db50",
+          "title": "402",
+          "type": "group",
+          "children": [
+            {
+              "id": "5e46bf93-5bd0-4fcd-8904-cc3dd183c98b",
+              "title": "402-s",
+              "type": "poly",
+              "x": 81.67663032547802,
+              "y": 81.73230642295746,
+              "width": 9.031324763178944,
+              "height": 11.521084337349393,
+              "parent_id": "ea903bb3-f310-47e9-9ec2-c8419a15db50",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 81.67663032547802,
+              "y_image_background": 81.73230642295746,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 99.34640522875817
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 98.98477157360406,
+                  "y": 0
+                }
+              ]
+            },
+            {
+              "id": "7f77afb7-0b35-4001-b316-ce725517e663",
+              "title": "402-i",
+              "type": "poly",
+              "x": 42.1940433263248,
+              "y": 30.679153194791382,
+              "width": 27.2987008154154,
+              "height": 12.241070894903089,
+              "parent_id": "ea903bb3-f310-47e9-9ec2-c8419a15db50",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 42.1940433263248,
+              "y_image_background": 30.679153194791382,
+              "points": [
+                {
+                  "x": 0.5973715602215767,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 33.04157549234133
+                },
+                {
+                  "x": 41.33811060248557,
+                  "y": 63.45733041575495
+                },
+                {
+                  "x": 38.82915141440236,
+                  "y": 66.52078774617067
+                },
+                {
+                  "x": 38.82915141440236,
+                  "y": 82.49452954048141
+                },
+                {
+                  "x": 60.573476206467646,
+                  "y": 100
+                },
+                {
+                  "x": 98.6857817486041,
+                  "y": 46.38949671772425
+                },
+                {
+                  "x": 100,
+                  "y": 10.065645514223206
+                },
+                {
+                  "x": 70.4898441061458,
+                  "y": 50.10940919037198
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0402",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "44837da3-9e9c-4bb1-ab12-b0d0d376dd5b",
+          "title": "403",
+          "type": "group",
+          "children": [
+            {
+              "id": "8ae39274-2c40-4b75-bc71-d532b861a7ec",
+              "title": "403-s",
+              "type": "poly",
+              "x": 78.8801287490622,
+              "y": 74.16453533862011,
+              "width": 11.781982051456794,
+              "height": 7.454819277108427,
+              "parent_id": "44837da3-9e9c-4bb1-ab12-b0d0d376dd5b",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 78.8801287490622,
+              "y_image_background": 74.16453533862011,
+              "points": [
+                {
+                  "x": 1.1673151750972763,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 53.03030303030303
+                },
+                {
+                  "x": 23.346303501945524,
+                  "y": 54.04040404040404
+                },
+                {
+                  "x": 23.346303501945524,
+                  "y": 100
+                },
+                {
+                  "x": 99.61089494163424,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 0.5050505050505051
+                }
+              ]
+            },
+            {
+              "id": "fe267780-5c04-49de-8b2a-0f30fca3f13a",
+              "title": "403-i",
+              "type": "poly",
+              "x": 21.255253752361078,
+              "y": 25.34879628431936,
+              "width": 7.794969464104547,
+              "height": 8.169642500974707,
+              "parent_id": "44837da3-9e9c-4bb1-ab12-b0d0d376dd5b",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 21.255253752361078,
+              "y_image_background": 25.34879628431936,
+              "points": [
+                {
+                  "x": 2.5104602510460343,
+                  "y": 76.39344262295081
+                },
+                {
+                  "x": 69.45606694560668,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 84.59016393442627
+                },
+                {
+                  "x": 97.90795361465197,
+                  "y": 32.45901639344259
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 1.2552301255230172,
+                  "y": 48.524590163934434
+                },
+                {
+                  "x": 7.531380753138057,
+                  "y": 48.85245901639343
+                },
+                {
+                  "x": 1.6736401673640229,
+                  "y": 53.11475409836064
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0403",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "b3707797-9579-490b-a22a-256ffbaf8962",
+          "title": "404",
+          "type": "group",
+          "children": [
+            {
+              "id": "69926e49-f8d2-47cd-a501-0c4e739fd09f",
+              "title": "404-s",
+              "type": "poly",
+              "x": 78.97181732533812,
+              "y": 68.81814979645144,
+              "width": 17.05407518732268,
+              "height": 7.6430722891566205,
+              "parent_id": "b3707797-9579-490b-a22a-256ffbaf8962",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 78.97181732533812,
+              "y_image_background": 68.81814979645144,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 69.45812807881774
+                },
+                {
+                  "x": 68.54838709677419,
+                  "y": 69.95073891625616
+                },
+                {
+                  "x": 69.08602150537635,
+                  "y": 100
+                },
+                {
+                  "x": 83.60215053763442,
+                  "y": 100
+                },
+                {
+                  "x": 83.60215053763442,
+                  "y": 84.72906403940887
+                },
+                {
+                  "x": 100,
+                  "y": 84.72906403940887
+                },
+                {
+                  "x": 99.19354838709677,
+                  "y": 0.9852216748768473
+                }
+              ]
+            },
+            {
+              "id": "f34edcdf-1461-41cc-b249-26adf989a1d2",
+              "title": "404-i",
+              "type": "poly",
+              "x": 28.854533606488104,
+              "y": 28.161296161704097,
+              "width": 13.50258308844888,
+              "height": 7.874999656677264,
+              "parent_id": "b3707797-9579-490b-a22a-256ffbaf8962",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 28.854533606488104,
+              "y_image_background": 28.161296161704097,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.2415453418467262,
+                  "y": 53.061224489795876
+                },
+                {
+                  "x": 81.88405797101449,
+                  "y": 100
+                },
+                {
+                  "x": 99.03381642512076,
+                  "y": 80.27210884353735
+                },
+                {
+                  "x": 100,
+                  "y": 31.63265306122446
+                },
+                {
+                  "x": 64.49275362318838,
+                  "y": 9.523809523809518
+                },
+                {
+                  "x": 47.101448723489284,
+                  "y": 25.850340136054406
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0404",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "ba9106ce-ef21-4f55-a314-789b73817259",
+          "title": "301",
+          "type": "group",
+          "children": [
+            {
+              "id": "ea76bc22-faef-4940-b52d-9056dfdbcb22",
+              "title": "301-s",
+              "type": "poly",
+              "x": 65.35606374836277,
+              "y": 80.56513774825866,
+              "width": 8.893791898765045,
+              "height": 14.947289156626496,
+              "parent_id": "ba9106ce-ef21-4f55-a314-789b73817259",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 65.35606374836277,
+              "y_image_background": 80.56513774825866,
+              "points": [
+                {
+                  "x": 1.0309278350515463,
+                  "y": 20.151133501259448
+                },
+                {
+                  "x": 0,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 99.74811083123426
+                },
+                {
+                  "x": 98.96907216494846,
+                  "y": 1.0075566750629723
+                },
+                {
+                  "x": 24.742268041237114,
+                  "y": 0
+                },
+                {
+                  "x": 24.742268041237114,
+                  "y": 20.40302267002519
+                }
+              ]
+            },
+            {
+              "id": "8cb6985d-6a5f-4adf-ac04-8584ec9f6bdf",
+              "title": "301-i",
+              "type": "poly",
+              "x": 68.88376192880568,
+              "y": 35.062498471396374,
+              "width": 10.991233093737364,
+              "height": 6.508928287661817,
+              "parent_id": "ba9106ce-ef21-4f55-a314-789b73817259",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 68.88376192880568,
+              "y_image_background": 35.062498471396374,
+              "points": [
+                {
+                  "x": 2.967359050445117,
+                  "y": 11.52263374485602
+                },
+                {
+                  "x": 0,
+                  "y": 71.60493827160495
+                },
+                {
+                  "x": 29.67359050445104,
+                  "y": 86.83127572016461
+                },
+                {
+                  "x": 32.64094955489616,
+                  "y": 83.53909465020575
+                },
+                {
+                  "x": 62.90801186943623,
+                  "y": 100
+                },
+                {
+                  "x": 95.25222551928782,
+                  "y": 57.201646090534986
+                },
+                {
+                  "x": 100,
+                  "y": 0
+                },
+                {
+                  "x": 67.95252225519286,
+                  "y": 39.09465020576127
+                },
+                {
+                  "x": 38.27893175074182,
+                  "y": 24.69135802469141
+                },
+                {
+                  "x": 34.42136498516323,
+                  "y": 27.160493827160465
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0301",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "620b8226-cd7e-41a5-89d8-75c3e7b1edf0",
+          "title": "302",
+          "type": "group",
+          "children": [
+            {
+              "id": "48834134-8047-4854-9e5b-9234a948461a",
+              "title": "302-s",
+              "type": "poly",
+              "x": 56.370583273321785,
+              "y": 81.65700521813818,
+              "width": 8.893791898765045,
+              "height": 11.558734939759034,
+              "parent_id": "620b8226-cd7e-41a5-89d8-75c3e7b1edf0",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 56.370583273321785,
+              "y_image_background": 81.65700521813818,
+              "points": [
+                {
+                  "x": 0.5154639175257731,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 99.6742671009772
+                },
+                {
+                  "x": 100,
+                  "y": 0.32573289902280134
+                }
+              ]
+            },
+            {
+              "id": "d1f7a816-6010-4840-bb0c-94b5193cfcfe",
+              "title": "302-i",
+              "type": "poly",
+              "x": 42.06358358633979,
+              "y": 34.75058158871976,
+              "width": 27.103010981886527,
+              "height": 12.241070894903089,
+              "parent_id": "620b8226-cd7e-41a5-89d8-75c3e7b1edf0",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 42.06358358633979,
+              "y_image_background": 34.75058158871976,
+              "points": [
+                {
+                  "x": 0.842358604091456,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 31.72866520787746
+                },
+                {
+                  "x": 42.35860409145607,
+                  "y": 63.67614879649891
+                },
+                {
+                  "x": 40.67388688327316,
+                  "y": 65.86433260393873
+                },
+                {
+                  "x": 39.229843561973524,
+                  "y": 82.27571115973743
+                },
+                {
+                  "x": 61.4921780986763,
+                  "y": 100
+                },
+                {
+                  "x": 98.79663056558363,
+                  "y": 44.42013129102845
+                },
+                {
+                  "x": 100,
+                  "y": 14.22319474835886
+                },
+                {
+                  "x": 69.67509025270758,
+                  "y": 56.67396061269147
+                },
+                {
+                  "x": 62.69554753309266,
+                  "y": 66.08315098468272
+                },
+                {
+                  "x": 39.71119133574007,
+                  "y": 49.671772428884026
+                },
+                {
+                  "x": 39.83152827918171,
+                  "y": 33.260393873085334
+                },
+                {
+                  "x": 41.75691937424789,
+                  "y": 29.75929978118162
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0302",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "5ae6c190-21c0-44ee-b21d-abb6bfd80fdc",
+          "title": "303",
+          "type": "group",
+          "children": [
+            {
+              "id": "4b70db13-a6d2-42f5-afb4-da9c5be00af2",
+              "title": "303-s",
+              "type": "poly",
+              "x": 53.6657702731819,
+              "y": 74.16453533862011,
+              "width": 11.73613776331883,
+              "height": 7.454819277108427,
+              "parent_id": "5ae6c190-21c0-44ee-b21d-abb6bfd80fdc",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 53.6657702731819,
+              "y_image_background": 74.16453533862011,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 53.535353535353536
+                },
+                {
+                  "x": 22.65625,
+                  "y": 53.535353535353536
+                },
+                {
+                  "x": 24.21875,
+                  "y": 99.4949494949495
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 99.21875,
+                  "y": 0.5050505050505051
+                }
+              ]
+            },
+            {
+              "id": "b3b587fd-a1d1-42b0-91a9-5a05125a15f6",
+              "title": "304-i",
+              "type": "poly",
+              "x": 28.821918733699903,
+              "y": 32.36665312122223,
+              "width": 13.437353218456373,
+              "height": 7.71428537796956,
+              "parent_id": "5ae6c190-21c0-44ee-b21d-abb6bfd80fdc",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 28.821918733699903,
+              "y_image_background": 32.50058168681198,
+              "points": [
+                {
+                  "x": 0.9708748955119245,
+                  "y": 0
+                },
+                {
+                  "x": 1.2575847856341658,
+                  "y": 51.38091655123994
+                },
+                {
+                  "x": 0,
+                  "y": 53.81944444444445
+                },
+                {
+                  "x": 83.00970873786406,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 80.90277777777781
+                },
+                {
+                  "x": 99.75728155339806,
+                  "y": 29.51388888888888
+                },
+                {
+                  "x": 82.28155339805824,
+                  "y": 47.91666666666664
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0303",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "c1a965ec-0c53-41e3-a0a8-272577395fe9",
+          "title": "304",
+          "type": "group",
+          "children": [
+            {
+              "id": "e3e6de9e-58a3-49f4-9ffc-2869e4d914cf",
+              "title": "304-s",
+              "type": "poly",
+              "x": 53.6657702731819,
+              "y": 68.85580039886106,
+              "width": 16.916542322908775,
+              "height": 7.605421686746993,
+              "parent_id": "c1a965ec-0c53-41e3-a0a8-272577395fe9",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 53.6657702731819,
+              "y_image_background": 68.85580039886106,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.5420054200542005,
+                  "y": 68.8118811881188
+                },
+                {
+                  "x": 69.10569105691057,
+                  "y": 69.80198019801979
+                },
+                {
+                  "x": 69.37669376693766,
+                  "y": 99.5049504950495
+                },
+                {
+                  "x": 84.5528455284553,
+                  "y": 100
+                },
+                {
+                  "x": 84.5528455284553,
+                  "y": 85.14851485148515
+                },
+                {
+                  "x": 100,
+                  "y": 84.65346534653465
+                },
+                {
+                  "x": 100,
+                  "y": 0.9900990099009901
+                }
+              ]
+            },
+            {
+              "id": "33addc65-f598-4b94-9401-e72b3750699e",
+              "title": "304-i",
+              "type": "poly",
+              "x": 21.450943424546647,
+              "y": 31.61665315391963,
+              "width": 7.534049984134523,
+              "height": 5.86607117283102,
+              "parent_id": "c1a965ec-0c53-41e3-a0a8-272577395fe9",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 21.450943424546647,
+              "y_image_background": 31.61665315391963,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.8658008658008686,
+                  "y": 66.2100456621005
+                },
+                {
+                  "x": 69.26406926406926,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 82.19178082191786
+                },
+                {
+                  "x": 97.4025974025974,
+                  "y": 10.958904109589039
+                },
+                {
+                  "x": 68.8311658639551,
+                  "y": 32.87671232876711
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0304",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "ce4405ed-be1e-42cd-9073-796f7acc5057",
+          "title": "201",
+          "type": "group",
+          "children": [
+            {
+              "id": "73337b83-571a-41f7-8e93-a926fcacb357",
+              "title": "201-s",
+              "type": "poly",
+              "x": 37.62026942489444,
+              "y": 80.52748714584902,
+              "width": 8.939636186903016,
+              "height": 15.02259036144578,
+              "parent_id": "ce4405ed-be1e-42cd-9073-796f7acc5057",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 37.62026942489444,
+              "y_image_background": 80.52748714584902,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 19.799498746867165
+                },
+                {
+                  "x": 0,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 99.48717948717949,
+                  "y": 0
+                },
+                {
+                  "x": 25.128205128205128,
+                  "y": 0.7518796992481203
+                },
+                {
+                  "x": 25.128205128205128,
+                  "y": 20.30075187969925
+                }
+              ]
+            },
+            {
+              "id": "d02d7582-98c3-4cb1-b6ab-14fdf24ed9ce",
+              "title": "201-i",
+              "type": "poly",
+              "x": 68.32930803386937,
+              "y": 39.40178399650425,
+              "width": 10.697698678771104,
+              "height": 6.107142590892579,
+              "parent_id": "ce4405ed-be1e-42cd-9073-796f7acc5057",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 68.32930803386937,
+              "y_image_background": 39.40178399650425,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 67.10526315789478
+                },
+                {
+                  "x": 34.75609756097557,
+                  "y": 87.280701754386
+                },
+                {
+                  "x": 38.10975609756101,
+                  "y": 82.01754385964911
+                },
+                {
+                  "x": 67.98780487804876,
+                  "y": 100
+                },
+                {
+                  "x": 99.08536585365847,
+                  "y": 51.75438596491233
+                },
+                {
+                  "x": 100,
+                  "y": 0
+                },
+                {
+                  "x": 70.42682926829266,
+                  "y": 37.280701754386
+                },
+                {
+                  "x": 40.24390243902437,
+                  "y": 19.736842105263108
+                },
+                {
+                  "x": 36.89024390243906,
+                  "y": 23.684210526315777
+                },
+                {
+                  "x": 3.9634132410033294,
+                  "y": 4.385964912280665
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0201",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "8d475ed4-ef96-4dc4-81ac-16d20f9d8586",
+          "title": "202",
+          "type": "group",
+          "children": [
+            {
+              "id": "0419a987-012a-45b8-b37b-d3c17d041279",
+              "title": "202-s",
+              "type": "poly",
+              "x": 28.588944661715495,
+              "y": 81.50640280849963,
+              "width": 9.077169051316908,
+              "height": 11.822289156626496,
+              "parent_id": "8d475ed4-ef96-4dc4-81ac-16d20f9d8586",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 28.588944661715495,
+              "y_image_background": 81.50640280849963,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 1.0101010101010102,
+                  "y": 99.68152866242038
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 99.4949494949495,
+                  "y": 0.6369426751592357
+                }
+              ]
+            },
+            {
+              "id": "3b0dabea-ceef-4ffe-85a3-dc6fca717281",
+              "title": "202-i",
+              "type": "poly",
+              "x": 42.09619852133604,
+              "y": 38.795224269530195,
+              "width": 26.776861631924,
+              "height": 12.160713755549232,
+              "parent_id": "8d475ed4-ef96-4dc4-81ac-16d20f9d8586",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 42.09619852133604,
+              "y_image_background": 38.795224269530195,
+              "points": [
+                {
+                  "x": 0.48721071863580995,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 31.497797356828194
+                },
+                {
+                  "x": 40.92570036540804,
+                  "y": 61.45374449339207
+                },
+                {
+                  "x": 38.61144945188794,
+                  "y": 65.19823788546255
+                },
+                {
+                  "x": 38.36784409257004,
+                  "y": 81.05726872246696
+                },
+                {
+                  "x": 60.292326431181486,
+                  "y": 100
+                },
+                {
+                  "x": 98.78197320341047,
+                  "y": 41.85022026431718
+                },
+                {
+                  "x": 100,
+                  "y": 13.43612334801762
+                },
+                {
+                  "x": 70.15834348355664,
+                  "y": 57.9295154185022
+                },
+                {
+                  "x": 61.510353227771006,
+                  "y": 67.18061674008811
+                },
+                {
+                  "x": 39.585870889159565,
+                  "y": 50.440528634361236
+                },
+                {
+                  "x": 40.56029232643118,
+                  "y": 35.24229074889868
+                },
+                {
+                  "x": 41.90012180267966,
+                  "y": 32.819383259911895
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0202",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "5eb0ce45-747d-45f9-803c-6f7384473bc0",
+          "title": "203",
+          "type": "group",
+          "children": [
+            {
+              "id": "bd27079b-0106-4727-b737-9960a65b9c35",
+              "title": "203-s",
+              "type": "poly",
+              "x": 25.83828737343764,
+              "y": 73.863330519343,
+              "width": 11.827826339594761,
+              "height": 7.567771084337352,
+              "parent_id": "5eb0ce45-747d-45f9-803c-6f7384473bc0",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 25.83828737343764,
+              "y_image_background": 73.863330519343,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.7751937984496124,
+                  "y": 55.72139303482587
+                },
+                {
+                  "x": 24.031007751937985,
+                  "y": 55.72139303482587
+                },
+                {
+                  "x": 23.643410852713178,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 99.50248756218906
+                },
+                {
+                  "x": 98.44961240310077,
+                  "y": 2.9850746268656714
+                }
+              ]
+            },
+            {
+              "id": "934fab80-ec28-4db9-9cca-e80d5251a708",
+              "title": "203-i",
+              "type": "poly",
+              "x": 28.78698775955485,
+              "y": 36.6523672200942,
+              "width": 13.472284192601425,
+              "height": 7.232142541846464,
+              "parent_id": "5eb0ce45-747d-45f9-803c-6f7384473bc0",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 28.85453366869616,
+              "y_image_background": 36.6523672200942,
+              "points": [
+                {
+                  "x": 0.9855476416295632,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 2.5946942335095255
+                },
+                {
+                  "x": 0.5013693904883855,
+                  "y": 52.22222222222219
+                },
+                {
+                  "x": 82.08540470777648,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 78.14814814814814
+                },
+                {
+                  "x": 100,
+                  "y": 26.29629629629625
+                },
+                {
+                  "x": 82.32749383334706,
+                  "y": 47.7777777777777
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0203",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "59f0da01-06e0-4ce3-9248-aa1916d620da",
+          "title": "204",
+          "type": "group",
+          "children": [
+            {
+              "id": "89374f3a-7ceb-4f48-b345-7f930f71b8c9",
+              "title": "204-s",
+              "type": "poly",
+              "x": 25.884131661575605,
+              "y": 68.74284859163215,
+              "width": 17.054075187322677,
+              "height": 7.492469879518069,
+              "parent_id": "59f0da01-06e0-4ce3-9248-aa1916d620da",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 25.884131661575605,
+              "y_image_background": 68.74284859163215,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.5376344086021506,
+                  "y": 69.34673366834171
+                },
+                {
+                  "x": 69.08602150537635,
+                  "y": 69.34673366834171
+                },
+                {
+                  "x": 68.54838709677419,
+                  "y": 99.49748743718592
+                },
+                {
+                  "x": 86.02150537634408,
+                  "y": 100
+                },
+                {
+                  "x": 85.75268817204301,
+                  "y": 84.42211055276381
+                },
+                {
+                  "x": 100,
+                  "y": 84.42211055276381
+                },
+                {
+                  "x": 99.46236559139786,
+                  "y": 1.507537688442211
+                }
+              ]
+            },
+            {
+              "id": "68882b72-8c18-40ed-b39b-ce0e999f5869",
+              "title": "204-i",
+              "type": "poly",
+              "x": 21.58140316453166,
+              "y": 35.580938695376204,
+              "width": 7.5014354962409975,
+              "height": 5.9196425990669255,
+              "parent_id": "59f0da01-06e0-4ce3-9248-aa1916d620da",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 21.58140316453166,
+              "y_image_background": 35.580938695376204,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 65.15837104072392
+                },
+                {
+                  "x": 70.86956099340298,
+                  "y": 100
+                },
+                {
+                  "x": 99.99999403977108,
+                  "y": 76.01809954751135
+                },
+                {
+                  "x": 100,
+                  "y": 11.7647058823529
+                },
+                {
+                  "x": 69.13043066227652,
+                  "y": 32.12669683257923
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0204",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "18cf3e51-3287-417a-a80c-bdc7f1b063c8",
+          "title": "101",
+          "type": "group",
+          "children": [
+            {
+              "id": "dd0c9c08-c0f4-44cf-87b0-293d38f620e3",
+              "title": "101-s",
+              "type": "poly",
+              "x": 11.855779491358568,
+              "y": 78.34375220608999,
+              "width": 9.168857627592836,
+              "height": 14.721385542168676,
+              "parent_id": "18cf3e51-3287-417a-a80c-bdc7f1b063c8",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 11.855779491358568,
+              "y_image_background": 78.34375220608999,
+              "points": [
+                {
+                  "x": 100,
+                  "y": 0.5115089514066496
+                },
+                {
+                  "x": 28.000000000000004,
+                  "y": 0
+                },
+                {
+                  "x": 28.999999999999996,
+                  "y": 18.925831202046037
+                },
+                {
+                  "x": 2,
+                  "y": 18.925831202046037
+                },
+                {
+                  "x": 0,
+                  "y": 99.74424552429667
+                },
+                {
+                  "x": 99.5,
+                  "y": 100
+                }
+              ]
+            },
+            {
+              "id": "cdfe9eeb-ec3d-48a6-a860-4cd051354926",
+              "title": "101-i",
+              "type": "poly",
+              "x": 68.0357736189031,
+              "y": 43.553569529786486,
+              "width": 12.067525948613735,
+              "height": 6.321428295836171,
+              "parent_id": "18cf3e51-3287-417a-a80c-bdc7f1b063c8",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 68.0357736189031,
+              "y_image_background": 43.74106952161213,
+              "points": [
+                {
+                  "x": 1.8918906568894354,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 57.627118644067764
+                },
+                {
+                  "x": 51.35135196885262,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 22.033898305084676
+                },
+                {
+                  "x": 77.83783783783788,
+                  "y": 11.440677966101703
+                },
+                {
+                  "x": 62.70270270270268,
+                  "y": 31.355932203389784
+                },
+                {
+                  "x": 38.64864864864861,
+                  "y": 12.288135593220204
+                },
+                {
+                  "x": 32.70270270270264,
+                  "y": 19.067796610169466
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0101",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "a36592fd-f4d0-4fef-9ce5-300c779ce012",
+          "title": "102",
+          "type": "group",
+          "children": [
+            {
+              "id": "32921b9f-051f-4c91-9186-bfb67c20c618",
+              "title": "102-s",
+              "type": "poly",
+              "x": 2.870299016317589,
+              "y": 79.17206545910204,
+              "width": 9.123013339454872,
+              "height": 11.822289156626496,
+              "parent_id": "a36592fd-f4d0-4fef-9ce5-300c779ce012",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 2.870299016317589,
+              "y_image_background": 79.17206545910204,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 2.512562814070352,
+                  "y": 99.68152866242038
+                },
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 98.99497487437185,
+                  "y": 0
+                }
+              ]
+            },
+            {
+              "id": "fe105acd-39d1-4d14-aca2-207318182789",
+              "title": "102-i",
+              "type": "poly",
+              "x": 42.128813456332296,
+              "y": 42.866652663458574,
+              "width": 26.124562931998923,
+              "height": 10.258928124174801,
+              "parent_id": "a36592fd-f4d0-4fef-9ce5-300c779ce012",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 42.128813456332296,
+              "y_image_background": 42.866652663458574,
+              "points": [
+                {
+                  "x": 0.12484365983090578,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 31.331592689295025
+                },
+                {
+                  "x": 69.28838951310861,
+                  "y": 100
+                },
+                {
+                  "x": 99.75031210986268,
+                  "y": 41.514360313315954
+                },
+                {
+                  "x": 100,
+                  "y": 11.227154046997393
+                },
+                {
+                  "x": 70.28714107365793,
+                  "y": 63.70757180156659
+                },
+                {
+                  "x": 62.42197253433209,
+                  "y": 78.85117493472583
+                },
+                {
+                  "x": 39.57553144247985,
+                  "y": 56.39686684073104
+                },
+                {
+                  "x": 46.192259675405744,
+                  "y": 44.90861618798957
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0102",
+            "open_link_in_new_window": false
+          }
+        },
+        {
+          "id": "607aa780-1fa6-4573-8b20-0709f31e2bd9",
+          "title": "103",
+          "type": "group",
+          "children": [
+            {
+              "id": "8ce3d770-9f67-4977-a1bc-bc2e5c7b3df1",
+              "title": "103-s",
+              "type": "poly",
+              "x": 0.3947074568675234,
+              "y": 71.60429437476469,
+              "width": 11.6444491870429,
+              "height": 7.530120481927696,
+              "parent_id": "607aa780-1fa6-4573-8b20-0709f31e2bd9",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 0.3947074568675234,
+              "y_image_background": 71.60429437476469,
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 54.50000000000001
+                },
+                {
+                  "x": 22.04724409448819,
+                  "y": 55.00000000000001
+                },
+                {
+                  "x": 22.83464566929134,
+                  "y": 100
+                },
+                {
+                  "x": 100,
+                  "y": 98.5
+                },
+                {
+                  "x": 99.21259842519686,
+                  "y": 1
+                }
+              ]
+            },
+            {
+              "id": "bd23a727-314f-41b3-a9ff-d449b62b07d1",
+              "title": "103-i",
+              "type": "poly",
+              "x": 28.724073407091293,
+              "y": 40.32200991725333,
+              "width": 13.469968675072476,
+              "height": 6.883928271313117,
+              "parent_id": "607aa780-1fa6-4573-8b20-0709f31e2bd9",
+              "default_style": {
+                "opacity": 0
+              },
+              "mouseover_style": {
+                "background_color": "#28ff00",
+                "background_opacity": 0.41216216216216217
+              },
+              "tooltip": {
+                "enable_tooltip": false
+              },
+              "x_image_background": 28.821918733699903,
+              "y_image_background": 40.32200991725333,
+              "points": [
+                {
+                  "x": 0.7263960961518972,
+                  "y": 38.132295719844315
+                },
+                {
+                  "x": 82.80871737274825,
+                  "y": 100
+                },
+                {
+                  "x": 99.51574128358874,
+                  "y": 83.26848249027236
+                },
+                {
+                  "x": 100,
+                  "y": 30.350194552529196
+                },
+                {
+                  "x": 82.56658663151934,
+                  "y": 52.52918287937748
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          ],
+          "single_object": true,
+          "tooltip": {
+            "enable_tooltip": false
+          },
+          "actions": {
+            "click": "follow-link",
+            "link": "/upplysingar.html?hus=46&ibud=0103",
+            "open_link_in_new_window": false
+          }
+        }
+      ]
+    }
+  ],
+  "version": "6.0.8",
+  "general": {
+    "name": "Untitled"
+  }
+}

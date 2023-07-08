@@ -81,7 +81,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
 
 function updateImageMap() {
-    $.getJSON("image-map.json", function (mapdata) {
+    $.getJSON("new-image-map.json", function (mapdata) {
             ImageMapPro.init('#image-map-pro', mapdata);        
     }
     ).fail(function () {
