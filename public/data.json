@@ -1,5 +1,6 @@
 [
   {
+    "id": "42-0102",
     "husnr": 42,
     "ibudnr": "0102",
     "haed": 1,
@@ -11,6 +12,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0103",
     "husnr": 42,
     "ibudnr": "0103",
     "haed": 1,
@@ -22,6 +24,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0104",
     "husnr": 42,
     "ibudnr": "0104",
     "haed": 1,
@@ -33,6 +36,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0105",
     "husnr": 42,
     "ibudnr": "0105",
     "haed": 1,
@@ -44,6 +48,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0201",
     "husnr": 42,
     "ibudnr": "0201",
     "haed": 2,
@@ -55,6 +60,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0202",
     "husnr": 42,
     "ibudnr": "0202",
     "haed": 2,
@@ -66,6 +72,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0203",
     "husnr": 42,
     "ibudnr": "0203",
     "haed": 2,
@@ -88,6 +95,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0205",
     "husnr": 42,
     "ibudnr": "0205",
     "haed": 2,
@@ -99,6 +107,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0206",
     "husnr": 42,
     "ibudnr": "0206",
     "haed": 2,
@@ -110,6 +119,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0301",
     "husnr": 42,
     "ibudnr": "0301",
     "haed": 3,
@@ -121,6 +131,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0302",
     "husnr": 42,
     "ibudnr": "0302",
     "haed": 3,
@@ -132,6 +143,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0303",
     "husnr": 42,
     "ibudnr": "0303",
     "haed": 3,
@@ -143,6 +155,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0304",
     "husnr": 42,
     "ibudnr": "0304",
     "haed": 3,
@@ -154,6 +167,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0305",
     "husnr": 42,
     "ibudnr": "0305",
     "haed": 3,
@@ -165,6 +179,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0306",
     "husnr": 42,
     "ibudnr": "0306",
     "haed": 3,
@@ -176,6 +191,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0401",
     "husnr": 42,
     "ibudnr": "0401",
     "haed": 4,
@@ -187,6 +203,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0402",
     "husnr": 42,
     "ibudnr": "0402",
     "haed": 4,
@@ -198,6 +215,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0403",
     "husnr": 42,
     "ibudnr": "0403",
     "haed": 4,
@@ -209,6 +227,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0404",
     "husnr": 42,
     "ibudnr": "0404",
     "haed": 4,
@@ -220,6 +239,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0405",
     "husnr": 42,
     "ibudnr": "0405",
     "haed": 4,
@@ -231,6 +251,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0406",
     "husnr": 42,
     "ibudnr": "0406",
     "haed": 4,
@@ -242,6 +263,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0501",
     "husnr": 42,
     "ibudnr": "0501",
     "haed": 5,
@@ -253,6 +275,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0502",
     "husnr": 42,
     "ibudnr": "0502",
     "haed": 5,
@@ -264,6 +287,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0503",
     "husnr": 42,
     "ibudnr": "0503",
     "haed": 5,
@@ -275,6 +299,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0504",
     "husnr": 42,
     "ibudnr": "0504",
     "haed": 5,
@@ -286,6 +311,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0505",
     "husnr": 42,
     "ibudnr": "0505",
     "haed": 5,
@@ -297,6 +323,7 @@
     "seld": "Nei"
   },
   {
+    "id": "42-0506",
     "husnr": 42,
     "ibudnr": "0506",
     "haed": 5,
@@ -308,6 +335,7 @@
     "seld": "Nei"
   },
   {
+    "id": "44-0101",
     "husnr": 44,
     "ibudnr": "0101",
     "haed": 1,
@@ -320,6 +348,7 @@
     "ferli": "Tilboð í ferli"
   },
   {
+    "id": "44-0102",
     "husnr": 44,
     "ibudnr": "0102",
     "haed": 1,
@@ -332,6 +361,7 @@
     "ferli": "Tilboð í ferli"
   },
   {
+    "id": "44-0103",
     "husnr": 44,
     "ibudnr": "0103",
     "haed": 1,
@@ -344,6 +374,7 @@
     "ferli": "Tilboð í ferli"
   },
   {
+    "id": "44-0104",
     "husnr": 44,
     "ibudnr": "0104",
     "haed": 1,
@@ -356,6 +387,7 @@
     "ferli": "Kauptilboð móttekið"
   },
   {
+    "id": "44-0201",
     "husnr": 44,
     "ibudnr": "0201",
     "haed": 2,
@@ -368,6 +400,7 @@
     "ferli": "Kauptilboð móttekið"
   },
   {
+    "id": "44-0202",
     "husnr": 44,
     "ibudnr": "0202",
     "haed": 2,
@@ -380,6 +413,7 @@
     "ferli": "Tilboð í ferli"
   },
   {
+    "id": "44-0203",
     "husnr": 44,
     "ibudnr": "0203",
     "haed": 2,
@@ -391,6 +425,7 @@
     "seld": "Nei"
   },
   {
+    "id": "44-0204",
     "husnr": 44,
     "ibudnr": "0204",
     "haed": 2,
@@ -403,6 +438,7 @@
     "ferli": "Tilboð í ferli"
   },
   {
+    "id": "44-0301",
     "husnr": 44,
     "ibudnr": "0301",
     "haed": 3,
@@ -414,6 +450,7 @@
     "seld": "Nei"
   },
   {
+    "id": "44-0302",
     "husnr": 44,
     "ibudnr": "0302",
     "haed": 3,
@@ -426,6 +463,7 @@
     "ferli":"Kauptilboð móttekið"
   },
   {
+    "id": "44-0303",
     "husnr": 44,
     "ibudnr": "0303",
     "haed": 3,
@@ -438,6 +476,7 @@
     "ferli": "Tilboð í ferli"
   },
   {
+    "id": "44-0304",
     "husnr": 44,
     "ibudnr": "0304",
     "haed": 3,
@@ -450,6 +489,7 @@
     "ferli":"Kauptilboð móttekið"
   },
   {
+    "id": "44-0401",
     "husnr": 44,
     "ibudnr": "0401",
     "haed": 4,
@@ -461,6 +501,7 @@
     "seld": "Nei"
   },
   {
+    "id": "44-0402",
     "husnr": 44,
     "ibudnr": "0402",
     "haed": 4,
@@ -473,6 +514,7 @@
     "ferli": "Kauptilboð samþykkt"
   },
   {
+    "id": "44-0403",
     "husnr": 44,
     "ibudnr": "0403",
     "haed": 4,
@@ -485,6 +527,7 @@
     "ferli": "Tilboð í ferli"
   },
   {
+    "id": "44-0404",
     "husnr": 44,
     "ibudnr": "0404",
     "haed": 4,
@@ -497,6 +540,7 @@
     "ferli":"Kauptilboð móttekið"
   },
   {
+    "id": "44-0501",
     "husnr": 44,
     "ibudnr": "0501",
     "haed": 5,
@@ -508,6 +552,7 @@
     "seld": "Nei"
   },
   {
+    "id": "44-0502",
     "husnr": 44,
     "ibudnr": "0502",
     "haed": 5,
@@ -520,6 +565,7 @@
     "ferli": "Kauptilboð  hefur borist"
   },
   {
+    "id": "44-0503",
     "husnr": 44,
     "ibudnr": "0503",
     "haed": 5,
@@ -531,6 +577,7 @@
     "seld": "Nei"
   },
   {
+    "id": "46-0101",
     "husnr": 46,
     "ibudnr": "0101",
     "haed": 1,
@@ -542,6 +589,7 @@
     "seld": "Nei"
   },
   {
+    "id": "46-0102",
     "husnr": 46,
     "ibudnr": "0102",
     "haed": 1,
@@ -553,6 +601,7 @@
     "seld": "Nei"
   },
   {
+    "id": "46-0103",
     "husnr": 46,
     "ibudnr": "0103",
     "haed": 1,
@@ -564,6 +613,7 @@
     "seld": "Nei"
   },
   {
+    "id": "46-0201",
     "husnr": 46,
     "ibudnr": "0201",
     "haed": 2,
@@ -575,6 +625,7 @@
     "seld": "Nei"
   },
   {
+    "id": "46-0202",
     "husnr": 46,
     "ibudnr": "0202",
     "haed": 2,
@@ -587,6 +638,7 @@
     "ferli": "Kauptilboð  hefur borist"
   },
   {
+    "id": "46-0203",
     "husnr": 46,
     "ibudnr": "0203",
     "haed": 2,
@@ -599,6 +651,7 @@
     "ferli":"Kauptilboð  hefur borist"
   },
   {
+    "id": "46-0204",
     "husnr": 46,
     "ibudnr": "0204",
     "haed": 2,
@@ -611,6 +664,7 @@
     "ferli": "Kauptilboð  hefur borist"
   },
   {
+    "id": "46-0301",
     "husnr": 46,
     "ibudnr": "0301",
     "haed": 3,
@@ -622,6 +676,7 @@
     "seld": "Nei"
   },
   {
+    "id": "46-0302",
     "husnr": 46,
     "ibudnr": "0302",
     "haed": 3,
@@ -634,6 +689,7 @@
     "ferli": "Kauptilboð borist"
   },
   {
+    "id": "46-0303",
     "husnr": 46,
     "ibudnr": "0303",
     "haed": 3,
@@ -646,6 +702,7 @@
     "ferli": "Kauptilboð  hefur borist"
   },
   {
+    "id": "46-0304",
     "husnr": 46,
     "ibudnr": "0304",
     "haed": 3,
@@ -657,6 +714,7 @@
     "seld": "Nei"
   },
   {
+    "id": "46-0401",
     "husnr": 46,
     "ibudnr": "0401",
     "haed": 4,
@@ -668,6 +726,7 @@
     "seld": "Nei"
   },
   {
+    "id": "46-0402",
     "husnr": 46,
     "ibudnr": "0402",
     "haed": 4,
@@ -680,6 +739,7 @@
     "ferli":"Kauptilboð  hefur borist"
   },
   {
+    "id": "46-0403",
     "husnr": 46,
     "ibudnr": "0403",
     "haed": 4,
@@ -692,6 +752,7 @@
     "ferli": "Kauptilboð  hefur borist"
   },
   {
+    "id": "46-0404",
     "husnr": 46,
     "ibudnr": "0404",
     "haed": 4,
@@ -704,6 +765,7 @@
     "ferli":"Kauptilboð  hefur borist"
   },
   {
+    "id": "48-0101",
     "husnr": 48,
     "ibudnr": "0101",
     "haed": 1,
@@ -715,6 +777,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0102",
     "husnr": 48,
     "ibudnr": "0102",
     "haed": 1,
@@ -726,6 +789,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0103",
     "husnr": 48,
     "ibudnr": "0103",
     "haed": 1,
@@ -737,6 +801,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0201",
     "husnr": 48,
     "ibudnr": "0201",
     "haed": 2,
@@ -748,6 +813,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0202",
     "husnr": 48,
     "ibudnr": "0202",
     "haed": 2,
@@ -759,6 +825,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0203",
     "husnr": 48,
     "ibudnr": "0203",
     "haed": 2,
@@ -770,6 +837,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0204",
     "husnr": 48,
     "ibudnr": "0204",
     "haed": 2,
@@ -781,6 +849,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0301",
     "husnr": 48,
     "ibudnr": "0301",
     "haed": 3,
@@ -792,6 +861,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0302",
     "husnr": 48,
     "ibudnr": "0302",
     "haed": 3,
@@ -803,6 +873,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0303",
     "husnr": 48,
     "ibudnr": "0303",
     "haed": 3,
@@ -814,6 +885,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0304",
     "husnr": 48,
     "ibudnr": "0304",
     "haed": 3,
@@ -825,6 +897,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0401",
     "husnr": 48,
     "ibudnr": "0401",
     "haed": 4,
@@ -836,6 +909,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0402",
     "husnr": 48,
     "ibudnr": "0402",
     "haed": 4,
@@ -847,6 +921,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0403",
     "husnr": 48,
     "ibudnr": "0403",
     "haed": 4,
@@ -858,6 +933,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0404",
     "husnr": 48,
     "ibudnr": "0404",
     "haed": 4,
@@ -869,6 +945,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0501",
     "husnr": 48,
     "ibudnr": "0501",
     "haed": 5,
@@ -880,6 +957,7 @@
     "seld": "Nei"
   },
   {
+    "id": "48-0502",
     "husnr": 48,
     "ibudnr": "0502",
     "haed": 5,
