@@ -637,11 +637,7 @@ a {
     border-bottom: 1px solid #ddd;
     background-color: #f5f9fc;
 }
-.rwd-table .seld > *  {
-    background-color: red!important;
-    opacity: 60%;
-    color: var(--white-text-colour)!important;
-}
+
 .seld {
     color: var(--white-text-colour);
 }
@@ -649,6 +645,11 @@ a {
     background-color: rgb(255, 254, 0);
     opacity: 100%;
     color: var(--main-text-colour);
+}
+.rwd-table .seld > *  {
+    background-color: red!important;
+    opacity: 60%;
+    color: var(--white-text-colour)!important;
 }
 
 .rwd-table td {

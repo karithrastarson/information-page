@@ -4,7 +4,7 @@
     "enable_fullscreen_mode": true
   },
   "zooming": {
-    "enable_zooming": true,
+    "enable_zooming": false,
     "enable_navigator": false
   },
   "artboards": [
@@ -2521,7 +2521,7 @@
                 "opacity": 0
               },
               "mouseover_style": {
-                "background_color": "#FFFF00",
+                "background_color": "#EE4B2B",
                 "background_opacity": 0.44044885936616296
               },
               "tooltip": {
@@ -2569,7 +2569,7 @@
                 "opacity": 0
               },
               "mouseover_style": {
-                "background_color": "#FFFF00",
+                "background_color": "#EE4B2B",
                 "background_opacity": 0.44044885936616296
               },
               "tooltip": {
@@ -2637,7 +2637,7 @@
                 "opacity": 0
               },
               "mouseover_style": {
-                "background_color": "#FFFF00",
+                "background_color": "#EE4B2B",
                 "background_opacity": 0.44044885936616296
               },
               "tooltip": {
@@ -2685,7 +2685,7 @@
                 "opacity": 0
               },
               "mouseover_style": {
-                "background_color": "#FFFF00",
+                "background_color": "#EE4B2B",
                 "background_opacity": 0.44044885936616296
               },
               "tooltip": {
@@ -2749,7 +2749,7 @@
                 "opacity": 0
               },
               "mouseover_style": {
-                "background_color": "#28ff00",
+                "background_color": "#FFF000",
                 "background_opacity": 0.44044885936616296
               },
               "tooltip": {
@@ -2797,7 +2797,7 @@
                 "opacity": 0
               },
               "mouseover_style": {
-                "background_color": "#28ff00",
+                "background_color": "#FFF000",
                 "background_opacity": 0.44044885936616296
               },
               "tooltip": {
