@@ -7,7 +7,7 @@ window.addEventListener("keydown", function (e) {
 $(document).ready(function () {
     var hus = getUrlParameter('hus');
     //if (hus !== false && "42 44 46 48".includes(hus)) {
-    if (hus !== false && ("44".includes(hus) || "46".includes(hus))) {
+    if (hus !== false && ("44".includes(hus) || "46".includes(hus) || "48".includes(hus))) {
         $('#ashamar' + hus).prop('checked', true);
     } else {
         $('#ashamar42').prop('checked', false);
