@@ -344,8 +344,7 @@
     "geymsla": "9.8",
     "bilastaedi": "1",
     "verd": "78.9",
-    "seld": "Nei",
-    "ferli": "Tilboð í ferli"
+    "seld": "Nei"
   },
   {
     "id": "44-0102",
@@ -825,7 +824,8 @@
     "geymsla": 7.2,
     "bilastaedi": "0",
     "verd": "67.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð samþykkt"
   },
   {
     "id": "48-0203",
