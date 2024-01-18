@@ -344,7 +344,8 @@
     "geymsla": "9.8",
     "bilastaedi": "1",
     "verd": "78.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð samþykkt"
   },
   {
     "id": "44-0102",
@@ -395,7 +396,8 @@
     "geymsla": "9.8",
     "bilastaedi": "0",
     "verd": "74.0",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð samþykkt"
   },
   {
     "id": "44-0202",
@@ -446,7 +448,8 @@
     "geymsla": 10,
     "bilastaedi": "0",
     "verd": "74.0",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð samþykkt"
   },
   {
     "id": "44-0302",
@@ -598,7 +601,8 @@
     "geymsla": 7.6,
     "bilastaedi": "0",
     "verd": "67.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð samþykkt"
   },
   {
     "id": "46-0103",
