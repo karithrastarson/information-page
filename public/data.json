@@ -550,7 +550,7 @@
     "herbergi": 4,
     "staerd": 115,
     "geymsla": 18.6,
-    "bilastaedi": "0",
+    "bilastaedi": "1",
     "verd": "83.9",
     "seld": "Nei"
   },
@@ -574,9 +574,9 @@
     "haed": 5,
     "herbergi": 3,
     "staerd": 91.4,
-    "geymsla": 16.7,
+    "geymsla": 11,
     "bilastaedi": "0",
-    "verd": "76.9",
+    "verd": "71.9",
     "seld": "Nei"
   },
   {
@@ -728,7 +728,7 @@
     "staerd": 107.5,
     "geymsla": 12.1,
     "bilastaedi": "0",
-    "verd": "84.9",
+    "verd": "78.0",
     "seld": "Nei"
   },
   {
@@ -816,7 +816,8 @@
     "geymsla": 7.2,
     "bilastaedi": "0",
     "verd": "64.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli": "Kauptilboð samþykkt"
   },
   {
     "id": "48-0202",
@@ -915,7 +916,8 @@
     "geymsla": 7.2,
     "bilastaedi": "0",
     "verd": "68.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"Kauptilboð samþykkt"
   },
   {
     "id": "48-0402",
