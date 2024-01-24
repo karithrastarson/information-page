@@ -5406,7 +5406,7 @@
                 "opacity": 0
               },
               "mouseover_style": {
-                "background_color": "#ffff00",
+                "background_color": "#ff0000",
                 "background_opacity": 0.39864864864864863
               },
               "tooltip": {
@@ -5454,7 +5454,7 @@
                 "opacity": 0
               },
               "mouseover_style": {
-                "background_color": "#ffff00",
+                "background_color": "#ff0000",
                 "background_opacity": 0.39864864864864863
               },
               "tooltip": {
