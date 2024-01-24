@@ -383,7 +383,7 @@
     "geymsla": "4.3",
     "bilastaedi": "0",
     "verd": "43.9",
-    "seld": "Nei",
+    "seld": "Já",
     "ferli": "Kauptilboð móttekið"
   },
   {
@@ -678,7 +678,8 @@
     "geymsla": 11.9,
     "bilastaedi": "0",
     "verd": "74.0",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"Kauptilboð samþykkt"
   },
   {
     "id": "46-0302",
