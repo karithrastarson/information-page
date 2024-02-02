@@ -627,7 +627,8 @@
     "geymsla": 12.1,
     "bilastaedi": "0",
     "verd": "74.0",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"kauptilboð samþykkt"
   },
   {
     "id": "46-0202",
@@ -930,7 +931,7 @@
     "geymsla": 7.2,
     "bilastaedi": "0",
     "verd": "68.9",
-    "seld": "Nei",
+    "seld": "Já",
     "ferli": "Kauptilboð samþykkt"
   },
   {
