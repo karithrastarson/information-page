@@ -396,7 +396,7 @@
     "geymsla": "9.8",
     "bilastaedi": "0",
     "verd": "74.0",
-    "seld": "Nei",
+    "seld": "Já",
     "ferli": "Kauptilboð samþykkt"
   },
   {
@@ -499,7 +499,7 @@
     "geymsla": 9.6,
     "bilastaedi": "0",
     "verd": "74.0",
-    "seld": "Nei",
+    "seld": "Já",
     "ferli":"Kauptilboð  hefur borist"
   },
   {
@@ -805,8 +805,7 @@
     "geymsla": 5.4,
     "bilastaedi": "0",
     "verd": "51.5",
-    "seld": "Nei",
-    "ferli":"kauptilboð samþykkt"
+    "seld": "Nei"
   },
   {
     "id": "48-0201",
