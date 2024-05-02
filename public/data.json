@@ -5,10 +5,10 @@
     "ibudnr": "0102",
     "haed": 1,
     "herbergi": 3,
-    "staerd": "77.5",
+    "staerd": "84.8",
     "geymsla": "7.0",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "64.9",
     "seld": "Nei"
   },
   {
@@ -17,10 +17,10 @@
     "ibudnr": "0103",
     "haed": 1,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 84,
     "geymsla": "7.1",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "64.9",
     "seld": "Nei"
   },
   {
@@ -29,12 +29,12 @@
     "ibudnr": "0104",
     "haed": 1,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 84.1,
     "geymsla": "7.0",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "64.9",
     "seld": "Nei",
-    "ferli": "Tilboð í ferli"
+    "ferli":"kauptilboð samþykkt"
   },
   {
     "id": "42-0105",
@@ -42,10 +42,10 @@
     "ibudnr": "0105",
     "haed": 1,
     "herbergi": 4,
-    "staerd": 101.4,
+    "staerd": 110.6,
     "geymsla": "7.1",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "78.0",
     "seld": "Nei"
   },
   {
@@ -54,10 +54,10 @@
     "ibudnr": "0201",
     "haed": 2,
     "herbergi": 3,
-    "staerd": 79.6,
+    "staerd": 88.8,
     "geymsla": "9.2",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "68.9",
     "seld": "Nei"
   },
   {
@@ -66,10 +66,10 @@
     "ibudnr": "0202",
     "haed": 2,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 84,
     "geymsla": "4.5",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "65.8",
     "seld": "Nei"
   },
   {
@@ -78,10 +78,10 @@
     "ibudnr": "0203",
     "haed": 2,
     "herbergi": 2,
-    "staerd": 59.2,
+    "staerd": 66,
     "geymsla": "6.8",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "58.0",
     "seld": "Nei"
   },
   {
@@ -89,10 +89,10 @@
     "ibudnr": "0204",
     "haed": 2,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 84.1,
     "geymsla": "4.6",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "63.9",
     "seld": "Nei",
     "ferli":"Kauptilboð samþykkt"
   },
@@ -102,10 +102,10 @@
     "ibudnr": "0205",
     "haed": 2,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 84.7,
     "geymsla": "7.7",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "63.9",
     "seld": "Nei"
   },
   {
@@ -114,10 +114,10 @@
     "ibudnr": "0206",
     "haed": 2,
     "herbergi": 4,
-    "staerd": 101.4,
+    "staerd": 111.1,
     "geymsla": "9.7",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "78",
     "seld": "Nei"
   },
   {
@@ -126,10 +126,10 @@
     "ibudnr": "0301",
     "haed": 3,
     "herbergi": 3,
-    "staerd": 79.6,
+    "staerd": 88.9,
     "geymsla": "9.3",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "67.9",
     "seld": "Nei"
   },
   {
@@ -138,10 +138,10 @@
     "ibudnr": "0302",
     "haed": 3,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 84.3,
     "geymsla": "7.2",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "65.9",
     "seld": "Nei"
   },
   {
@@ -150,10 +150,10 @@
     "ibudnr": "0303",
     "haed": 3,
     "herbergi": 2,
-    "staerd": 59.2,
+    "staerd": 65.9,
     "geymsla": "6.7",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "58.0",
     "seld": "Nei"
   },
   {
@@ -162,10 +162,10 @@
     "ibudnr": "0304",
     "haed": 3,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 84.3,
     "geymsla": "7.3",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "63.9",
     "seld": "Nei"
   },
   {
@@ -174,10 +174,10 @@
     "ibudnr": "0305",
     "haed": 3,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 84.3,
     "geymsla": "7.3",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "65.9",
     "seld": "Nei"
   },
   {
@@ -186,10 +186,10 @@
     "ibudnr": "0306",
     "haed": 3,
     "herbergi": 4,
-    "staerd": 101.4,
+    "staerd": 111.0,
     "geymsla": "9.6",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "1",
+    "verd": "82.9",
     "seld": "Nei"
   },
   {
@@ -198,10 +198,10 @@
     "ibudnr": "0401",
     "haed": 4,
     "herbergi": 3,
-    "staerd": 79.6,
+    "staerd": 88.8,
     "geymsla": "9.2",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "68.9",
     "seld": "Nei"
   },
   {
@@ -210,10 +210,10 @@
     "ibudnr": "0402",
     "haed": 4,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 84.7,
     "geymsla": "7.7",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "65.9",
     "seld": "Nei"
   },
   {
@@ -222,10 +222,10 @@
     "ibudnr": "0403",
     "haed": 4,
     "herbergi": 2,
-    "staerd": 59.2,
+    "staerd": 66.0,
     "geymsla": "6.8",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "58.0",
     "seld": "Nei"
   },
   {
@@ -234,10 +234,10 @@
     "ibudnr": "0404",
     "haed": 4,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 87,
     "geymsla": "10",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "63.9",
     "seld": "Nei"
   },
   {
@@ -246,10 +246,10 @@
     "ibudnr": "0405",
     "haed": 4,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 85.6,
     "geymsla": "8.6",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "65.9",
     "seld": "Nei"
   },
   {
@@ -258,10 +258,10 @@
     "ibudnr": "0406",
     "haed": 4,
     "herbergi": 4,
-    "staerd": 101.4,
+    "staerd": 111.1,
     "geymsla": "9.7",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "1",
+    "verd": "83.9",
     "seld": "Nei"
   },
   {
@@ -270,10 +270,10 @@
     "ibudnr": "0501",
     "haed": 5,
     "herbergi": 3,
-    "staerd": 79.6,
+    "staerd": 88.9,
     "geymsla": "9.3",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "69.0",
     "seld": "Nei"
   },
   {
@@ -282,10 +282,10 @@
     "ibudnr": "0502",
     "haed": 5,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 85.6,
     "geymsla": "8.6",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "69.0",
     "seld": "Nei"
   },
   {
@@ -294,10 +294,10 @@
     "ibudnr": "0503",
     "haed": 5,
     "herbergi": 2,
-    "staerd": 59.2,
+    "staerd": 65.9,
     "geymsla": "6.7",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "58.0",
     "seld": "Nei"
   },
   {
@@ -306,10 +306,10 @@
     "ibudnr": "0504",
     "haed": 5,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 85.6,
     "geymsla": "8.6",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "69.0",
     "seld": "Nei"
   },
   {
@@ -318,10 +318,10 @@
     "ibudnr": "0505",
     "haed": 5,
     "herbergi": 3,
-    "staerd": 77,
+    "staerd": 85.9,
     "geymsla": "8.9",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "0",
+    "verd": "69.0",
     "seld": "Nei"
   },
   {
@@ -330,10 +330,10 @@
     "ibudnr": "0506",
     "haed": 5,
     "herbergi": 4,
-    "staerd": 101.4,
+    "staerd": 111.0,
     "geymsla": "9.6",
-    "bilastaedi": "Birt síðar",
-    "verd": "Birt síðar",
+    "bilastaedi": "1",
+    "verd": "84.9",
     "seld": "Nei"
   },
   {
