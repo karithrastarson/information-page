@@ -118,7 +118,7 @@ function toggleFullscreen(x) {
 
 function updateImageMap() {
     
-    $.getJSON("image-map.json", function (mapdata) {
+    $.getJSON("new-image-map.json", function (mapdata) {
         initMap(mapdata);        
     }
     ).fail(function () {
