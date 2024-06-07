@@ -338,7 +338,8 @@
     "geymsla": "9.6",
     "bilastaedi": "1",
     "verd": "84.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"kauptilboð samþykkt"
   },
   {
     "id": "44-0101",
@@ -583,7 +584,8 @@
     "geymsla": 11,
     "bilastaedi": "0",
     "verd": "69.0",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"kauptilboð samþykkt"
   },
   {
     "id": "46-0101",
@@ -816,7 +818,7 @@
     "geymsla": 5.4,
     "bilastaedi": "0",
     "verd": "51.5",
-    "seld": "Nei",
+    "seld": "Já",
     "ferli":"kauptilboð samþykkt"
   },
   {
