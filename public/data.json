@@ -482,7 +482,7 @@
     "geymsla": 4.5,
     "bilastaedi": "0",
     "verd": "56.9",
-    "seld": "Nei",
+    "seld": "já",
     "ferli": "Kauptilboð móttekið"
   },
   {
@@ -585,7 +585,7 @@
     "geymsla": 11,
     "bilastaedi": "0",
     "verd": "69.0",
-    "seld": "Nei",
+    "seld": "já",
     "ferli":"kauptilboð samþykkt"
   },
   {
@@ -985,8 +985,7 @@
     "geymsla": 7.4,
     "bilastaedi": "0",
     "verd": "120",
-    "seld": "Nei",
-    "ferli":"Kauptilboð samþykkt"
+    "seld": "Nei"
   },
   {
     "id": "48-0502",
