@@ -47,7 +47,8 @@
     "geymsla": "7.1",
     "bilastaedi": "0",
     "verd": "78.0",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"kauptilboð samþykkt"
   },
   {
     "id": "42-0201",
@@ -121,7 +122,8 @@
     "geymsla": "9.7",
     "bilastaedi": "0",
     "verd": "78.0",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"kauptilboð samþykkt"
   },
   {
     "id": "42-0301",
@@ -195,7 +197,8 @@
     "geymsla": "9.6",
     "bilastaedi": "1",
     "verd": "82.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"kauptilboð samþykkt"
   },
   {
     "id": "42-0401",
@@ -270,7 +273,8 @@
     "geymsla": "9.7",
     "bilastaedi": "1",
     "verd": "83.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"kauptilboð samþykkt"
   },
   {
     "id": "42-0501",
@@ -344,7 +348,8 @@
     "geymsla": "9.6",
     "bilastaedi": "1",
     "verd": "84.9",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"kauptilboð samþykkt"
   },
   {
     "id": "44-0101",
