@@ -9,7 +9,8 @@
     "geymsla": "7.0",
     "bilastaedi": "0",
     "verd": "69.0",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"kauptilboð samþykkt"
   },
   {
     "id": "42-0103",
@@ -1018,6 +1019,7 @@
     "geymsla": 7.4,
     "bilastaedi": "0",
     "verd": "96.7",
-    "seld": "Nei"
+    "seld": "Nei",
+    "ferli":"kauptilboð samþykkt"
   }
 ]
