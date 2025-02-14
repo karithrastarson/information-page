@@ -9,7 +9,7 @@
     "geymsla": "7.0",
     "bilastaedi": "0",
     "verd": "69.0",
-    "seld": "Nei",
+    "seld": "já",
     "ferli":"kauptilboð samþykkt"
   },
   {
@@ -1005,7 +1005,7 @@
     "geymsla": 7.4,
     "bilastaedi": "2",
     "verd": "143.8",
-    "seld": "Nei",
+    "seld": "já",
     "ferli":"kauptilboð samþykkt"
   },
   {
@@ -1018,7 +1018,6 @@
     "geymsla": 7.4,
     "bilastaedi": "0",
     "verd": "96.7",
-    "seld": "Nei",
-    "ferli":"kauptilboð samþykkt"
+    "seld": "Nei"
   }
 ]
